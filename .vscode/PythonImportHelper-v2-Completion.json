@@ -1,0 +1,1428 @@
+[
+    {
+        "label": "pandas",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "pandas",
+        "description": "pandas",
+        "detail": "pandas",
+        "documentation": {}
+    },
+    {
+        "label": "folium",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "folium",
+        "description": "folium",
+        "detail": "folium",
+        "documentation": {}
+    },
+    {
+        "label": "sqlite3",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "sqlite3",
+        "description": "sqlite3",
+        "detail": "sqlite3",
+        "documentation": {}
+    },
+    {
+        "label": "fuzzymatcher",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "fuzzymatcher",
+        "description": "fuzzymatcher",
+        "detail": "fuzzymatcher",
+        "documentation": {}
+    },
+    {
+        "label": "create_engine",
+        "importPath": "sqlalchemy",
+        "description": "sqlalchemy",
+        "isExtraImport": true,
+        "detail": "sqlalchemy",
+        "documentation": {}
+    },
+    {
+        "label": "Column",
+        "importPath": "sqlalchemy",
+        "description": "sqlalchemy",
+        "isExtraImport": true,
+        "detail": "sqlalchemy",
+        "documentation": {}
+    },
+    {
+        "label": "Integer",
+        "importPath": "sqlalchemy",
+        "description": "sqlalchemy",
+        "isExtraImport": true,
+        "detail": "sqlalchemy",
+        "documentation": {}
+    },
+    {
+        "label": "String",
+        "importPath": "sqlalchemy",
+        "description": "sqlalchemy",
+        "isExtraImport": true,
+        "detail": "sqlalchemy",
+        "documentation": {}
+    },
+    {
+        "label": "Float",
+        "importPath": "sqlalchemy",
+        "description": "sqlalchemy",
+        "isExtraImport": true,
+        "detail": "sqlalchemy",
+        "documentation": {}
+    },
+    {
+        "label": "Boolean",
+        "importPath": "sqlalchemy",
+        "description": "sqlalchemy",
+        "isExtraImport": true,
+        "detail": "sqlalchemy",
+        "documentation": {}
+    },
+    {
+        "label": "create_engine",
+        "importPath": "sqlalchemy",
+        "description": "sqlalchemy",
+        "isExtraImport": true,
+        "detail": "sqlalchemy",
+        "documentation": {}
+    },
+    {
+        "label": "Column",
+        "importPath": "sqlalchemy",
+        "description": "sqlalchemy",
+        "isExtraImport": true,
+        "detail": "sqlalchemy",
+        "documentation": {}
+    },
+    {
+        "label": "Integer",
+        "importPath": "sqlalchemy",
+        "description": "sqlalchemy",
+        "isExtraImport": true,
+        "detail": "sqlalchemy",
+        "documentation": {}
+    },
+    {
+        "label": "String",
+        "importPath": "sqlalchemy",
+        "description": "sqlalchemy",
+        "isExtraImport": true,
+        "detail": "sqlalchemy",
+        "documentation": {}
+    },
+    {
+        "label": "Float",
+        "importPath": "sqlalchemy",
+        "description": "sqlalchemy",
+        "isExtraImport": true,
+        "detail": "sqlalchemy",
+        "documentation": {}
+    },
+    {
+        "label": "Boolean",
+        "importPath": "sqlalchemy",
+        "description": "sqlalchemy",
+        "isExtraImport": true,
+        "detail": "sqlalchemy",
+        "documentation": {}
+    },
+    {
+        "label": "create_engine",
+        "importPath": "sqlalchemy",
+        "description": "sqlalchemy",
+        "isExtraImport": true,
+        "detail": "sqlalchemy",
+        "documentation": {}
+    },
+    {
+        "label": "Column",
+        "importPath": "sqlalchemy",
+        "description": "sqlalchemy",
+        "isExtraImport": true,
+        "detail": "sqlalchemy",
+        "documentation": {}
+    },
+    {
+        "label": "Integer",
+        "importPath": "sqlalchemy",
+        "description": "sqlalchemy",
+        "isExtraImport": true,
+        "detail": "sqlalchemy",
+        "documentation": {}
+    },
+    {
+        "label": "String",
+        "importPath": "sqlalchemy",
+        "description": "sqlalchemy",
+        "isExtraImport": true,
+        "detail": "sqlalchemy",
+        "documentation": {}
+    },
+    {
+        "label": "Float",
+        "importPath": "sqlalchemy",
+        "description": "sqlalchemy",
+        "isExtraImport": true,
+        "detail": "sqlalchemy",
+        "documentation": {}
+    },
+    {
+        "label": "create_engine",
+        "importPath": "sqlalchemy",
+        "description": "sqlalchemy",
+        "isExtraImport": true,
+        "detail": "sqlalchemy",
+        "documentation": {}
+    },
+    {
+        "label": "Column",
+        "importPath": "sqlalchemy",
+        "description": "sqlalchemy",
+        "isExtraImport": true,
+        "detail": "sqlalchemy",
+        "documentation": {}
+    },
+    {
+        "label": "Integer",
+        "importPath": "sqlalchemy",
+        "description": "sqlalchemy",
+        "isExtraImport": true,
+        "detail": "sqlalchemy",
+        "documentation": {}
+    },
+    {
+        "label": "String",
+        "importPath": "sqlalchemy",
+        "description": "sqlalchemy",
+        "isExtraImport": true,
+        "detail": "sqlalchemy",
+        "documentation": {}
+    },
+    {
+        "label": "Float",
+        "importPath": "sqlalchemy",
+        "description": "sqlalchemy",
+        "isExtraImport": true,
+        "detail": "sqlalchemy",
+        "documentation": {}
+    },
+    {
+        "label": "declarative_base",
+        "importPath": "sqlalchemy.ext.declarative",
+        "description": "sqlalchemy.ext.declarative",
+        "isExtraImport": true,
+        "detail": "sqlalchemy.ext.declarative",
+        "documentation": {}
+    },
+    {
+        "label": "declarative_base",
+        "importPath": "sqlalchemy.ext.declarative",
+        "description": "sqlalchemy.ext.declarative",
+        "isExtraImport": true,
+        "detail": "sqlalchemy.ext.declarative",
+        "documentation": {}
+    },
+    {
+        "label": "declarative_base",
+        "importPath": "sqlalchemy.ext.declarative",
+        "description": "sqlalchemy.ext.declarative",
+        "isExtraImport": true,
+        "detail": "sqlalchemy.ext.declarative",
+        "documentation": {}
+    },
+    {
+        "label": "declarative_base",
+        "importPath": "sqlalchemy.ext.declarative",
+        "description": "sqlalchemy.ext.declarative",
+        "isExtraImport": true,
+        "detail": "sqlalchemy.ext.declarative",
+        "documentation": {}
+    },
+    {
+        "label": "sessionmaker",
+        "importPath": "sqlalchemy.orm",
+        "description": "sqlalchemy.orm",
+        "isExtraImport": true,
+        "detail": "sqlalchemy.orm",
+        "documentation": {}
+    },
+    {
+        "label": "sessionmaker",
+        "importPath": "sqlalchemy.orm",
+        "description": "sqlalchemy.orm",
+        "isExtraImport": true,
+        "detail": "sqlalchemy.orm",
+        "documentation": {}
+    },
+    {
+        "label": "sessionmaker",
+        "importPath": "sqlalchemy.orm",
+        "description": "sqlalchemy.orm",
+        "isExtraImport": true,
+        "detail": "sqlalchemy.orm",
+        "documentation": {}
+    },
+    {
+        "label": "sessionmaker",
+        "importPath": "sqlalchemy.orm",
+        "description": "sqlalchemy.orm",
+        "isExtraImport": true,
+        "detail": "sqlalchemy.orm",
+        "documentation": {}
+    },
+    {
+        "label": "requests,",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "requests.",
+        "description": "requests.",
+        "detail": "requests.",
+        "documentation": {}
+    },
+    {
+        "label": "time",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "time",
+        "description": "time",
+        "detail": "time",
+        "documentation": {}
+    },
+    {
+        "label": "BeautifulSoup",
+        "importPath": "bs4",
+        "description": "bs4",
+        "isExtraImport": true,
+        "detail": "bs4",
+        "documentation": {}
+    },
+    {
+        "label": "BeautifulSoup",
+        "importPath": "bs4",
+        "description": "bs4",
+        "isExtraImport": true,
+        "detail": "bs4",
+        "documentation": {}
+    },
+    {
+        "label": "Flask",
+        "importPath": "flask",
+        "description": "flask",
+        "isExtraImport": true,
+        "detail": "flask",
+        "documentation": {}
+    },
+    {
+        "label": "Flask",
+        "importPath": "flask",
+        "description": "flask",
+        "isExtraImport": true,
+        "detail": "flask",
+        "documentation": {}
+    },
+    {
+        "label": "render_template",
+        "importPath": "flask",
+        "description": "flask",
+        "isExtraImport": true,
+        "detail": "flask",
+        "documentation": {}
+    },
+    {
+        "label": "redirect",
+        "importPath": "flask",
+        "description": "flask",
+        "isExtraImport": true,
+        "detail": "flask",
+        "documentation": {}
+    },
+    {
+        "label": "url_for",
+        "importPath": "flask",
+        "description": "flask",
+        "isExtraImport": true,
+        "detail": "flask",
+        "documentation": {}
+    },
+    {
+        "label": "request",
+        "importPath": "flask",
+        "description": "flask",
+        "isExtraImport": true,
+        "detail": "flask",
+        "documentation": {}
+    },
+    {
+        "label": "Flask",
+        "importPath": "flask",
+        "description": "flask",
+        "isExtraImport": true,
+        "detail": "flask",
+        "documentation": {}
+    },
+    {
+        "label": "SQLAlchemy",
+        "importPath": "flask_sqlalchemy",
+        "description": "flask_sqlalchemy",
+        "isExtraImport": true,
+        "detail": "flask_sqlalchemy",
+        "documentation": {}
+    },
+    {
+        "label": "SQLAlchemy",
+        "importPath": "flask_sqlalchemy",
+        "description": "flask_sqlalchemy",
+        "isExtraImport": true,
+        "detail": "flask_sqlalchemy",
+        "documentation": {}
+    },
+    {
+        "label": "SQLAlchemy",
+        "importPath": "flask_sqlalchemy",
+        "description": "flask_sqlalchemy",
+        "isExtraImport": true,
+        "detail": "flask_sqlalchemy",
+        "documentation": {}
+    },
+    {
+        "label": "Bootstrap",
+        "importPath": "flask_bootstrap",
+        "description": "flask_bootstrap",
+        "isExtraImport": true,
+        "detail": "flask_bootstrap",
+        "documentation": {}
+    },
+    {
+        "label": "FlaskForm",
+        "importPath": "flask_wtf",
+        "description": "flask_wtf",
+        "isExtraImport": true,
+        "detail": "flask_wtf",
+        "documentation": {}
+    },
+    {
+        "label": "StringField",
+        "importPath": "wtforms",
+        "description": "wtforms",
+        "isExtraImport": true,
+        "detail": "wtforms",
+        "documentation": {}
+    },
+    {
+        "label": "SubmitField",
+        "importPath": "wtforms",
+        "description": "wtforms",
+        "isExtraImport": true,
+        "detail": "wtforms",
+        "documentation": {}
+    },
+    {
+        "label": "DataRequired",
+        "importPath": "wtforms.validators",
+        "description": "wtforms.validators",
+        "isExtraImport": true,
+        "detail": "wtforms.validators",
+        "documentation": {}
+    },
+    {
+        "label": "requests",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "requests",
+        "description": "requests",
+        "detail": "requests",
+        "documentation": {}
+    },
+    {
+        "label": "positionstack_API_KEY",
+        "importPath": "keys",
+        "description": "keys",
+        "isExtraImport": true,
+        "detail": "keys",
+        "documentation": {}
+    },
+    {
+        "label": "locationiq_API_KEY",
+        "importPath": "keys",
+        "description": "keys",
+        "isExtraImport": true,
+        "detail": "keys",
+        "documentation": {}
+    },
+    {
+        "label": "map2",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "map2",
+        "description": "map2",
+        "detail": "map2",
+        "documentation": {}
+    },
+    {
+        "label": "app",
+        "importPath": "app",
+        "description": "app",
+        "isExtraImport": true,
+        "detail": "app",
+        "documentation": {}
+    },
+    {
+        "label": "map_it",
+        "kind": 2,
+        "importPath": "old scripts.map",
+        "description": "old scripts.map",
+        "peekOfCode": "def map_it():\n    cnx = sqlite3.connect('garmin.db')\n    df_all_courses = pd.read_sql_query(\"SELECT * FROM courses\", cnx)\n    df_george_raw = pd.read_csv ('george_courses.csv')\n    g_left = [\"Course\", \"City\", \"State\"]\n    db_right = [\"name\", \"city\", \"state\"]\n    fuzzy_match = fuzzymatcher.fuzzy_left_join(df_george_raw, df_all_courses, g_left, db_right)\n    fuzzy_match.to_csv('george_fuzzy_match.csv')\n    dfm = pd.read_csv('george_fuzzy_match.csv')\n    print(dfm)",
+        "detail": "old scripts.map",
+        "documentation": {}
+    },
+    {
+        "label": "load_feature_group",
+        "kind": 2,
+        "importPath": "old scripts.map2",
+        "description": "old scripts.map2",
+        "peekOfCode": "def load_feature_group(dfm, name, color):\n    courses_to_map = []\n    for i in dfm.itertuples():\n        if i[2] < .2:\n             print(f\"course: {i[5]}, match score: {i[2]}\")  # list bad matches\n        if i[2] > .2:\n            c = {\n                'course':i[11].lstrip(),\n                'lat':i[16],\n                'long':i[17],",
+        "detail": "old scripts.map2",
+        "documentation": {}
+    },
+    {
+        "label": "cnx",
+        "kind": 5,
+        "importPath": "old scripts.map2",
+        "description": "old scripts.map2",
+        "peekOfCode": "cnx = sqlite3.connect('garmin.db')\ndf_all_courses = pd.read_sql_query(\"SELECT * FROM courses\", cnx)\ndf_george = pd.read_sql_query(\"SELECT * FROM george\", cnx)\ndf_mike = pd.read_sql_query(\"SELECT * FROM mike\", cnx)\ndef load_feature_group(dfm, name, color):\n    courses_to_map = []\n    for i in dfm.itertuples():\n        if i[2] < .2:\n             print(f\"course: {i[5]}, match score: {i[2]}\")  # list bad matches\n        if i[2] > .2:",
+        "detail": "old scripts.map2",
+        "documentation": {}
+    },
+    {
+        "label": "df_all_courses",
+        "kind": 5,
+        "importPath": "old scripts.map2",
+        "description": "old scripts.map2",
+        "peekOfCode": "df_all_courses = pd.read_sql_query(\"SELECT * FROM courses\", cnx)\ndf_george = pd.read_sql_query(\"SELECT * FROM george\", cnx)\ndf_mike = pd.read_sql_query(\"SELECT * FROM mike\", cnx)\ndef load_feature_group(dfm, name, color):\n    courses_to_map = []\n    for i in dfm.itertuples():\n        if i[2] < .2:\n             print(f\"course: {i[5]}, match score: {i[2]}\")  # list bad matches\n        if i[2] > .2:\n            c = {",
+        "detail": "old scripts.map2",
+        "documentation": {}
+    },
+    {
+        "label": "df_george",
+        "kind": 5,
+        "importPath": "old scripts.map2",
+        "description": "old scripts.map2",
+        "peekOfCode": "df_george = pd.read_sql_query(\"SELECT * FROM george\", cnx)\ndf_mike = pd.read_sql_query(\"SELECT * FROM mike\", cnx)\ndef load_feature_group(dfm, name, color):\n    courses_to_map = []\n    for i in dfm.itertuples():\n        if i[2] < .2:\n             print(f\"course: {i[5]}, match score: {i[2]}\")  # list bad matches\n        if i[2] > .2:\n            c = {\n                'course':i[11].lstrip(),",
+        "detail": "old scripts.map2",
+        "documentation": {}
+    },
+    {
+        "label": "df_mike",
+        "kind": 5,
+        "importPath": "old scripts.map2",
+        "description": "old scripts.map2",
+        "peekOfCode": "df_mike = pd.read_sql_query(\"SELECT * FROM mike\", cnx)\ndef load_feature_group(dfm, name, color):\n    courses_to_map = []\n    for i in dfm.itertuples():\n        if i[2] < .2:\n             print(f\"course: {i[5]}, match score: {i[2]}\")  # list bad matches\n        if i[2] > .2:\n            c = {\n                'course':i[11].lstrip(),\n                'lat':i[16],",
+        "detail": "old scripts.map2",
+        "documentation": {}
+    },
+    {
+        "label": "cm",
+        "kind": 5,
+        "importPath": "old scripts.map2",
+        "description": "old scripts.map2",
+        "peekOfCode": "cm = df_george[[\"name\",\"latitude\",\"longitude\", \"best_match_score\"]]\nmap = folium.Map(location=[cm.latitude.mean(), cm.longitude.mean()], zoom_start=3, control_scale=True)\nload_feature_group(df_george, \"george\", 'red')\nload_feature_group(df_mike, \"mike\", 'blue')\nmap.add_child(folium.LayerControl())\nmap.save(\"George_Mike_test.html\")",
+        "detail": "old scripts.map2",
+        "documentation": {}
+    },
+    {
+        "label": "map",
+        "kind": 5,
+        "importPath": "old scripts.map2",
+        "description": "old scripts.map2",
+        "peekOfCode": "map = folium.Map(location=[cm.latitude.mean(), cm.longitude.mean()], zoom_start=3, control_scale=True)\nload_feature_group(df_george, \"george\", 'red')\nload_feature_group(df_mike, \"mike\", 'blue')\nmap.add_child(folium.LayerControl())\nmap.save(\"George_Mike_test.html\")",
+        "detail": "old scripts.map2",
+        "documentation": {}
+    },
+    {
+        "label": "courses2",
+        "kind": 6,
+        "importPath": "old scripts.move_to_new_DB",
+        "description": "old scripts.move_to_new_DB",
+        "peekOfCode": "class courses2(Base):\n    __tablename__ = 'courses2'\n    id = Column(Integer, primary_key=True)\n    name = Column(String(250))\n    address = Column(String(250))\n    city = Column(String(100))\n    state = Column(String(40))\n    country = Column(String(40))\n    latitude = Column(Float)\n    longitude = Column(Float)",
+        "detail": "old scripts.move_to_new_DB",
+        "documentation": {}
+    },
+    {
+        "label": "courses",
+        "kind": 6,
+        "importPath": "old scripts.move_to_new_DB",
+        "description": "old scripts.move_to_new_DB",
+        "peekOfCode": "class courses(db.Model):\n    id = db.Column(db.Integer, primary_key=True)\n    name = db.Column(db.String(250))\n    address = db.Column(db.String(250))\n    city = db.Column(db.String(100))\n    state = db.Column(db.String(40))\n    country = db.Column(db.String(40))\n    latitude = db.Column(db.Float)\n    longitude = db.Column(db.Float)\n    #Optional: this will allow each book object to be identified by its title when printed.",
+        "detail": "old scripts.move_to_new_DB",
+        "documentation": {}
+    },
+    {
+        "label": "engine",
+        "kind": 5,
+        "importPath": "old scripts.move_to_new_DB",
+        "description": "old scripts.move_to_new_DB",
+        "peekOfCode": "engine = create_engine('sqlite:///garmin.db', echo = True)\nfrom sqlalchemy.ext.declarative import declarative_base\nBase = declarative_base()\nclass courses2(Base):\n    __tablename__ = 'courses2'\n    id = Column(Integer, primary_key=True)\n    name = Column(String(250))\n    address = Column(String(250))\n    city = Column(String(100))\n    state = Column(String(40))",
+        "detail": "old scripts.move_to_new_DB",
+        "documentation": {}
+    },
+    {
+        "label": "Base",
+        "kind": 5,
+        "importPath": "old scripts.move_to_new_DB",
+        "description": "old scripts.move_to_new_DB",
+        "peekOfCode": "Base = declarative_base()\nclass courses2(Base):\n    __tablename__ = 'courses2'\n    id = Column(Integer, primary_key=True)\n    name = Column(String(250))\n    address = Column(String(250))\n    city = Column(String(100))\n    state = Column(String(40))\n    country = Column(String(40))\n    latitude = Column(Float)",
+        "detail": "old scripts.move_to_new_DB",
+        "documentation": {}
+    },
+    {
+        "label": "Session",
+        "kind": 5,
+        "importPath": "old scripts.move_to_new_DB",
+        "description": "old scripts.move_to_new_DB",
+        "peekOfCode": "Session = sessionmaker(bind = engine)\nsession2 = Session()\nimport folium\nimport requests, json\nimport time\nfrom bs4 import BeautifulSoup\nfrom flask import Flask\nfrom flask_sqlalchemy import SQLAlchemy\napp = Flask(__name__)\napp.config['SQLALCHEMY_DATABASE_URI'] = \"sqlite:///garmin.db\"",
+        "detail": "old scripts.move_to_new_DB",
+        "documentation": {}
+    },
+    {
+        "label": "session2",
+        "kind": 5,
+        "importPath": "old scripts.move_to_new_DB",
+        "description": "old scripts.move_to_new_DB",
+        "peekOfCode": "session2 = Session()\nimport folium\nimport requests, json\nimport time\nfrom bs4 import BeautifulSoup\nfrom flask import Flask\nfrom flask_sqlalchemy import SQLAlchemy\napp = Flask(__name__)\napp.config['SQLALCHEMY_DATABASE_URI'] = \"sqlite:///garmin.db\"\napp.config['SQLALCHEMY_TRACK_MODIFICATIONS'] = False",
+        "detail": "old scripts.move_to_new_DB",
+        "documentation": {}
+    },
+    {
+        "label": "app",
+        "kind": 5,
+        "importPath": "old scripts.move_to_new_DB",
+        "description": "old scripts.move_to_new_DB",
+        "peekOfCode": "app = Flask(__name__)\napp.config['SQLALCHEMY_DATABASE_URI'] = \"sqlite:///garmin.db\"\napp.config['SQLALCHEMY_TRACK_MODIFICATIONS'] = False\ndb = SQLAlchemy(app)\nclass courses(db.Model):\n    id = db.Column(db.Integer, primary_key=True)\n    name = db.Column(db.String(250))\n    address = db.Column(db.String(250))\n    city = db.Column(db.String(100))\n    state = db.Column(db.String(40))",
+        "detail": "old scripts.move_to_new_DB",
+        "documentation": {}
+    },
+    {
+        "label": "app.config['SQLALCHEMY_DATABASE_URI']",
+        "kind": 5,
+        "importPath": "old scripts.move_to_new_DB",
+        "description": "old scripts.move_to_new_DB",
+        "peekOfCode": "app.config['SQLALCHEMY_DATABASE_URI'] = \"sqlite:///garmin.db\"\napp.config['SQLALCHEMY_TRACK_MODIFICATIONS'] = False\ndb = SQLAlchemy(app)\nclass courses(db.Model):\n    id = db.Column(db.Integer, primary_key=True)\n    name = db.Column(db.String(250))\n    address = db.Column(db.String(250))\n    city = db.Column(db.String(100))\n    state = db.Column(db.String(40))\n    country = db.Column(db.String(40))",
+        "detail": "old scripts.move_to_new_DB",
+        "documentation": {}
+    },
+    {
+        "label": "app.config['SQLALCHEMY_TRACK_MODIFICATIONS']",
+        "kind": 5,
+        "importPath": "old scripts.move_to_new_DB",
+        "description": "old scripts.move_to_new_DB",
+        "peekOfCode": "app.config['SQLALCHEMY_TRACK_MODIFICATIONS'] = False\ndb = SQLAlchemy(app)\nclass courses(db.Model):\n    id = db.Column(db.Integer, primary_key=True)\n    name = db.Column(db.String(250))\n    address = db.Column(db.String(250))\n    city = db.Column(db.String(100))\n    state = db.Column(db.String(40))\n    country = db.Column(db.String(40))\n    latitude = db.Column(db.Float)",
+        "detail": "old scripts.move_to_new_DB",
+        "documentation": {}
+    },
+    {
+        "label": "db",
+        "kind": 5,
+        "importPath": "old scripts.move_to_new_DB",
+        "description": "old scripts.move_to_new_DB",
+        "peekOfCode": "db = SQLAlchemy(app)\nclass courses(db.Model):\n    id = db.Column(db.Integer, primary_key=True)\n    name = db.Column(db.String(250))\n    address = db.Column(db.String(250))\n    city = db.Column(db.String(100))\n    state = db.Column(db.String(40))\n    country = db.Column(db.String(40))\n    latitude = db.Column(db.Float)\n    longitude = db.Column(db.Float)",
+        "detail": "old scripts.move_to_new_DB",
+        "documentation": {}
+    },
+    {
+        "label": "courses",
+        "kind": 5,
+        "importPath": "old scripts.move_to_new_DB",
+        "description": "old scripts.move_to_new_DB",
+        "peekOfCode": "courses = db.session.query(courses).all()\nfor i in courses:\n    new_course = courses2(\n        name = i.name,\n        address = i.address,\n        city = i.city,\n        state = i.state,\n        country = i.country,\n        latitude = i.latitude,\n        longitude = i.longitude,",
+        "detail": "old scripts.move_to_new_DB",
+        "documentation": {}
+    },
+    {
+        "label": "courses",
+        "kind": 6,
+        "importPath": "app",
+        "description": "app",
+        "peekOfCode": "class courses(db.Model):\n    id = db.Column(db.Integer, primary_key=True)\n    name = db.Column(db.String(250))\n    address = db.Column(db.String(250))\n    city = db.Column(db.String(100))\n    state = db.Column(db.String(40))\n    country = db.Column(db.String(40))\n    latitude = db.Column(db.Float)\n    longitude = db.Column(db.Float)\n    #Optional: this will allow each book object to be identified by its title when printed.",
+        "detail": "app",
+        "documentation": {}
+    },
+    {
+        "label": "users",
+        "kind": 6,
+        "importPath": "app",
+        "description": "app",
+        "peekOfCode": "class users(db.Model):\n    index_label = db.Column(db.Integer, primary_key=True)\n    user = db.Column(db.String(250))\n    course = db.Column(db.String(250))\n    city = db.Column(db.String(100))\n    state = db.Column(db.String(40))\n    country = db.Column(db.String(40))\n    year = db.Column(db.Integer)\n    best_match_score = db.Column(db.Float)\n    good_match = db.Column(db.Boolean)",
+        "detail": "app",
+        "documentation": {}
+    },
+    {
+        "label": "SelectUserForm",
+        "kind": 6,
+        "importPath": "app",
+        "description": "app",
+        "peekOfCode": "class SelectUserForm(FlaskForm):\n    picked_user = StringField(\"Pick a user: (george or mike)\")\n    submit = SubmitField(\"Done\")\n@app.route(\"/user\", methods=['GET', 'POST'])\ndef pick_user():\n    form = SelectUserForm()\n    matches = users.query.order_by(users.year,users.g_course).all()\n    picked_user = 'george'\n    if form.validate_on_submit():\n        picked_user = str(form.picked_user.data)",
+        "detail": "app",
+        "documentation": {}
+    },
+    {
+        "label": "EditMatchForm",
+        "kind": 6,
+        "importPath": "app",
+        "description": "app",
+        "peekOfCode": "class EditMatchForm(FlaskForm):\n    search_name = StringField(\"Your Course Name\")\n    search_city = StringField(\"City\")\n    search_State = StringField(\"State\")\n    search_Country = StringField(\"Country\")\n    submit = SubmitField(\"Done\")\n@app.route(\"/edit\", methods=['GET', 'POST'])\ndef edit_match():\n    form = EditMatchForm()\n    match_id = request.args.get(\"id\")",
+        "detail": "app",
+        "documentation": {}
+    },
+    {
+        "label": "AddMoviesForm",
+        "kind": 6,
+        "importPath": "app",
+        "description": "app",
+        "peekOfCode": "class AddMoviesForm(FlaskForm):\n    movie_to_seach = StringField(\"Movie Title\", validators=[DataRequired()])\n    submit = SubmitField(\"Add Movie\")\n@app.route(\"/map\", methods=['GET', 'POST'])\ndef show_map():\n    # form = AddMoviesForm()\n    # if form.validate_on_submit():\n    #     movie_to_search = form.movie_to_seach.data\n    #     response = requests.get(MOVIE_DB_SEARCH_URL, params={\"api_key\": creds.MOVIE_DB_API_KEY, \"query\": movie_to_search})\n    #     data = response.json()[\"results\"]",
+        "detail": "app",
+        "documentation": {}
+    },
+    {
+        "label": "home",
+        "kind": 2,
+        "importPath": "app",
+        "description": "app",
+        "peekOfCode": "def home():\n    matches = users.query.order_by(users.year,users.g_course).all()\n    picked_user = 'george'\n    return render_template(\"index.html\", matches=matches, user=picked_user)\n@app.route(\"/mike\")\ndef mike():\n    matches = users.query.order_by(users.year,users.g_course).all()\n    picked_user = 'mike'\n    return render_template(\"index.html\", matches=matches, user=picked_user)\nclass SelectUserForm(FlaskForm):",
+        "detail": "app",
+        "documentation": {}
+    },
+    {
+        "label": "mike",
+        "kind": 2,
+        "importPath": "app",
+        "description": "app",
+        "peekOfCode": "def mike():\n    matches = users.query.order_by(users.year,users.g_course).all()\n    picked_user = 'mike'\n    return render_template(\"index.html\", matches=matches, user=picked_user)\nclass SelectUserForm(FlaskForm):\n    picked_user = StringField(\"Pick a user: (george or mike)\")\n    submit = SubmitField(\"Done\")\n@app.route(\"/user\", methods=['GET', 'POST'])\ndef pick_user():\n    form = SelectUserForm()",
+        "detail": "app",
+        "documentation": {}
+    },
+    {
+        "label": "pick_user",
+        "kind": 2,
+        "importPath": "app",
+        "description": "app",
+        "peekOfCode": "def pick_user():\n    form = SelectUserForm()\n    matches = users.query.order_by(users.year,users.g_course).all()\n    picked_user = 'george'\n    if form.validate_on_submit():\n        picked_user = str(form.picked_user.data)\n        return redirect(url_for('home'))\n    return render_template(\"edit.html\", matches=matches, user=picked_user, form=form)\nclass EditMatchForm(FlaskForm):\n    search_name = StringField(\"Your Course Name\")",
+        "detail": "app",
+        "documentation": {}
+    },
+    {
+        "label": "edit_match",
+        "kind": 2,
+        "importPath": "app",
+        "description": "app",
+        "peekOfCode": "def edit_match():\n    form = EditMatchForm()\n    match_id = request.args.get(\"id\")\n    match_edit = users.query.get(match_id)\n    if form.validate_on_submit():\n        # movie.rating = float(form.rating.data)\n        # movie.review = form.review.data\n        # db.session.commit()\n        return redirect(url_for('home'))\n    return render_template(\"edit.html\", match_edit=match_edit, form=form)",
+        "detail": "app",
+        "documentation": {}
+    },
+    {
+        "label": "show_map",
+        "kind": 2,
+        "importPath": "app",
+        "description": "app",
+        "peekOfCode": "def show_map():\n    # form = AddMoviesForm()\n    # if form.validate_on_submit():\n    #     movie_to_search = form.movie_to_seach.data\n    #     response = requests.get(MOVIE_DB_SEARCH_URL, params={\"api_key\": creds.MOVIE_DB_API_KEY, \"query\": movie_to_search})\n    #     data = response.json()[\"results\"]\n    #     return render_template(\"select.html\", options=data)\n    # all_movies = Movie.query.order_by(Movie.rating).all()\n    # return render_template(\"add.html\", all_movies=all_movies, form=form)\n    return render_template('George_Mike_test.html')",
+        "detail": "app",
+        "documentation": {}
+    },
+    {
+        "label": "find_movie",
+        "kind": 2,
+        "importPath": "app",
+        "description": "app",
+        "peekOfCode": "def find_movie():\n    # movie_api_id = request.args.get(\"id\")\n    # if movie_api_id:\n    #     movie_api_url = f\"{MOVIE_DB_INFO_URL}/{movie_api_id}\"\n    #     response = requests.get(movie_api_url, params={\"api_key\": creds.MOVIE_DB_API_KEY, \"language\": \"en-US\"})\n    #     data = response.json()\n    #     new_movie = Movie(\n    #         title=data[\"title\"],\n    #         year=data[\"release_date\"].split(\"-\")[0],\n    #         img_url=f\"{MOVIE_DB_IMAGE_URL}{data['poster_path']}\",",
+        "detail": "app",
+        "documentation": {}
+    },
+    {
+        "label": "delete_movie",
+        "kind": 2,
+        "importPath": "app",
+        "description": "app",
+        "peekOfCode": "def delete_movie():\n    # movie_id = request.args.get(\"id\")\n    # movie = Movie.query.get(movie_id)\n    # db.session.delete(movie)\n    # db.session.commit()\n    return redirect(url_for(\"home\"))\nif __name__ == '__main__':\n    app.run(debug=True)",
+        "detail": "app",
+        "documentation": {}
+    },
+    {
+        "label": "MOVIE_DB_SEARCH_URL",
+        "kind": 5,
+        "importPath": "app",
+        "description": "app",
+        "peekOfCode": "MOVIE_DB_SEARCH_URL = \"https://api.themoviedb.org/3/search/movie\"\nMOVIE_DB_IMAGE_URL = 'https://www.themoviedb.org/t/p/w500'\nMOVIE_DB_INFO_URL = \"https://api.themoviedb.org/3/movie\"\napp = Flask(__name__)\napp.config['SECRET_KEY'] = '8BYkEfBA6O6donzWlSihBXox742ssdfgKR6b'\nBootstrap(app)\napp.config['SQLALCHEMY_DATABASE_URI'] = \"sqlite:///garmin.db\"\napp.config['SQLALCHEMY_TRACK_MODIFICATIONS'] = False\ndb = SQLAlchemy(app)\nclass courses(db.Model):",
+        "detail": "app",
+        "documentation": {}
+    },
+    {
+        "label": "MOVIE_DB_IMAGE_URL",
+        "kind": 5,
+        "importPath": "app",
+        "description": "app",
+        "peekOfCode": "MOVIE_DB_IMAGE_URL = 'https://www.themoviedb.org/t/p/w500'\nMOVIE_DB_INFO_URL = \"https://api.themoviedb.org/3/movie\"\napp = Flask(__name__)\napp.config['SECRET_KEY'] = '8BYkEfBA6O6donzWlSihBXox742ssdfgKR6b'\nBootstrap(app)\napp.config['SQLALCHEMY_DATABASE_URI'] = \"sqlite:///garmin.db\"\napp.config['SQLALCHEMY_TRACK_MODIFICATIONS'] = False\ndb = SQLAlchemy(app)\nclass courses(db.Model):\n    id = db.Column(db.Integer, primary_key=True)",
+        "detail": "app",
+        "documentation": {}
+    },
+    {
+        "label": "MOVIE_DB_INFO_URL",
+        "kind": 5,
+        "importPath": "app",
+        "description": "app",
+        "peekOfCode": "MOVIE_DB_INFO_URL = \"https://api.themoviedb.org/3/movie\"\napp = Flask(__name__)\napp.config['SECRET_KEY'] = '8BYkEfBA6O6donzWlSihBXox742ssdfgKR6b'\nBootstrap(app)\napp.config['SQLALCHEMY_DATABASE_URI'] = \"sqlite:///garmin.db\"\napp.config['SQLALCHEMY_TRACK_MODIFICATIONS'] = False\ndb = SQLAlchemy(app)\nclass courses(db.Model):\n    id = db.Column(db.Integer, primary_key=True)\n    name = db.Column(db.String(250))",
+        "detail": "app",
+        "documentation": {}
+    },
+    {
+        "label": "app",
+        "kind": 5,
+        "importPath": "app",
+        "description": "app",
+        "peekOfCode": "app = Flask(__name__)\napp.config['SECRET_KEY'] = '8BYkEfBA6O6donzWlSihBXox742ssdfgKR6b'\nBootstrap(app)\napp.config['SQLALCHEMY_DATABASE_URI'] = \"sqlite:///garmin.db\"\napp.config['SQLALCHEMY_TRACK_MODIFICATIONS'] = False\ndb = SQLAlchemy(app)\nclass courses(db.Model):\n    id = db.Column(db.Integer, primary_key=True)\n    name = db.Column(db.String(250))\n    address = db.Column(db.String(250))",
+        "detail": "app",
+        "documentation": {}
+    },
+    {
+        "label": "app.config['SECRET_KEY']",
+        "kind": 5,
+        "importPath": "app",
+        "description": "app",
+        "peekOfCode": "app.config['SECRET_KEY'] = '8BYkEfBA6O6donzWlSihBXox742ssdfgKR6b'\nBootstrap(app)\napp.config['SQLALCHEMY_DATABASE_URI'] = \"sqlite:///garmin.db\"\napp.config['SQLALCHEMY_TRACK_MODIFICATIONS'] = False\ndb = SQLAlchemy(app)\nclass courses(db.Model):\n    id = db.Column(db.Integer, primary_key=True)\n    name = db.Column(db.String(250))\n    address = db.Column(db.String(250))\n    city = db.Column(db.String(100))",
+        "detail": "app",
+        "documentation": {}
+    },
+    {
+        "label": "app.config['SQLALCHEMY_DATABASE_URI']",
+        "kind": 5,
+        "importPath": "app",
+        "description": "app",
+        "peekOfCode": "app.config['SQLALCHEMY_DATABASE_URI'] = \"sqlite:///garmin.db\"\napp.config['SQLALCHEMY_TRACK_MODIFICATIONS'] = False\ndb = SQLAlchemy(app)\nclass courses(db.Model):\n    id = db.Column(db.Integer, primary_key=True)\n    name = db.Column(db.String(250))\n    address = db.Column(db.String(250))\n    city = db.Column(db.String(100))\n    state = db.Column(db.String(40))\n    country = db.Column(db.String(40))",
+        "detail": "app",
+        "documentation": {}
+    },
+    {
+        "label": "app.config['SQLALCHEMY_TRACK_MODIFICATIONS']",
+        "kind": 5,
+        "importPath": "app",
+        "description": "app",
+        "peekOfCode": "app.config['SQLALCHEMY_TRACK_MODIFICATIONS'] = False\ndb = SQLAlchemy(app)\nclass courses(db.Model):\n    id = db.Column(db.Integer, primary_key=True)\n    name = db.Column(db.String(250))\n    address = db.Column(db.String(250))\n    city = db.Column(db.String(100))\n    state = db.Column(db.String(40))\n    country = db.Column(db.String(40))\n    latitude = db.Column(db.Float)",
+        "detail": "app",
+        "documentation": {}
+    },
+    {
+        "label": "db",
+        "kind": 5,
+        "importPath": "app",
+        "description": "app",
+        "peekOfCode": "db = SQLAlchemy(app)\nclass courses(db.Model):\n    id = db.Column(db.Integer, primary_key=True)\n    name = db.Column(db.String(250))\n    address = db.Column(db.String(250))\n    city = db.Column(db.String(100))\n    state = db.Column(db.String(40))\n    country = db.Column(db.String(40))\n    latitude = db.Column(db.Float)\n    longitude = db.Column(db.Float)",
+        "detail": "app",
+        "documentation": {}
+    },
+    {
+        "label": "users",
+        "kind": 6,
+        "importPath": "load_and_match",
+        "description": "load_and_match",
+        "peekOfCode": "class users(Base):\n    __tablename__ = 'users'\n    index_label = Column(Integer, primary_key=True)\n    user = Column(String(250))\n    course = Column(String(250))\n    city = Column(String(100))\n    state = Column(String(40))\n    country = Column(String(40))\n    year = Column(Integer)\n    best_match_score = Column(Float)",
+        "detail": "load_and_match",
+        "documentation": {}
+    },
+    {
+        "label": "engine",
+        "kind": 5,
+        "importPath": "load_and_match",
+        "description": "load_and_match",
+        "peekOfCode": "engine = create_engine('sqlite:///garmin.db', echo = True)\nfrom sqlalchemy.ext.declarative import declarative_base\nBase = declarative_base()\nclass users(Base):\n    __tablename__ = 'users'\n    index_label = Column(Integer, primary_key=True)\n    user = Column(String(250))\n    course = Column(String(250))\n    city = Column(String(100))\n    state = Column(String(40))",
+        "detail": "load_and_match",
+        "documentation": {}
+    },
+    {
+        "label": "Base",
+        "kind": 5,
+        "importPath": "load_and_match",
+        "description": "load_and_match",
+        "peekOfCode": "Base = declarative_base()\nclass users(Base):\n    __tablename__ = 'users'\n    index_label = Column(Integer, primary_key=True)\n    user = Column(String(250))\n    course = Column(String(250))\n    city = Column(String(100))\n    state = Column(String(40))\n    country = Column(String(40))\n    year = Column(Integer)",
+        "detail": "load_and_match",
+        "documentation": {}
+    },
+    {
+        "label": "Session",
+        "kind": 5,
+        "importPath": "load_and_match",
+        "description": "load_and_match",
+        "peekOfCode": "Session = sessionmaker(bind = engine)\nsession = Session()\n# result = session.query(courses).all()\ncnx = sqlite3.connect('garmin.db')\ndf_all_courses = pd.read_sql_query(\"SELECT * FROM courses\", cnx)\ndf_george_raw = pd.read_csv ('george_courses.csv')\ndf_mike_raw = pd.read_csv ('mike_courses.csv')\ng_left = [\"Course\", \"City1\", \"State1\"]\ndb_right = [\"name\", \"city\", \"state\"]\nfuzzy_match_george = fuzzymatcher.fuzzy_left_join(df_george_raw, df_all_courses, g_left, db_right)",
+        "detail": "load_and_match",
+        "documentation": {}
+    },
+    {
+        "label": "session",
+        "kind": 5,
+        "importPath": "load_and_match",
+        "description": "load_and_match",
+        "peekOfCode": "session = Session()\n# result = session.query(courses).all()\ncnx = sqlite3.connect('garmin.db')\ndf_all_courses = pd.read_sql_query(\"SELECT * FROM courses\", cnx)\ndf_george_raw = pd.read_csv ('george_courses.csv')\ndf_mike_raw = pd.read_csv ('mike_courses.csv')\ng_left = [\"Course\", \"City1\", \"State1\"]\ndb_right = [\"name\", \"city\", \"state\"]\nfuzzy_match_george = fuzzymatcher.fuzzy_left_join(df_george_raw, df_all_courses, g_left, db_right)\nfor i in fuzzy_match_george.itertuples():",
+        "detail": "load_and_match",
+        "documentation": {}
+    },
+    {
+        "label": "cnx",
+        "kind": 5,
+        "importPath": "load_and_match",
+        "description": "load_and_match",
+        "peekOfCode": "cnx = sqlite3.connect('garmin.db')\ndf_all_courses = pd.read_sql_query(\"SELECT * FROM courses\", cnx)\ndf_george_raw = pd.read_csv ('george_courses.csv')\ndf_mike_raw = pd.read_csv ('mike_courses.csv')\ng_left = [\"Course\", \"City1\", \"State1\"]\ndb_right = [\"name\", \"city\", \"state\"]\nfuzzy_match_george = fuzzymatcher.fuzzy_left_join(df_george_raw, df_all_courses, g_left, db_right)\nfor i in fuzzy_match_george.itertuples():\n    if i[1] > .3:\n        a_good_match = True",
+        "detail": "load_and_match",
+        "documentation": {}
+    },
+    {
+        "label": "df_all_courses",
+        "kind": 5,
+        "importPath": "load_and_match",
+        "description": "load_and_match",
+        "peekOfCode": "df_all_courses = pd.read_sql_query(\"SELECT * FROM courses\", cnx)\ndf_george_raw = pd.read_csv ('george_courses.csv')\ndf_mike_raw = pd.read_csv ('mike_courses.csv')\ng_left = [\"Course\", \"City1\", \"State1\"]\ndb_right = [\"name\", \"city\", \"state\"]\nfuzzy_match_george = fuzzymatcher.fuzzy_left_join(df_george_raw, df_all_courses, g_left, db_right)\nfor i in fuzzy_match_george.itertuples():\n    if i[1] > .3:\n        a_good_match = True\n    else:",
+        "detail": "load_and_match",
+        "documentation": {}
+    },
+    {
+        "label": "df_george_raw",
+        "kind": 5,
+        "importPath": "load_and_match",
+        "description": "load_and_match",
+        "peekOfCode": "df_george_raw = pd.read_csv ('george_courses.csv')\ndf_mike_raw = pd.read_csv ('mike_courses.csv')\ng_left = [\"Course\", \"City1\", \"State1\"]\ndb_right = [\"name\", \"city\", \"state\"]\nfuzzy_match_george = fuzzymatcher.fuzzy_left_join(df_george_raw, df_all_courses, g_left, db_right)\nfor i in fuzzy_match_george.itertuples():\n    if i[1] > .3:\n        a_good_match = True\n    else:\n        a_good_match = False",
+        "detail": "load_and_match",
+        "documentation": {}
+    },
+    {
+        "label": "df_mike_raw",
+        "kind": 5,
+        "importPath": "load_and_match",
+        "description": "load_and_match",
+        "peekOfCode": "df_mike_raw = pd.read_csv ('mike_courses.csv')\ng_left = [\"Course\", \"City1\", \"State1\"]\ndb_right = [\"name\", \"city\", \"state\"]\nfuzzy_match_george = fuzzymatcher.fuzzy_left_join(df_george_raw, df_all_courses, g_left, db_right)\nfor i in fuzzy_match_george.itertuples():\n    if i[1] > .3:\n        a_good_match = True\n    else:\n        a_good_match = False\n    new_match = users(",
+        "detail": "load_and_match",
+        "documentation": {}
+    },
+    {
+        "label": "g_left",
+        "kind": 5,
+        "importPath": "load_and_match",
+        "description": "load_and_match",
+        "peekOfCode": "g_left = [\"Course\", \"City1\", \"State1\"]\ndb_right = [\"name\", \"city\", \"state\"]\nfuzzy_match_george = fuzzymatcher.fuzzy_left_join(df_george_raw, df_all_courses, g_left, db_right)\nfor i in fuzzy_match_george.itertuples():\n    if i[1] > .3:\n        a_good_match = True\n    else:\n        a_good_match = False\n    new_match = users(\n        user = 'george',",
+        "detail": "load_and_match",
+        "documentation": {}
+    },
+    {
+        "label": "db_right",
+        "kind": 5,
+        "importPath": "load_and_match",
+        "description": "load_and_match",
+        "peekOfCode": "db_right = [\"name\", \"city\", \"state\"]\nfuzzy_match_george = fuzzymatcher.fuzzy_left_join(df_george_raw, df_all_courses, g_left, db_right)\nfor i in fuzzy_match_george.itertuples():\n    if i[1] > .3:\n        a_good_match = True\n    else:\n        a_good_match = False\n    new_match = users(\n        user = 'george',\n        course = i[4],",
+        "detail": "load_and_match",
+        "documentation": {}
+    },
+    {
+        "label": "fuzzy_match_george",
+        "kind": 5,
+        "importPath": "load_and_match",
+        "description": "load_and_match",
+        "peekOfCode": "fuzzy_match_george = fuzzymatcher.fuzzy_left_join(df_george_raw, df_all_courses, g_left, db_right)\nfor i in fuzzy_match_george.itertuples():\n    if i[1] > .3:\n        a_good_match = True\n    else:\n        a_good_match = False\n    new_match = users(\n        user = 'george',\n        course = i[4],\n        city = i[5],",
+        "detail": "load_and_match",
+        "documentation": {}
+    },
+    {
+        "label": "fuzzy_match_mike",
+        "kind": 5,
+        "importPath": "load_and_match",
+        "description": "load_and_match",
+        "peekOfCode": "fuzzy_match_mike = fuzzymatcher.fuzzy_left_join(df_mike_raw, df_all_courses, g_left, db_right)\nfor i in fuzzy_match_mike.itertuples():\n    if i[1] > .3:\n        a_good_match = True\n    else:\n        a_good_match = False\n    new_match = users(\n        user = 'mike',\n        course = i[4],\n        city = i[5],",
+        "detail": "load_and_match",
+        "documentation": {}
+    },
+    {
+        "label": "courses",
+        "kind": 6,
+        "importPath": "load_GPS",
+        "description": "load_GPS",
+        "peekOfCode": "class courses(db.Model):\n    id = db.Column(db.Integer, primary_key=True)\n    name = db.Column(db.String(250))\n    address = db.Column(db.String(250))\n    city = db.Column(db.String(100))\n    state = db.Column(db.String(40))\n    country = db.Column(db.String(40))\n    latitude = db.Column(db.Float)\n    longitude = db.Column(db.Float)\n    #Optional: this will allow each book object to be identified by its title when printed.",
+        "detail": "load_GPS",
+        "documentation": {}
+    },
+    {
+        "label": "positionstack",
+        "kind": 2,
+        "importPath": "load_GPS",
+        "description": "load_GPS",
+        "peekOfCode": "def positionstack():\n    for i in courses:\n        address = i.address\n        city_state_zip = i.city_state_zip\n        full_address = address + ' ' + city_state_zip \n        parameters = {\n            \"access_key\": positionstack_API_KEY,\n            \"query\": full_address\n        }\n        print(f\"Searching Positionstack for {i.name}, address={i.address}\")",
+        "detail": "load_GPS",
+        "documentation": {}
+    },
+    {
+        "label": "locationiq",
+        "kind": 2,
+        "importPath": "load_GPS",
+        "description": "load_GPS",
+        "peekOfCode": "def locationiq():\n    for i in courses:\n        if i.latitude != 0:\n            continue\n        time.sleep(1)\n        full_address = i.address + ' ' + i.city + ' ' + i.state\n        parameters = {\n            \"key\": locationiq_API_KEY,\n            \"q\": full_address,\n            \"format\": \"json\"",
+        "detail": "load_GPS",
+        "documentation": {}
+    },
+    {
+        "label": "app",
+        "kind": 5,
+        "importPath": "load_GPS",
+        "description": "load_GPS",
+        "peekOfCode": "app = Flask(__name__)\napp.config['SQLALCHEMY_DATABASE_URI'] = \"sqlite:///garmin.db\"\napp.config['SQLALCHEMY_TRACK_MODIFICATIONS'] = False\ndb = SQLAlchemy(app)\n#cursor.execute(\"CREATE TABLE alabama (id INTEGER PRIMARY KEY, name TEXT, address_raw TEXT, address_clean TEXT)\")\n##CREATE TABLE\nclass courses(db.Model):\n    id = db.Column(db.Integer, primary_key=True)\n    name = db.Column(db.String(250))\n    address = db.Column(db.String(250))",
+        "detail": "load_GPS",
+        "documentation": {}
+    },
+    {
+        "label": "app.config['SQLALCHEMY_DATABASE_URI']",
+        "kind": 5,
+        "importPath": "load_GPS",
+        "description": "load_GPS",
+        "peekOfCode": "app.config['SQLALCHEMY_DATABASE_URI'] = \"sqlite:///garmin.db\"\napp.config['SQLALCHEMY_TRACK_MODIFICATIONS'] = False\ndb = SQLAlchemy(app)\n#cursor.execute(\"CREATE TABLE alabama (id INTEGER PRIMARY KEY, name TEXT, address_raw TEXT, address_clean TEXT)\")\n##CREATE TABLE\nclass courses(db.Model):\n    id = db.Column(db.Integer, primary_key=True)\n    name = db.Column(db.String(250))\n    address = db.Column(db.String(250))\n    city = db.Column(db.String(100))",
+        "detail": "load_GPS",
+        "documentation": {}
+    },
+    {
+        "label": "app.config['SQLALCHEMY_TRACK_MODIFICATIONS']",
+        "kind": 5,
+        "importPath": "load_GPS",
+        "description": "load_GPS",
+        "peekOfCode": "app.config['SQLALCHEMY_TRACK_MODIFICATIONS'] = False\ndb = SQLAlchemy(app)\n#cursor.execute(\"CREATE TABLE alabama (id INTEGER PRIMARY KEY, name TEXT, address_raw TEXT, address_clean TEXT)\")\n##CREATE TABLE\nclass courses(db.Model):\n    id = db.Column(db.Integer, primary_key=True)\n    name = db.Column(db.String(250))\n    address = db.Column(db.String(250))\n    city = db.Column(db.String(100))\n    state = db.Column(db.String(40))",
+        "detail": "load_GPS",
+        "documentation": {}
+    },
+    {
+        "label": "db",
+        "kind": 5,
+        "importPath": "load_GPS",
+        "description": "load_GPS",
+        "peekOfCode": "db = SQLAlchemy(app)\n#cursor.execute(\"CREATE TABLE alabama (id INTEGER PRIMARY KEY, name TEXT, address_raw TEXT, address_clean TEXT)\")\n##CREATE TABLE\nclass courses(db.Model):\n    id = db.Column(db.Integer, primary_key=True)\n    name = db.Column(db.String(250))\n    address = db.Column(db.String(250))\n    city = db.Column(db.String(100))\n    state = db.Column(db.String(40))\n    country = db.Column(db.String(40))",
+        "detail": "load_GPS",
+        "documentation": {}
+    },
+    {
+        "label": "courses",
+        "kind": 5,
+        "importPath": "load_GPS",
+        "description": "load_GPS",
+        "peekOfCode": "courses = db.session.query(courses).all()\ndef positionstack():\n    for i in courses:\n        address = i.address\n        city_state_zip = i.city_state_zip\n        full_address = address + ' ' + city_state_zip \n        parameters = {\n            \"access_key\": positionstack_API_KEY,\n            \"query\": full_address\n        }",
+        "detail": "load_GPS",
+        "documentation": {}
+    },
+    {
+        "label": "courses",
+        "kind": 6,
+        "importPath": "main",
+        "description": "main",
+        "peekOfCode": "class courses(Base):\n    __tablename__ = 'courses'\n    id = Column(Integer, primary_key=True)\n    name = Column(String(250))\n    address = Column(String(250))\n    city = Column(String(100))\n    state = Column(String(40))\n    country = Column(String(40))\n    latitude = Column(Float)\n    longitude = Column(Float)",
+        "detail": "main",
+        "documentation": {}
+    },
+    {
+        "label": "engine",
+        "kind": 5,
+        "importPath": "main",
+        "description": "main",
+        "peekOfCode": "engine = create_engine('sqlite:///garmin.db', echo = True)\nfrom sqlalchemy.ext.declarative import declarative_base\nBase = declarative_base()\nclass courses(Base):\n    __tablename__ = 'courses'\n    id = Column(Integer, primary_key=True)\n    name = Column(String(250))\n    address = Column(String(250))\n    city = Column(String(100))\n    state = Column(String(40))",
+        "detail": "main",
+        "documentation": {}
+    },
+    {
+        "label": "Base",
+        "kind": 5,
+        "importPath": "main",
+        "description": "main",
+        "peekOfCode": "Base = declarative_base()\nclass courses(Base):\n    __tablename__ = 'courses'\n    id = Column(Integer, primary_key=True)\n    name = Column(String(250))\n    address = Column(String(250))\n    city = Column(String(100))\n    state = Column(String(40))\n    country = Column(String(40))\n    latitude = Column(Float)",
+        "detail": "main",
+        "documentation": {}
+    },
+    {
+        "label": "Session",
+        "kind": 5,
+        "importPath": "main",
+        "description": "main",
+        "peekOfCode": "Session = sessionmaker(bind = engine)\nsession = Session()\nresult = session.query(courses).all()\n# for i in result:\n#     if i.latitude == 0:\n#         print(f'course: {i.name}, id={i.id}')\n# for i in result:\n#     if i.latitude == 0:\n#         print(f'course: {i.name}, id={i.id}')\n# countries = ['United States', 'Australia', 'Canada', 'Greece', 'Ireland', 'Mauritius', 'Malta', 'Mexico', 'South Africa', 'United Kingdom']",
+        "detail": "main",
+        "documentation": {}
+    },
+    {
+        "label": "session",
+        "kind": 5,
+        "importPath": "main",
+        "description": "main",
+        "peekOfCode": "session = Session()\nresult = session.query(courses).all()\n# for i in result:\n#     if i.latitude == 0:\n#         print(f'course: {i.name}, id={i.id}')\n# for i in result:\n#     if i.latitude == 0:\n#         print(f'course: {i.name}, id={i.id}')\n# countries = ['United States', 'Australia', 'Canada', 'Greece', 'Ireland', 'Mauritius', 'Malta', 'Mexico', 'South Africa', 'United Kingdom']\n# c_dict = {'United States':'US', 'Australia':'AU', 'Canada':'CA', 'Greece':'GR', 'Ireland':'IE', 'Mauritius':'MU', 'Malta':'MT', 'Mexico':'MX', 'South Africa':'ZA', 'United Kingdom':'UK'}",
+        "detail": "main",
+        "documentation": {}
+    },
+    {
+        "label": "result",
+        "kind": 5,
+        "importPath": "main",
+        "description": "main",
+        "peekOfCode": "result = session.query(courses).all()\n# for i in result:\n#     if i.latitude == 0:\n#         print(f'course: {i.name}, id={i.id}')\n# for i in result:\n#     if i.latitude == 0:\n#         print(f'course: {i.name}, id={i.id}')\n# countries = ['United States', 'Australia', 'Canada', 'Greece', 'Ireland', 'Mauritius', 'Malta', 'Mexico', 'South Africa', 'United Kingdom']\n# c_dict = {'United States':'US', 'Australia':'AU', 'Canada':'CA', 'Greece':'GR', 'Ireland':'IE', 'Mauritius':'MU', 'Malta':'MT', 'Mexico':'MX', 'South Africa':'ZA', 'United Kingdom':'UK'}\n# for i in result:",
+        "detail": "main",
+        "documentation": {}
+    },
+    {
+        "label": "courses",
+        "kind": 6,
+        "importPath": "manual_GPS_edit",
+        "description": "manual_GPS_edit",
+        "peekOfCode": "class courses(Base):\n    __tablename__ = 'courses'\n    id = Column(Integer, primary_key=True)\n    name = Column(String(250))\n    address = Column(String(250))\n    city = Column(String(100))\n    state = Column(String(40))\n    country = Column(String(40))\n    latitude = Column(Float)\n    longitude = Column(Float)",
+        "detail": "manual_GPS_edit",
+        "documentation": {}
+    },
+    {
+        "label": "engine",
+        "kind": 5,
+        "importPath": "manual_GPS_edit",
+        "description": "manual_GPS_edit",
+        "peekOfCode": "engine = create_engine('sqlite:///garmin.db', echo = True)\nfrom sqlalchemy.ext.declarative import declarative_base\nBase = declarative_base()\nclass courses(Base):\n    __tablename__ = 'courses'\n    id = Column(Integer, primary_key=True)\n    name = Column(String(250))\n    address = Column(String(250))\n    city = Column(String(100))\n    state = Column(String(40))",
+        "detail": "manual_GPS_edit",
+        "documentation": {}
+    },
+    {
+        "label": "Base",
+        "kind": 5,
+        "importPath": "manual_GPS_edit",
+        "description": "manual_GPS_edit",
+        "peekOfCode": "Base = declarative_base()\nclass courses(Base):\n    __tablename__ = 'courses'\n    id = Column(Integer, primary_key=True)\n    name = Column(String(250))\n    address = Column(String(250))\n    city = Column(String(100))\n    state = Column(String(40))\n    country = Column(String(40))\n    latitude = Column(Float)",
+        "detail": "manual_GPS_edit",
+        "documentation": {}
+    },
+    {
+        "label": "Session",
+        "kind": 5,
+        "importPath": "manual_GPS_edit",
+        "description": "manual_GPS_edit",
+        "peekOfCode": "Session = sessionmaker(bind = engine)\nsession = Session()\nresult = session.query(courses).all()\nfor i in result:\n    if i.id == 48:\n        print(f'Course: {i.name}, city: {i.city}, country: {i.country}, id: {i.id}')\n        new_lat = float(input('Enter Latitude: '))\n        new_long = float(input('Enter Longitude: '))\n        confirm = input(f'Do you want to update Course: {i.name}, city: {i.city}, country: {i.country}, id: {i.id}, with lat: {new_lat}, long={new_long} ? ')\n        if confirm == 'y':",
+        "detail": "manual_GPS_edit",
+        "documentation": {}
+    },
+    {
+        "label": "session",
+        "kind": 5,
+        "importPath": "manual_GPS_edit",
+        "description": "manual_GPS_edit",
+        "peekOfCode": "session = Session()\nresult = session.query(courses).all()\nfor i in result:\n    if i.id == 48:\n        print(f'Course: {i.name}, city: {i.city}, country: {i.country}, id: {i.id}')\n        new_lat = float(input('Enter Latitude: '))\n        new_long = float(input('Enter Longitude: '))\n        confirm = input(f'Do you want to update Course: {i.name}, city: {i.city}, country: {i.country}, id: {i.id}, with lat: {new_lat}, long={new_long} ? ')\n        if confirm == 'y':\n            i.latitude = new_lat",
+        "detail": "manual_GPS_edit",
+        "documentation": {}
+    },
+    {
+        "label": "result",
+        "kind": 5,
+        "importPath": "manual_GPS_edit",
+        "description": "manual_GPS_edit",
+        "peekOfCode": "result = session.query(courses).all()\nfor i in result:\n    if i.id == 48:\n        print(f'Course: {i.name}, city: {i.city}, country: {i.country}, id: {i.id}')\n        new_lat = float(input('Enter Latitude: '))\n        new_long = float(input('Enter Longitude: '))\n        confirm = input(f'Do you want to update Course: {i.name}, city: {i.city}, country: {i.country}, id: {i.id}, with lat: {new_lat}, long={new_long} ? ')\n        if confirm == 'y':\n            i.latitude = new_lat\n            i.longitude = new_long",
+        "detail": "manual_GPS_edit",
+        "documentation": {}
+    },
+    {
+        "label": "load_feature_group",
+        "kind": 2,
+        "importPath": "map",
+        "description": "map",
+        "peekOfCode": "def load_feature_group(dfm, name, color):\n    courses_to_map = []\n    for i in dfm.itertuples():\n        if i[2] != name:\n            continue\n        if not i[9]:\n             print(f\"course: {i[3]}, match score: {i[8]}\")  # list bad matches\n        else :\n            c = {\n                'course':i[11],",
+        "detail": "map",
+        "documentation": {}
+    },
+    {
+        "label": "cnx",
+        "kind": 5,
+        "importPath": "map",
+        "description": "map",
+        "peekOfCode": "cnx = sqlite3.connect('garmin.db')\ndf_all_courses = pd.read_sql_query(\"SELECT * FROM courses\", cnx)\ndf_matches = pd.read_sql_query(\"SELECT * FROM users\", cnx)\ndef load_feature_group(dfm, name, color):\n    courses_to_map = []\n    for i in dfm.itertuples():\n        if i[2] != name:\n            continue\n        if not i[9]:\n             print(f\"course: {i[3]}, match score: {i[8]}\")  # list bad matches",
+        "detail": "map",
+        "documentation": {}
+    },
+    {
+        "label": "df_all_courses",
+        "kind": 5,
+        "importPath": "map",
+        "description": "map",
+        "peekOfCode": "df_all_courses = pd.read_sql_query(\"SELECT * FROM courses\", cnx)\ndf_matches = pd.read_sql_query(\"SELECT * FROM users\", cnx)\ndef load_feature_group(dfm, name, color):\n    courses_to_map = []\n    for i in dfm.itertuples():\n        if i[2] != name:\n            continue\n        if not i[9]:\n             print(f\"course: {i[3]}, match score: {i[8]}\")  # list bad matches\n        else :",
+        "detail": "map",
+        "documentation": {}
+    },
+    {
+        "label": "df_matches",
+        "kind": 5,
+        "importPath": "map",
+        "description": "map",
+        "peekOfCode": "df_matches = pd.read_sql_query(\"SELECT * FROM users\", cnx)\ndef load_feature_group(dfm, name, color):\n    courses_to_map = []\n    for i in dfm.itertuples():\n        if i[2] != name:\n            continue\n        if not i[9]:\n             print(f\"course: {i[3]}, match score: {i[8]}\")  # list bad matches\n        else :\n            c = {",
+        "detail": "map",
+        "documentation": {}
+    },
+    {
+        "label": "cm",
+        "kind": 5,
+        "importPath": "map",
+        "description": "map",
+        "peekOfCode": "cm = df_matches[[\"g_course\",\"latitude\",\"longitude\", \"best_match_score\"]]\nmap = folium.Map(location=[cm.latitude.mean(), cm.longitude.mean()], zoom_start=3, control_scale=True)\nload_feature_group(df_matches, \"george\", 'red')\nload_feature_group(df_matches, \"mike\", 'blue')\nmap.add_child(folium.LayerControl())\nmap.save(\"templates/George_Mike_test.html\")",
+        "detail": "map",
+        "documentation": {}
+    },
+    {
+        "label": "map",
+        "kind": 5,
+        "importPath": "map",
+        "description": "map",
+        "peekOfCode": "map = folium.Map(location=[cm.latitude.mean(), cm.longitude.mean()], zoom_start=3, control_scale=True)\nload_feature_group(df_matches, \"george\", 'red')\nload_feature_group(df_matches, \"mike\", 'blue')\nmap.add_child(folium.LayerControl())\nmap.save(\"templates/George_Mike_test.html\")",
+        "detail": "map",
+        "documentation": {}
+    },
+    {
+        "label": "cnx",
+        "kind": 5,
+        "importPath": "map_mike",
+        "description": "map_mike",
+        "peekOfCode": "cnx = sqlite3.connect('garmin.db')\ndf_all_courses = pd.read_sql_query(\"SELECT * FROM courses\", cnx)\ndf_mike_raw = pd.read_csv ('mike_courses.csv')\ng_left = [\"Course\", \"City\", \"State\"]\ndb_right = [\"name\", \"city\", \"state\"]\nfuzzy_match = fuzzymatcher.fuzzy_left_join(df_mike_raw, df_all_courses, g_left, db_right)\nfuzzy_match.to_csv('mike_fuzzy_match.csv')\ndfm = pd.read_csv('mike_fuzzy_match.csv')\nprint(dfm)\ncourses_to_map = []",
+        "detail": "map_mike",
+        "documentation": {}
+    },
+    {
+        "label": "df_all_courses",
+        "kind": 5,
+        "importPath": "map_mike",
+        "description": "map_mike",
+        "peekOfCode": "df_all_courses = pd.read_sql_query(\"SELECT * FROM courses\", cnx)\ndf_mike_raw = pd.read_csv ('mike_courses.csv')\ng_left = [\"Course\", \"City\", \"State\"]\ndb_right = [\"name\", \"city\", \"state\"]\nfuzzy_match = fuzzymatcher.fuzzy_left_join(df_mike_raw, df_all_courses, g_left, db_right)\nfuzzy_match.to_csv('mike_fuzzy_match.csv')\ndfm = pd.read_csv('mike_fuzzy_match.csv')\nprint(dfm)\ncourses_to_map = []\nfor i in dfm.itertuples():",
+        "detail": "map_mike",
+        "documentation": {}
+    },
+    {
+        "label": "df_mike_raw",
+        "kind": 5,
+        "importPath": "map_mike",
+        "description": "map_mike",
+        "peekOfCode": "df_mike_raw = pd.read_csv ('mike_courses.csv')\ng_left = [\"Course\", \"City\", \"State\"]\ndb_right = [\"name\", \"city\", \"state\"]\nfuzzy_match = fuzzymatcher.fuzzy_left_join(df_mike_raw, df_all_courses, g_left, db_right)\nfuzzy_match.to_csv('mike_fuzzy_match.csv')\ndfm = pd.read_csv('mike_fuzzy_match.csv')\nprint(dfm)\ncourses_to_map = []\nfor i in dfm.itertuples():\n    if i[2] < .2:",
+        "detail": "map_mike",
+        "documentation": {}
+    },
+    {
+        "label": "g_left",
+        "kind": 5,
+        "importPath": "map_mike",
+        "description": "map_mike",
+        "peekOfCode": "g_left = [\"Course\", \"City\", \"State\"]\ndb_right = [\"name\", \"city\", \"state\"]\nfuzzy_match = fuzzymatcher.fuzzy_left_join(df_mike_raw, df_all_courses, g_left, db_right)\nfuzzy_match.to_csv('mike_fuzzy_match.csv')\ndfm = pd.read_csv('mike_fuzzy_match.csv')\nprint(dfm)\ncourses_to_map = []\nfor i in dfm.itertuples():\n    if i[2] < .2:\n         print(f\"course: {i[5]}, match score: {i[2]}\")  # list bad matches",
+        "detail": "map_mike",
+        "documentation": {}
+    },
+    {
+        "label": "db_right",
+        "kind": 5,
+        "importPath": "map_mike",
+        "description": "map_mike",
+        "peekOfCode": "db_right = [\"name\", \"city\", \"state\"]\nfuzzy_match = fuzzymatcher.fuzzy_left_join(df_mike_raw, df_all_courses, g_left, db_right)\nfuzzy_match.to_csv('mike_fuzzy_match.csv')\ndfm = pd.read_csv('mike_fuzzy_match.csv')\nprint(dfm)\ncourses_to_map = []\nfor i in dfm.itertuples():\n    if i[2] < .2:\n         print(f\"course: {i[5]}, match score: {i[2]}\")  # list bad matches\n    if i[2] > .2:",
+        "detail": "map_mike",
+        "documentation": {}
+    },
+    {
+        "label": "fuzzy_match",
+        "kind": 5,
+        "importPath": "map_mike",
+        "description": "map_mike",
+        "peekOfCode": "fuzzy_match = fuzzymatcher.fuzzy_left_join(df_mike_raw, df_all_courses, g_left, db_right)\nfuzzy_match.to_csv('mike_fuzzy_match.csv')\ndfm = pd.read_csv('mike_fuzzy_match.csv')\nprint(dfm)\ncourses_to_map = []\nfor i in dfm.itertuples():\n    if i[2] < .2:\n         print(f\"course: {i[5]}, match score: {i[2]}\")  # list bad matches\n    if i[2] > .2:\n        c = {",
+        "detail": "map_mike",
+        "documentation": {}
+    },
+    {
+        "label": "dfm",
+        "kind": 5,
+        "importPath": "map_mike",
+        "description": "map_mike",
+        "peekOfCode": "dfm = pd.read_csv('mike_fuzzy_match.csv')\nprint(dfm)\ncourses_to_map = []\nfor i in dfm.itertuples():\n    if i[2] < .2:\n         print(f\"course: {i[5]}, match score: {i[2]}\")  # list bad matches\n    if i[2] > .2:\n        c = {\n            'course':i[11].lstrip(),\n            'lat':i[16],",
+        "detail": "map_mike",
+        "documentation": {}
+    },
+    {
+        "label": "courses_to_map",
+        "kind": 5,
+        "importPath": "map_mike",
+        "description": "map_mike",
+        "peekOfCode": "courses_to_map = []\nfor i in dfm.itertuples():\n    if i[2] < .2:\n         print(f\"course: {i[5]}, match score: {i[2]}\")  # list bad matches\n    if i[2] > .2:\n        c = {\n            'course':i[11].lstrip(),\n            'lat':i[16],\n            'long':i[17],\n            'id':i[10]",
+        "detail": "map_mike",
+        "documentation": {}
+    },
+    {
+        "label": "cm",
+        "kind": 5,
+        "importPath": "map_mike",
+        "description": "map_mike",
+        "peekOfCode": "cm = dfm[[\"name\",\"latitude\",\"longitude\", \"best_match_score\"]]\nmap = folium.Map(location=[cm.latitude.mean(), cm.longitude.mean()], zoom_start=3, control_scale=True)\nfg = folium.FeatureGroup(name=\"Mike\")\nfor i in courses_to_map:\n    new_description = i['course'] + ' ' + str(i['id'])\n    fg.add_child(folium.CircleMarker(location=[i['lat'],i['long']], popup=new_description))\nmap.add_child(fg)\nmap.save(\"Mike_test.html\")",
+        "detail": "map_mike",
+        "documentation": {}
+    },
+    {
+        "label": "map",
+        "kind": 5,
+        "importPath": "map_mike",
+        "description": "map_mike",
+        "peekOfCode": "map = folium.Map(location=[cm.latitude.mean(), cm.longitude.mean()], zoom_start=3, control_scale=True)\nfg = folium.FeatureGroup(name=\"Mike\")\nfor i in courses_to_map:\n    new_description = i['course'] + ' ' + str(i['id'])\n    fg.add_child(folium.CircleMarker(location=[i['lat'],i['long']], popup=new_description))\nmap.add_child(fg)\nmap.save(\"Mike_test.html\")",
+        "detail": "map_mike",
+        "documentation": {}
+    },
+    {
+        "label": "fg",
+        "kind": 5,
+        "importPath": "map_mike",
+        "description": "map_mike",
+        "peekOfCode": "fg = folium.FeatureGroup(name=\"Mike\")\nfor i in courses_to_map:\n    new_description = i['course'] + ' ' + str(i['id'])\n    fg.add_child(folium.CircleMarker(location=[i['lat'],i['long']], popup=new_description))\nmap.add_child(fg)\nmap.save(\"Mike_test.html\")",
+        "detail": "map_mike",
+        "documentation": {}
+    },
+    {
+        "label": "cnx",
+        "kind": 5,
+        "importPath": "single_course_fuzzy",
+        "description": "single_course_fuzzy",
+        "peekOfCode": "cnx = sqlite3.connect('garmin.db')\ndf_all_courses = pd.read_sql_query(\"SELECT * FROM courses\", cnx)\ndf_george_raw = pd.read_csv ('george_courses.csv')\ng_left = [\"Course\", \"City\", \"State\"]\ndb_right = [\"name\", \"city\", \"state\"]\n# fuzzy_match = fuzzymatcher.fuzzy_left_join(df_george_raw, df_all_courses, g_left, db_right)\n# fuzzy_match.to_csv('george_fuzzy_match.csv')\ndfm = pd.read_csv('george_fuzzy_match.csv')\nprint(dfm)\ncourses_to_map = []",
+        "detail": "single_course_fuzzy",
+        "documentation": {}
+    },
+    {
+        "label": "df_all_courses",
+        "kind": 5,
+        "importPath": "single_course_fuzzy",
+        "description": "single_course_fuzzy",
+        "peekOfCode": "df_all_courses = pd.read_sql_query(\"SELECT * FROM courses\", cnx)\ndf_george_raw = pd.read_csv ('george_courses.csv')\ng_left = [\"Course\", \"City\", \"State\"]\ndb_right = [\"name\", \"city\", \"state\"]\n# fuzzy_match = fuzzymatcher.fuzzy_left_join(df_george_raw, df_all_courses, g_left, db_right)\n# fuzzy_match.to_csv('george_fuzzy_match.csv')\ndfm = pd.read_csv('george_fuzzy_match.csv')\nprint(dfm)\ncourses_to_map = []\nfor i in dfm.itertuples():",
+        "detail": "single_course_fuzzy",
+        "documentation": {}
+    },
+    {
+        "label": "df_george_raw",
+        "kind": 5,
+        "importPath": "single_course_fuzzy",
+        "description": "single_course_fuzzy",
+        "peekOfCode": "df_george_raw = pd.read_csv ('george_courses.csv')\ng_left = [\"Course\", \"City\", \"State\"]\ndb_right = [\"name\", \"city\", \"state\"]\n# fuzzy_match = fuzzymatcher.fuzzy_left_join(df_george_raw, df_all_courses, g_left, db_right)\n# fuzzy_match.to_csv('george_fuzzy_match.csv')\ndfm = pd.read_csv('george_fuzzy_match.csv')\nprint(dfm)\ncourses_to_map = []\nfor i in dfm.itertuples():\n    if i[2] < .2:",
+        "detail": "single_course_fuzzy",
+        "documentation": {}
+    },
+    {
+        "label": "g_left",
+        "kind": 5,
+        "importPath": "single_course_fuzzy",
+        "description": "single_course_fuzzy",
+        "peekOfCode": "g_left = [\"Course\", \"City\", \"State\"]\ndb_right = [\"name\", \"city\", \"state\"]\n# fuzzy_match = fuzzymatcher.fuzzy_left_join(df_george_raw, df_all_courses, g_left, db_right)\n# fuzzy_match.to_csv('george_fuzzy_match.csv')\ndfm = pd.read_csv('george_fuzzy_match.csv')\nprint(dfm)\ncourses_to_map = []\nfor i in dfm.itertuples():\n    if i[2] < .2:\n         print(f\"index {i[0]}, course: {i[5]}, match score: {i[2]}\")  # list bad matches",
+        "detail": "single_course_fuzzy",
+        "documentation": {}
+    },
+    {
+        "label": "db_right",
+        "kind": 5,
+        "importPath": "single_course_fuzzy",
+        "description": "single_course_fuzzy",
+        "peekOfCode": "db_right = [\"name\", \"city\", \"state\"]\n# fuzzy_match = fuzzymatcher.fuzzy_left_join(df_george_raw, df_all_courses, g_left, db_right)\n# fuzzy_match.to_csv('george_fuzzy_match.csv')\ndfm = pd.read_csv('george_fuzzy_match.csv')\nprint(dfm)\ncourses_to_map = []\nfor i in dfm.itertuples():\n    if i[2] < .2:\n         print(f\"index {i[0]}, course: {i[5]}, match score: {i[2]}\")  # list bad matches\n    if i[2] > .2:",
+        "detail": "single_course_fuzzy",
+        "documentation": {}
+    },
+    {
+        "label": "dfm",
+        "kind": 5,
+        "importPath": "single_course_fuzzy",
+        "description": "single_course_fuzzy",
+        "peekOfCode": "dfm = pd.read_csv('george_fuzzy_match.csv')\nprint(dfm)\ncourses_to_map = []\nfor i in dfm.itertuples():\n    if i[2] < .2:\n         print(f\"index {i[0]}, course: {i[5]}, match score: {i[2]}\")  # list bad matches\n    if i[2] > .2:\n        c = {\n            'course':i[11].lstrip(),\n            'lat':i[16],",
+        "detail": "single_course_fuzzy",
+        "documentation": {}
+    },
+    {
+        "label": "courses_to_map",
+        "kind": 5,
+        "importPath": "single_course_fuzzy",
+        "description": "single_course_fuzzy",
+        "peekOfCode": "courses_to_map = []\nfor i in dfm.itertuples():\n    if i[2] < .2:\n         print(f\"index {i[0]}, course: {i[5]}, match score: {i[2]}\")  # list bad matches\n    if i[2] > .2:\n        c = {\n            'course':i[11].lstrip(),\n            'lat':i[16],\n            'long':i[17]\n        }",
+        "detail": "single_course_fuzzy",
+        "documentation": {}
+    },
+    {
+        "label": "test_index",
+        "kind": 5,
+        "importPath": "single_course_fuzzy",
+        "description": "single_course_fuzzy",
+        "peekOfCode": "test_index = int(input(\"Which index to see matches? \"))\nprint(df_george_raw)\ntest_df = df_george_raw.loc[[test_index]] \nprint(test_df)\nsingle_match = fuzzymatcher.fuzzy_left_join(test_df, df_all_courses, g_left, db_right)\ncols = db_right = [\"best_match_score\", \"name\", \"city\", \"state\"]\nrearranged_best_matches=single_match[cols].sort_values(by=['best_match_score'], ascending=False)\nprint(rearranged_best_matches.head(5))\n# cm = dfm[[\"name\",\"latitude\",\"longitude\", \"best_match_score\"]]\n# map = folium.Map(location=[cm.latitude.mean(), cm.longitude.mean()], zoom_start=3, control_scale=True)",
+        "detail": "single_course_fuzzy",
+        "documentation": {}
+    },
+    {
+        "label": "test_df",
+        "kind": 5,
+        "importPath": "single_course_fuzzy",
+        "description": "single_course_fuzzy",
+        "peekOfCode": "test_df = df_george_raw.loc[[test_index]] \nprint(test_df)\nsingle_match = fuzzymatcher.fuzzy_left_join(test_df, df_all_courses, g_left, db_right)\ncols = db_right = [\"best_match_score\", \"name\", \"city\", \"state\"]\nrearranged_best_matches=single_match[cols].sort_values(by=['best_match_score'], ascending=False)\nprint(rearranged_best_matches.head(5))\n# cm = dfm[[\"name\",\"latitude\",\"longitude\", \"best_match_score\"]]\n# map = folium.Map(location=[cm.latitude.mean(), cm.longitude.mean()], zoom_start=3, control_scale=True)\n# fg = folium.FeatureGroup(name=\"George\")\n# for i in courses_to_map:",
+        "detail": "single_course_fuzzy",
+        "documentation": {}
+    },
+    {
+        "label": "single_match",
+        "kind": 5,
+        "importPath": "single_course_fuzzy",
+        "description": "single_course_fuzzy",
+        "peekOfCode": "single_match = fuzzymatcher.fuzzy_left_join(test_df, df_all_courses, g_left, db_right)\ncols = db_right = [\"best_match_score\", \"name\", \"city\", \"state\"]\nrearranged_best_matches=single_match[cols].sort_values(by=['best_match_score'], ascending=False)\nprint(rearranged_best_matches.head(5))\n# cm = dfm[[\"name\",\"latitude\",\"longitude\", \"best_match_score\"]]\n# map = folium.Map(location=[cm.latitude.mean(), cm.longitude.mean()], zoom_start=3, control_scale=True)\n# fg = folium.FeatureGroup(name=\"George\")\n# for i in courses_to_map:\n#     fg.add_child(folium.CircleMarker(location=[i['lat'],i['long']], popup=i['course']))\n# map.add_child(fg)",
+        "detail": "single_course_fuzzy",
+        "documentation": {}
+    },
+    {
+        "label": "cols",
+        "kind": 5,
+        "importPath": "single_course_fuzzy",
+        "description": "single_course_fuzzy",
+        "peekOfCode": "cols = db_right = [\"best_match_score\", \"name\", \"city\", \"state\"]\nrearranged_best_matches=single_match[cols].sort_values(by=['best_match_score'], ascending=False)\nprint(rearranged_best_matches.head(5))\n# cm = dfm[[\"name\",\"latitude\",\"longitude\", \"best_match_score\"]]\n# map = folium.Map(location=[cm.latitude.mean(), cm.longitude.mean()], zoom_start=3, control_scale=True)\n# fg = folium.FeatureGroup(name=\"George\")\n# for i in courses_to_map:\n#     fg.add_child(folium.CircleMarker(location=[i['lat'],i['long']], popup=i['course']))\n# map.add_child(fg)\n# map.save(\"George_test.html\")",
+        "detail": "single_course_fuzzy",
+        "documentation": {}
+    },
+    {
+        "label": "cnx",
+        "kind": 5,
+        "importPath": "single_search",
+        "description": "single_search",
+        "peekOfCode": "cnx = sqlite3.connect('garmin.db')\ndf_all_courses = pd.read_sql_query(\"SELECT * FROM courses\", cnx)\ndf_george_raw = pd.read_csv ('george_courses.csv')\ng_left = [\"Course\", \"City1\", \"State1\"]\ndb_right = [\"name\", \"city\", \"state\"]\nfuzzy_match = fuzzymatcher.fuzzy_left_join(df_george_raw, df_all_courses, g_left, db_right)\nfuzzy_match.to_sql(name='george', con=cnx)\ncnx.close()\n# fuzzy_match.to_csv('george_fuzzy_match.csv')\n# dfm = pd.read_csv('george_fuzzy_match.csv')",
+        "detail": "single_search",
+        "documentation": {}
+    },
+    {
+        "label": "df_all_courses",
+        "kind": 5,
+        "importPath": "single_search",
+        "description": "single_search",
+        "peekOfCode": "df_all_courses = pd.read_sql_query(\"SELECT * FROM courses\", cnx)\ndf_george_raw = pd.read_csv ('george_courses.csv')\ng_left = [\"Course\", \"City1\", \"State1\"]\ndb_right = [\"name\", \"city\", \"state\"]\nfuzzy_match = fuzzymatcher.fuzzy_left_join(df_george_raw, df_all_courses, g_left, db_right)\nfuzzy_match.to_sql(name='george', con=cnx)\ncnx.close()\n# fuzzy_match.to_csv('george_fuzzy_match.csv')\n# dfm = pd.read_csv('george_fuzzy_match.csv')\n# print(dfm)",
+        "detail": "single_search",
+        "documentation": {}
+    },
+    {
+        "label": "df_george_raw",
+        "kind": 5,
+        "importPath": "single_search",
+        "description": "single_search",
+        "peekOfCode": "df_george_raw = pd.read_csv ('george_courses.csv')\ng_left = [\"Course\", \"City1\", \"State1\"]\ndb_right = [\"name\", \"city\", \"state\"]\nfuzzy_match = fuzzymatcher.fuzzy_left_join(df_george_raw, df_all_courses, g_left, db_right)\nfuzzy_match.to_sql(name='george', con=cnx)\ncnx.close()\n# fuzzy_match.to_csv('george_fuzzy_match.csv')\n# dfm = pd.read_csv('george_fuzzy_match.csv')\n# print(dfm)\n# courses_to_map = []",
+        "detail": "single_search",
+        "documentation": {}
+    },
+    {
+        "label": "g_left",
+        "kind": 5,
+        "importPath": "single_search",
+        "description": "single_search",
+        "peekOfCode": "g_left = [\"Course\", \"City1\", \"State1\"]\ndb_right = [\"name\", \"city\", \"state\"]\nfuzzy_match = fuzzymatcher.fuzzy_left_join(df_george_raw, df_all_courses, g_left, db_right)\nfuzzy_match.to_sql(name='george', con=cnx)\ncnx.close()\n# fuzzy_match.to_csv('george_fuzzy_match.csv')\n# dfm = pd.read_csv('george_fuzzy_match.csv')\n# print(dfm)\n# courses_to_map = []\n# for i in dfm.itertuples():",
+        "detail": "single_search",
+        "documentation": {}
+    },
+    {
+        "label": "db_right",
+        "kind": 5,
+        "importPath": "single_search",
+        "description": "single_search",
+        "peekOfCode": "db_right = [\"name\", \"city\", \"state\"]\nfuzzy_match = fuzzymatcher.fuzzy_left_join(df_george_raw, df_all_courses, g_left, db_right)\nfuzzy_match.to_sql(name='george', con=cnx)\ncnx.close()\n# fuzzy_match.to_csv('george_fuzzy_match.csv')\n# dfm = pd.read_csv('george_fuzzy_match.csv')\n# print(dfm)\n# courses_to_map = []\n# for i in dfm.itertuples():\n#     if i[2] < .2:",
+        "detail": "single_search",
+        "documentation": {}
+    },
+    {
+        "label": "fuzzy_match",
+        "kind": 5,
+        "importPath": "single_search",
+        "description": "single_search",
+        "peekOfCode": "fuzzy_match = fuzzymatcher.fuzzy_left_join(df_george_raw, df_all_courses, g_left, db_right)\nfuzzy_match.to_sql(name='george', con=cnx)\ncnx.close()\n# fuzzy_match.to_csv('george_fuzzy_match.csv')\n# dfm = pd.read_csv('george_fuzzy_match.csv')\n# print(dfm)\n# courses_to_map = []\n# for i in dfm.itertuples():\n#     if i[2] < .2:\n#          print(f\"course: {i[5]}, match score: {i[2]}\")  # list bad matches",
+        "detail": "single_search",
+        "documentation": {}
+    }
+]
