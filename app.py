@@ -1,3 +1,4 @@
+import os
 from flask import Flask, render_template, redirect, url_for, request
 from flask_bootstrap import Bootstrap
 from flask_sqlalchemy import SQLAlchemy
@@ -7,15 +8,12 @@ from wtforms.validators import DataRequired
 import requests
 # import creds  # create a creds.py file with a MOVIE_DB_API_KEY = 'xxxxxx'
 
-MOVIE_DB_SEARCH_URL = "https://api.themoviedb.org/3/search/movie"
-MOVIE_DB_IMAGE_URL = 'https://www.themoviedb.org/t/p/w500'
-MOVIE_DB_INFO_URL = "https://api.themoviedb.org/3/movie"
-
 app = Flask(__name__)
 app.config['SECRET_KEY'] = '8BYkEfBA6O6donzWlSihBXox742ssdfgKR6b'
 Bootstrap(app)
 
-app.config['SQLALCHEMY_DATABASE_URI'] = "sqlite:///garmin.db"
+basedir = os.path.abspath(os.path.dirname(__file__))
+app.config['SQLALCHEMY_DATABASE_URI'] = 'sqlite:///' + os.path.join(basedir, "garmin.db")
 app.config['SQLALCHEMY_TRACK_MODIFICATIONS'] = False
 db = SQLAlchemy(app)
 

@@ -390,6 +390,15 @@
         "documentation": {}
     },
     {
+        "label": "os",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "os",
+        "description": "os",
+        "detail": "os",
+        "documentation": {}
+    },
+    {
         "label": "Bootstrap",
         "importPath": "flask_bootstrap",
         "description": "flask_bootstrap",
@@ -751,38 +760,11 @@
         "documentation": {}
     },
     {
-        "label": "MOVIE_DB_SEARCH_URL",
-        "kind": 5,
-        "importPath": "app",
-        "description": "app",
-        "peekOfCode": "MOVIE_DB_SEARCH_URL = \"https://api.themoviedb.org/3/search/movie\"\nMOVIE_DB_IMAGE_URL = 'https://www.themoviedb.org/t/p/w500'\nMOVIE_DB_INFO_URL = \"https://api.themoviedb.org/3/movie\"\napp = Flask(__name__)\napp.config['SECRET_KEY'] = '8BYkEfBA6O6donzWlSihBXox742ssdfgKR6b'\nBootstrap(app)\napp.config['SQLALCHEMY_DATABASE_URI'] = \"sqlite:///garmin.db\"\napp.config['SQLALCHEMY_TRACK_MODIFICATIONS'] = False\ndb = SQLAlchemy(app)\nclass courses(db.Model):",
-        "detail": "app",
-        "documentation": {}
-    },
-    {
-        "label": "MOVIE_DB_IMAGE_URL",
-        "kind": 5,
-        "importPath": "app",
-        "description": "app",
-        "peekOfCode": "MOVIE_DB_IMAGE_URL = 'https://www.themoviedb.org/t/p/w500'\nMOVIE_DB_INFO_URL = \"https://api.themoviedb.org/3/movie\"\napp = Flask(__name__)\napp.config['SECRET_KEY'] = '8BYkEfBA6O6donzWlSihBXox742ssdfgKR6b'\nBootstrap(app)\napp.config['SQLALCHEMY_DATABASE_URI'] = \"sqlite:///garmin.db\"\napp.config['SQLALCHEMY_TRACK_MODIFICATIONS'] = False\ndb = SQLAlchemy(app)\nclass courses(db.Model):\n    id = db.Column(db.Integer, primary_key=True)",
-        "detail": "app",
-        "documentation": {}
-    },
-    {
-        "label": "MOVIE_DB_INFO_URL",
-        "kind": 5,
-        "importPath": "app",
-        "description": "app",
-        "peekOfCode": "MOVIE_DB_INFO_URL = \"https://api.themoviedb.org/3/movie\"\napp = Flask(__name__)\napp.config['SECRET_KEY'] = '8BYkEfBA6O6donzWlSihBXox742ssdfgKR6b'\nBootstrap(app)\napp.config['SQLALCHEMY_DATABASE_URI'] = \"sqlite:///garmin.db\"\napp.config['SQLALCHEMY_TRACK_MODIFICATIONS'] = False\ndb = SQLAlchemy(app)\nclass courses(db.Model):\n    id = db.Column(db.Integer, primary_key=True)\n    name = db.Column(db.String(250))",
-        "detail": "app",
-        "documentation": {}
-    },
-    {
         "label": "app",
         "kind": 5,
         "importPath": "app",
         "description": "app",
-        "peekOfCode": "app = Flask(__name__)\napp.config['SECRET_KEY'] = '8BYkEfBA6O6donzWlSihBXox742ssdfgKR6b'\nBootstrap(app)\napp.config['SQLALCHEMY_DATABASE_URI'] = \"sqlite:///garmin.db\"\napp.config['SQLALCHEMY_TRACK_MODIFICATIONS'] = False\ndb = SQLAlchemy(app)\nclass courses(db.Model):\n    id = db.Column(db.Integer, primary_key=True)\n    name = db.Column(db.String(250))\n    address = db.Column(db.String(250))",
+        "peekOfCode": "app = Flask(__name__)\napp.config['SECRET_KEY'] = '8BYkEfBA6O6donzWlSihBXox742ssdfgKR6b'\nBootstrap(app)\nbasedir = os.path.abspath(os.path.dirname(__file__))\napp.config['SQLALCHEMY_DATABASE_URI'] = 'sqlite:///' + os.path.join(basedir, \"garmin.db\")\napp.config['SQLALCHEMY_TRACK_MODIFICATIONS'] = False\ndb = SQLAlchemy(app)\nclass courses(db.Model):\n    id = db.Column(db.Integer, primary_key=True)\n    name = db.Column(db.String(250))",
         "detail": "app",
         "documentation": {}
     },
@@ -791,7 +773,16 @@
         "kind": 5,
         "importPath": "app",
         "description": "app",
-        "peekOfCode": "app.config['SECRET_KEY'] = '8BYkEfBA6O6donzWlSihBXox742ssdfgKR6b'\nBootstrap(app)\napp.config['SQLALCHEMY_DATABASE_URI'] = \"sqlite:///garmin.db\"\napp.config['SQLALCHEMY_TRACK_MODIFICATIONS'] = False\ndb = SQLAlchemy(app)\nclass courses(db.Model):\n    id = db.Column(db.Integer, primary_key=True)\n    name = db.Column(db.String(250))\n    address = db.Column(db.String(250))\n    city = db.Column(db.String(100))",
+        "peekOfCode": "app.config['SECRET_KEY'] = '8BYkEfBA6O6donzWlSihBXox742ssdfgKR6b'\nBootstrap(app)\nbasedir = os.path.abspath(os.path.dirname(__file__))\napp.config['SQLALCHEMY_DATABASE_URI'] = 'sqlite:///' + os.path.join(basedir, \"garmin.db\")\napp.config['SQLALCHEMY_TRACK_MODIFICATIONS'] = False\ndb = SQLAlchemy(app)\nclass courses(db.Model):\n    id = db.Column(db.Integer, primary_key=True)\n    name = db.Column(db.String(250))\n    address = db.Column(db.String(250))",
+        "detail": "app",
+        "documentation": {}
+    },
+    {
+        "label": "basedir",
+        "kind": 5,
+        "importPath": "app",
+        "description": "app",
+        "peekOfCode": "basedir = os.path.abspath(os.path.dirname(__file__))\napp.config['SQLALCHEMY_DATABASE_URI'] = 'sqlite:///' + os.path.join(basedir, \"garmin.db\")\napp.config['SQLALCHEMY_TRACK_MODIFICATIONS'] = False\ndb = SQLAlchemy(app)\nclass courses(db.Model):\n    id = db.Column(db.Integer, primary_key=True)\n    name = db.Column(db.String(250))\n    address = db.Column(db.String(250))\n    city = db.Column(db.String(100))\n    state = db.Column(db.String(40))",
         "detail": "app",
         "documentation": {}
     },
@@ -800,7 +791,7 @@
         "kind": 5,
         "importPath": "app",
         "description": "app",
-        "peekOfCode": "app.config['SQLALCHEMY_DATABASE_URI'] = \"sqlite:///garmin.db\"\napp.config['SQLALCHEMY_TRACK_MODIFICATIONS'] = False\ndb = SQLAlchemy(app)\nclass courses(db.Model):\n    id = db.Column(db.Integer, primary_key=True)\n    name = db.Column(db.String(250))\n    address = db.Column(db.String(250))\n    city = db.Column(db.String(100))\n    state = db.Column(db.String(40))\n    country = db.Column(db.String(40))",
+        "peekOfCode": "app.config['SQLALCHEMY_DATABASE_URI'] = 'sqlite:///' + os.path.join(basedir, \"garmin.db\")\napp.config['SQLALCHEMY_TRACK_MODIFICATIONS'] = False\ndb = SQLAlchemy(app)\nclass courses(db.Model):\n    id = db.Column(db.Integer, primary_key=True)\n    name = db.Column(db.String(250))\n    address = db.Column(db.String(250))\n    city = db.Column(db.String(100))\n    state = db.Column(db.String(40))\n    country = db.Column(db.String(40))",
         "detail": "app",
         "documentation": {}
     },
