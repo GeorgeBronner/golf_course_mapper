@@ -23,10 +23,19 @@
         <li class="list-group-item">Input State: {{match_edit.state}}</li>
         <li class="list-group-item">Input Country: {{match_edit.country}}</li>
 
-
     </ul>
-
   </div>
+  
+  <div class="content">
+    <h2 class="heading">Possible Matches</h1>
+        <div class="list-group" ></div>
+        {% for i in raw_matches %}
+          {% if i.id_left == "4_left" %}
+          <li class="list-group-item">{{i.g_course}} <a href="{{ url_for('edit_match', id=i.index_label)}}" class="button">Update</a></li>
+          {% endif %}
+        {% endfor %}
+  </div>
+  
   <div class="content">
     <h1 class="heading">Search for Course</h1>
   {{wtf.quick_form(form)}}

@@ -11,7 +11,10 @@ Base = declarative_base()
 class link_table(Base):
     __tablename__ = 'link_table'
     index_label = Column(Integer, primary_key=True)
-    user = Column(String(250))
+    course = Column(String(250))
+    course = Column(String(250))
+    course = Column(String(250))
+    course = Column(String(250))
     course = Column(String(250))
     city = Column(String(100))
     state = Column(String(40))
@@ -48,3 +51,9 @@ db_right = ["g_course", "g_city", "g_state", "g_country"]
 fuzzy_table = fuzzymatcher.link_table(df_all, df_all_courses, g_left, db_right)
 fuzzy_table = fuzzy_table[fuzzy_table['match_rank'] < 6]
 fuzzy_table.to_csv("match_table.csv")
+cnx.execute('''DROP TABLE IF EXISTS matches''')
+fuzzy_table.to_sql("matches", cnx)
+cnx.execute('''ALTER TABLE matches RENAME COLUMN __id_left to id_left''')
+cnx.execute('''ALTER TABLE matches RENAME COLUMN __id_right to id_right''')
+cnx.commit()
+cnx.close()

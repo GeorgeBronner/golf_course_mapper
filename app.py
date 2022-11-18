@@ -1,12 +1,11 @@
 import os
-from flask import Flask, render_template, redirect, url_for, request
+from flask import Flask, render_template, redirect, url_for, request, jsonify
 from flask_bootstrap import Bootstrap
 from flask_sqlalchemy import SQLAlchemy
 from flask_wtf import FlaskForm
 from wtforms import StringField, SubmitField
 from wtforms.validators import DataRequired
-import requests
-# import creds  # create a creds.py file with a MOVIE_DB_API_KEY = 'xxxxxx'
+import pandas as pd
 
 app = Flask(__name__)
 app.config['SECRET_KEY'] = '8BYkEfBA6O6donzWlSihBXox742ssdfgKR6b'
@@ -19,13 +18,13 @@ db = SQLAlchemy(app)
 
 class courses(db.Model):
     id = db.Column(db.Integer, primary_key=True)
-    name = db.Column(db.String(250))
-    address = db.Column(db.String(250))
-    city = db.Column(db.String(100))
-    state = db.Column(db.String(40))
-    country = db.Column(db.String(40))
-    latitude = db.Column(db.Float)
-    longitude = db.Column(db.Float)
+    g_course = db.Column(db.String(250))
+    g_address = db.Column(db.String(250))
+    g_city = db.Column(db.String(100))
+    g_state = db.Column(db.String(40))
+    g_country = db.Column(db.String(40))
+    g_latitude = db.Column(db.Float)
+    g_longitude = db.Column(db.Float)
 
     #Optional: this will allow each book object to be identified by its title when printed.
     def __repr__(self):
@@ -41,27 +40,43 @@ class users(db.Model):
     year = db.Column(db.Integer)
     best_match_score = db.Column(db.Float)
     good_match = db.Column(db.Boolean)
-    garmin_ID = db.Column(db.String(100))
-    g_course = db.Column(db.String(250))
-    g_city = db.Column(db.String(100))
-    g_state = db.Column(db.String(40))
-    g_country = db.Column(db.String(40))
-    latitude = db.Column(db.Float)
-    longitude = db.Column(db.Float)
+    manual_match = db.Column(db.Boolean)
+    garmin_ID = db.Column(db.Integer)
+    manual_course = db.Column(db.String(250))
+    manual_city = db.Column(db.String(100))
+    manual_state = db.Column(db.String(40))
+    manual_country = db.Column(db.String(40))
+    manual_latitude = db.Column(db.Float)
+    manual_longitude = db.Column(db.Float)
 
+class matches(db.Model):
+    index = db.Column(db.Integer, primary_key=True)
+    id_left = db.Column(db.String(250))
+    id_right = db.Column(db.String(250))
+    match_score = db.Column(db.Float)
+    match_rank = db.Column(db.Integer)
+    g_course = db.Column(db.String(250))
+    city = db.Column(db.String(250))
+    g_city = db.Column(db.String(250))
+    state = db.Column(db.String(250))
+    g_state = db.Column(db.String(250))
+    country = db.Column(db.String(250))
+    course = db.Column(db.String(250))
+    g_country = db.Column(db.String(250))
 
 @app.route("/")
 def home():
-
-    matches = users.query.order_by(users.year,users.g_course).all()
+    garmin_courses = courses.query.all()
+    user_matches = users.query.order_by(users.year,users.course).all()
 
     picked_user = 'george'
-    return render_template("index.html", matches=matches, user=picked_user)
+    return render_template("index.html", matches=user_matches, user=picked_user, garmin_courses=garmin_courses)
+    # return (f"{garmin_courses[2].g_course}")
 
 @app.route("/mike")
 def mike():
 
-    matches = users.query.order_by(users.year,users.g_course).all()
+    matches = users.query.order_by(users.year,users.course).all()
 
     picked_user = 'mike'
     return render_template("index.html", matches=matches, user=picked_user)
@@ -90,6 +105,7 @@ class EditMatchForm(FlaskForm):
 
 @app.route("/edit", methods=['GET', 'POST'])
 def edit_match():
+    raw_matches = matches.query.all()
     form = EditMatchForm()
     match_id = request.args.get("id")
     match_edit = users.query.get(match_id)
@@ -99,7 +115,7 @@ def edit_match():
         # movie.review = form.review.data
         # db.session.commit()
         return redirect(url_for('home'))
-    return render_template("edit.html", match_edit=match_edit, form=form)
+    return render_template("edit.html", match_edit=match_edit, raw_matches=raw_matches, form=form)
 
 class AddMoviesForm(FlaskForm):
     movie_to_seach = StringField("Movie Title", validators=[DataRequired()])
