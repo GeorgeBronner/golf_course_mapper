@@ -19,13 +19,14 @@ class users(Base):
     year = Column(Integer)
     best_match_score = Column(Float)
     good_match = Column(Boolean)
+    manual_match = Column(Boolean)
     garmin_ID = Column(String(100))
-    g_course = Column(String(250))
-    g_city = Column(String(100))
-    g_state = Column(String(40))
-    g_country = Column(String(40))
-    latitude = Column(Float)
-    longitude = Column(Float)
+    manual_course = Column(String(250))
+    manual_city = Column(String(100))
+    manual_state = Column(String(40))
+    manual_country = Column(String(40))
+    manual_latitude = Column(Float)
+    manual_longitude = Column(Float)
 
 # Base.metadata.create_all(engine)
 
@@ -45,61 +46,81 @@ df_george_raw = pd.read_csv ('george_courses.csv')
 df_mike_raw = pd.read_csv ('mike_courses.csv')
 
 
-g_left = ["Course", "City1", "State1"]
-db_right = ["name", "city", "state"]
+g_left = ["Course", "City", "State", "Country"]
+db_right = ["g_course", "g_city", "g_state", "g_country"]
 fuzzy_match_george = fuzzymatcher.fuzzy_left_join(df_george_raw, df_all_courses, g_left, db_right)
 for i in fuzzy_match_george.itertuples():
     
     if i[1] > .3:
         a_good_match = True
+        new_match = users(
+            user = 'george',
+            course = i[4],
+            city = i[5],
+            state = i[6],
+            country = i[7],
+            year = i[8],
+            best_match_score = i[1],
+            good_match = a_good_match,
+            manual_match = False,
+            garmin_ID = i[9],
+        )
     else:
         a_good_match = False
-    new_match = users(
-        user = 'george',
-        course = i[4],
-        city = i[5],
-        state = i[6],
-        country = i[7],
-        year = i[8],
-        best_match_score = i[1],
-        good_match = a_good_match,
-        garmin_ID = i[9],
-        g_course = i[10],
-        g_city = i[12],
-        g_state = i[13],
-        g_country = i[14],
-        latitude = i[15],
-        longitude = i[16],
-    )
+        new_match = users(
+            user = 'george',
+            course = i[4],
+            city = i[5],
+            state = i[6],
+            country = i[7],
+            year = i[8],
+            best_match_score = i[1],
+            good_match = a_good_match,
+            manual_match = False,
+            garmin_ID = i[9],
+        )
     session.add(new_match)
-    session.commit()
+session.commit()
 
 fuzzy_match_mike = fuzzymatcher.fuzzy_left_join(df_mike_raw, df_all_courses, g_left, db_right)
 for i in fuzzy_match_mike.itertuples():
     
     if i[1] > .3:
         a_good_match = True
+        new_match = users(
+            user = 'mike',
+            course = i[4],
+            city = i[5],
+            state = i[6],
+            country = i[7],
+            year = i[8],
+            best_match_score = i[1],
+            good_match = a_good_match,
+            manual_match = False,
+            garmin_ID = i[9],
+        )
     else:
         a_good_match = False
-    new_match = users(
-        user = 'mike',
-        course = i[4],
-        city = i[5],
-        state = i[6],
-        country = i[7],
-        year = i[8],
-        best_match_score = i[1],
-        good_match = a_good_match,
-        garmin_ID = i[9],
-        g_course = i[10],
-        g_city = i[12],
-        g_state = i[13],
-        g_country = i[14],
-        latitude = i[15],
-        longitude = i[16],
-    )
+        new_match = users(
+            user = 'mike',
+            course = i[4],
+            city = i[5],
+            state = i[6],
+            country = i[7],
+            year = i[8],
+            best_match_score = i[1],
+            good_match = a_good_match,
+            manual_match = False,
+            garmin_ID = i[9],
+        )
     session.add(new_match)
-    session.commit()
+session.commit()
+
+df_george_raw.append(df_mike_raw)
+df_george_raw.to_csv("joined.cvs")
+fuzzy_table = fuzzymatcher.link_table(df_george_raw, df_all_courses, g_left, db_right)
+fuzzy_table = fuzzy_table[fuzzy_table['match_rank'] < 6]
+fuzzy_table.to_csv("fuzzy_table.csv")
 
 # fuzzy_match.to_sql(name='george', con=cnx)
 # cnx.close()

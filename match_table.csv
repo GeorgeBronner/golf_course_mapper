@@ -1,0 +1,661 @@
+,__id_left,__id_right,match_score,match_rank,course,g_course,city,g_city,state,g_state,country,g_country
+0,0_left,212_right,0.7784806951789185,1,Wynlakes,Wynlakes Golf & Country Club,Montgomery,Montgomery,Alabama,Alabama,US,US
+1,1_left,210_right,0.7049225665272882,1,Lagoon Park,Lagoon Park Golf Course,Montgomery,Montgomery,Alabama,Alabama,US,US
+2,2_left,276_right,0.0020383589513591643,1,University of Alabama Golf Course,Country Club of Tuscaloosa,Tuscaloosa,Tuscaloosa,Alabama,Alabama,US,US
+3,2_left,280_right,-0.19656305851011524,2,University of Alabama Golf Course,Tall Pines Golf Club,Tuscaloosa,Tuscaloosa,Alabama,Alabama,US,US
+4,2_left,277_right,-0.2524872327051603,3,University of Alabama Golf Course,Indian Hills Country Club,Tuscaloosa,Tuscaloosa,Alabama,Alabama,US,US
+5,2_left,24_right,-0.3299034906009954,4,University of Alabama Golf Course,Auburn University Club,Tuscaloosa,Auburn,Alabama,Alabama,US,US
+6,2_left,278_right,-0.3308657714197958,5,University of Alabama Golf Course,NorthRiver Yacht Club,Tuscaloosa,Tuscaloosa,Alabama,Alabama,US,US
+103,3_left,218_right,0.5979218531672358,1,Hidden Meadows,Hidden Meadows Golf Course,Nortport,Northport,Alabama,Alabama,US,US
+104,3_left,230_right,0.5979218531672358,2,Hidden Meadows,Hidden Meadows Golf Course,Nortport,Northport,Alabama,Alabama,US,US
+105,4_left,30_right,-0.000576106456057449,1,Bent Brook,Woodward Golf Club,Bessemer,Bessemer,Alabama,Alabama,US,US
+106,4_left,32_right,-0.017607720043364212,2,Bent Brook,Bent Brook Golf Course - Brook to Windmill,Bessemer,Birmingham,Alabama,Alabama,US,US
+107,4_left,34_right,-0.017607720043364212,3,Bent Brook,Bent Brook Golf Course - Windmill to Brook,Bessemer,Birmingham,Alabama,Alabama,US,US
+108,4_left,31_right,-0.032252143171039645,4,Bent Brook,Bent Brook Golf Course - Brook to Graveyard,Bessemer,Birmingham,Alabama,Alabama,US,US
+109,4_left,44_right,-0.15106188203289045,5,Bent Brook,Mountain Brook Club,Bessemer,Birmingham,Alabama,Alabama,US,US
+218,5_left,138_right,0.876991491582526,1,Pikeville Country Club,Pikeville Country Club,Guin,Guin,Alabama,Alabama,US,US
+219,6_left,137_right,0.7190668128947271,1,RTJ - Cambrian Ridge - 27,RTJ Golf Trail at Cambrian Ridge - Short,Greenville,Greenville,Alabama,Alabama,US,US
+220,6_left,134_right,0.5795019769469466,2,RTJ - Cambrian Ridge - 27,RTJ Golf Trail at Cambrian Ridge - Canyon/Loblolly,Greenville,Greenville,Alabama,Alabama,US,US
+221,6_left,136_right,0.5694676437581472,3,RTJ - Cambrian Ridge - 27,RTJ Golf Trail at Cambrian Ridge - Sherling/Canyon,Greenville,Greenville,Alabama,Alabama,US,US
+222,6_left,135_right,0.521358877509524,4,RTJ - Cambrian Ridge - 27,RTJ Golf Trail at Cambrian Ridge - Loblolly/Sherling,Greenville,Greenville,Alabama,Alabama,US,US
+223,7_left,252_right,1.4555536182919526,1,RTJ - Capitol Hill - Judge,RTJ Golf Trail at Capitol Hill - Judge,Prattville,Prattville,Alabama,Alabama,US,US
+224,8_left,253_right,1.0073781377814701,1,RTJ - Capitol Hill - Legistator,RTJ Golf Trail at Capitol Hill - Legislator,Prattville,Prattville,Alabama,Alabama,US,US
+225,8_left,254_right,0.749134643082868,2,RTJ - Capitol Hill - Legistator,RTJ Golf Trail at Capitol Hill - Senator,Prattville,Prattville,Alabama,Alabama,US,US
+226,8_left,252_right,0.7391003098940686,3,RTJ - Capitol Hill - Legistator,RTJ Golf Trail at Capitol Hill - Judge,Prattville,Prattville,Alabama,Alabama,US,US
+227,9_left,254_right,1.2480817757800255,1,RTJ - Capitol Hill - Senator,RTJ Golf Trail at Capitol Hill - Senator,Prattville,Prattville,Alabama,Alabama,US,US
+228,10_left,221_right,1.0828764191039615,1,RTJ - Grand National - Lake,RTJ Golf Trail at Grand National - Lake,Opelika,Opelika,Alabama,Alabama,US,US
+229,10_left,233_right,1.0828764191039615,2,RTJ - Grand National - Lake,RTJ Golf Trail at Grand National - Lake,Opelika,Opelika,Alabama,Alabama,US,US
+230,11_left,222_right,1.0898819274854925,1,RTJ - Grand National - Links,RTJ Golf Trail at Grand National - Links,Opelika,Opelika,Alabama,Alabama,US,US
+231,11_left,234_right,1.0898819274854925,2,RTJ - Grand National - Links,RTJ Golf Trail at Grand National - Links,Opelika,Opelika,Alabama,Alabama,US,US
+232,12_left,228_right,0.2839510248389764,1,RTJ - Hampton Cove - course?,RTJ Golf Trail at Hampton Cove - River,Huntsville,Owens Crossroads,Alabama,Alabama,US,US
+233,12_left,240_right,0.2839510248389764,2,RTJ - Hampton Cove - course?,RTJ Golf Trail at Hampton Cove - River,Huntsville,Owens Crossroads,Alabama,Alabama,US,US
+234,12_left,227_right,0.26578210577922967,3,RTJ - Hampton Cove - course?,RTJ Golf Trail at Hampton Cove - Highlands,Huntsville,Owens Crossroads,Alabama,Alabama,US,US
+235,12_left,239_right,0.26578210577922967,4,RTJ - Hampton Cove - course?,RTJ Golf Trail at Hampton Cove - Highlands,Huntsville,Owens Crossroads,Alabama,Alabama,US,US
+236,12_left,241_right,0.25453054479623816,5,RTJ - Hampton Cove - course?,RTJ Golf Trail at Hampton Cove - Short,Huntsville,Owens Crossroads,Alabama,Alabama,US,US
+322,13_left,90_right,0.8109261016477168,1,RTJ - Highland Oaks - 27,RTJ Golf Trail at Highland Oaks - Short,Dothan,Dothan,Alabama,Alabama,US,US
+323,13_left,88_right,0.8057989395028993,2,RTJ - Highland Oaks - 27,RTJ Golf Trail at Highland Oaks - Magnolia/Highlands,Dothan,Dothan,Alabama,Alabama,US,US
+324,13_left,87_right,0.768300981615956,3,RTJ - Highland Oaks - 27,RTJ Golf Trail at Highland Oaks - Highlands/Marshwood,Dothan,Dothan,Alabama,Alabama,US,US
+325,13_left,89_right,0.6524212082310367,4,RTJ - Highland Oaks - 27,RTJ Golf Trail at Highland Oaks - Marshwood/Magnolia,Dothan,Dothan,Alabama,Alabama,US,US
+326,14_left,198_right,1.3542423854321948,1,RTJ - Magnolia Grove - Crossings,RTJ Golf Trail at Magnolia Grove - Crossings,Mobile,Mobile,Alabama,Alabama,US,US
+327,15_left,199_right,1.288956480283678,1,RTJ - Magnolia Grove - Falls,RTJ Golf Trail at Magnolia Grove - Falls,Mobile,Mobile,Alabama,Alabama,US,US
+328,16_left,48_right,1.0969633137476502,1,RTJ - Oxmoor Valley - Ridge,RTJ Golf Trail at Oxmoor Valley - Ridge,Birmingham,Birmingham,Alabama,Alabama,US,US
+329,17_left,50_right,0.9415295227899663,1,RTJ - Oxmoor Valley - Valley,RTJ Golf Trail at Oxmoor Valley - Valley,Birmingham,Birmingham,Alabama,Alabama,US,US
+330,17_left,48_right,0.8641609506538823,2,RTJ - Oxmoor Valley - Valley,RTJ Golf Trail at Oxmoor Valley - Ridge,Birmingham,Birmingham,Alabama,Alabama,US,US
+331,17_left,49_right,0.8307769115498645,3,RTJ - Oxmoor Valley - Valley,RTJ Golf Trail at Oxmoor Valley - Short,Birmingham,Birmingham,Alabama,Alabama,US,US
+332,18_left,127_right,0.18492168376957566,1,RTJ - Silver Lakes - 27,RTJ Golf Trail at Silver Lakes - Short,Gadsden,Glencoe,Alabama,Alabama,US,US
+333,18_left,126_right,-0.022820584804426718,2,RTJ - Silver Lakes - 27,RTJ Golf Trail at Silver Lakes - Mindbreaker/Heartbreaker,Gadsden,Glencoe,Alabama,Alabama,US,US
+334,18_left,124_right,-0.022820584804426725,3,RTJ - Silver Lakes - 27,RTJ Golf Trail at Silver Lakes - Backbreaker/Mindbreaker,Gadsden,Glencoe,Alabama,Alabama,US,US
+335,18_left,125_right,-0.022820584804426725,4,RTJ - Silver Lakes - 27,RTJ Golf Trail at Silver Lakes - Heartbreaker/Backbreaker,Gadsden,Glencoe,Alabama,Alabama,US,US
+336,19_left,207_right,0.3206580346576832,1,Cypress Tree - Maxwell AFB,Cypress Tree Golf Course - River,Montgomery,Montgomery,Alabama,Alabama,US,US
+337,19_left,208_right,0.2919801011053168,2,Cypress Tree - Maxwell AFB,Cypress Tree Golf Course - University,Montgomery,Montgomery,Alabama,Alabama,US,US
+338,20_left,11783_right,1.1062724398438024,1,Lido Golf Club,Lido Golf Club,Lido Beach,Lido Beach,New York,New York,US,US
+339,21_left,14559_right,-0.14519267317548856,1,Three Ponds Farm,Knoebels Three Ponds Golf Club,Watermill,Elysburg,New York,Pennsylvania,US,US
+340,21_left,11303_right,-0.14894597320577743,2,Three Ponds Farm,Audubon Golf Club - Par Three,Watermill,Amherst,New York,New York,US,US
+341,21_left,6041_right,-0.18391696132834606,3,Three Ponds Farm,Tri-Ponds Golf Club,Watermill,Tipton,New York,Indiana,US,US
+342,21_left,11882_right,-0.2925666020373451,4,Three Ponds Farm,Twin Ponds Golf & Country Club,Watermill,New York Mills,New York,New York,US,US
+343,21_left,11282_right,-0.4194362688925921,5,Three Ponds Farm,Dande Farms Golf Course,Watermill,Akron,New York,New York,US,US
+556,22_left,1548_right,1.2675334586031062,1,The Links at Squaw Creek,The Resort at Squaw Creek,Olympic Valley,Olympic Valley,California,California,US,US
+557,23_left,280_right,-0.07252805038832716,1,Mimosa Park Golf Course,Tall Pines Golf Club,Tuscaloosa,Tuscaloosa,Alabama,Alabama,US,US
+558,23_left,42_right,-0.07643386081644589,2,Mimosa Park Golf Course,Highland Park Golf Course,Tuscaloosa,Birmingham,Alabama,Alabama,US,US
+559,23_left,209_right,-0.11491879235512745,3,Mimosa Park Golf Course,Gateway Park Golf Course,Tuscaloosa,Montgomery,Alabama,Alabama,US,US
+560,23_left,277_right,-0.12845222458337224,4,Mimosa Park Golf Course,Indian Hills Country Club,Tuscaloosa,Tuscaloosa,Alabama,Alabama,US,US
+561,23_left,210_right,-0.1308228341791162,5,Mimosa Park Golf Course,Lagoon Park Golf Course,Tuscaloosa,Montgomery,Alabama,Alabama,US,US
+731,24_left,1418_right,1.5561794042738852,1,Los Angeles Country Club - North,The Los Angeles Country Club - North,Los Angeles,Los Angeles,California,California,US,US
+732,24_left,1430_right,1.5561794042738852,2,Los Angeles Country Club - North,The Los Angeles Country Club - North,Los Angeles,Los Angeles,California,California,US,US
+733,24_left,1412_right,0.47185860212258984,3,Los Angeles Country Club - North,Mountain Gate Country Club - Lake/North,Los Angeles,Los Angeles,California,California,US,US
+734,24_left,1413_right,0.463040293112706,4,Los Angeles Country Club - North,Mountain Gate Country Club - North/South,Los Angeles,Los Angeles,California,California,US,US
+735,25_left,1557_right,0.9840891898618425,1,Riviera Country Club,The Riviera Country Club,Pacific Palisades,Pacific Palisades,California,California,US,US
+736,26_left,1628_right,1.1743072673336052,1,Spyglass Hill Golf Course,Spyglass Hill Golf Course,Pebble Beach,Pebble Beach,California,California,US,US
+737,27_left,1629_right,1.4326301520865512,1,The Links at Spanish Bay,The Links at Spanish Bay,Pebble Beach,Pebble Beach,California,California,US,US
+738,28_left,17454_right,0.8473253287922583,1,Omni Homestead (Cascades),The Homestead - Cascades,Hot Springs,Hot Springs,Virginia,Virginia,US,US
+739,28_left,17455_right,0.703981930709195,2,Omni Homestead (Cascades),The Homestead - Lower Cascades,Hot Springs,Hot Springs,Virginia,Virginia,US,US
+740,28_left,17456_right,0.3170346739403183,3,Omni Homestead (Cascades),The Homestead - Old Course,Hot Springs,Hot Springs,Virginia,Virginia,US,US
+741,29_left,17456_right,0.8426714202065886,1,Omni Homestead (Old Course),The Homestead - Old Course,Hot Springs,Hot Springs,Virginia,Virginia,US,US
+742,30_left,35_right,0.022752048847349847,1,Birmingham CC - East,Country Club of Birmingham East - East,Mountain Brook,Birmingham,Alabama,Alabama,US,US
+743,31_left,278_right,1.2028420619148334,1,Northriver Yacht Club,NorthRiver Yacht Club,Tuscaloosa,Tuscaloosa,Alabama,Alabama,US,US
+744,32_left,279_right,0.7480330730340872,1,Ol' Colony,Ol' Colony Golf Complex,Tuscaloosa,Tuscaloosa,Alabama,Alabama,US,US
+745,33_left,21046_right,1.1614333147623142,1,Fairmont Chateau Whistler GC,The Fairmont Chateau Whistler Golf Club,Whistler,Whistler,British Columbia,British Columbia,CA,CA
+746,34_left,12585_right,1.2885806225933158,1,Lake Toxaway Country Club,Lake Toxaway Country Club,Lake Toxaway,Lake Toxaway,North Carolina,North Carolina,US,US
+747,35_left,7425_right,1.166419255222366,1,Congressional Country Club - Blue,Congressional Country Club - Blue,Bethesda,Bethesda,Maryland,Maryland,US,US
+748,36_left,11537_right,0.7423269742346468,1,Maidstone Club,The Maidstone Club - Nine Hole,East Hampton,East Hampton,New York,New York,US,US
+749,36_left,11536_right,0.7324660141687076,2,Maidstone Club,The Maidstone Club - Eighteen Hole,East Hampton,East Hampton,New York,New York,US,US
+750,37_left,12109_right,1.199647227968301,1,National Golf Links of America,National Golf Links of America,Southhampton,Southampton,New York,New York,US,US
+751,38_left,4839_right,1.06212903042913,1,Sun Valley - Trail Creek,Sun Valley Resort Golf Course - Trail Creek Course,Sun Valley,Sun Valley,Idaho,Idaho,US,US
+752,39_left,11817_right,1.5772487190037738,1,Winged Foot Golf Club - West,Winged Foot Golf Club - West,Mamaroneck,Mamaroneck,New York,New York,US,US
+753,40_left,22613_right,0.3238561722592416,1,Le Manoir Richelieu Golf Club,Fairmont Le Manoir Richelieu Golf Club - Richelieu/Tadoussac,Pointe-au-Pic,La Malbaie,Quebec,Quebec,CA,CA
+754,40_left,22614_right,0.23354826107706167,2,Le Manoir Richelieu Golf Club,Fairmont Le Manoir Richelieu Golf Club - St. Laurent/Richelieu,Pointe-au-Pic,La Malbaie,Quebec,Quebec,CA,CA
+755,40_left,22615_right,0.08017052980519902,3,Le Manoir Richelieu Golf Club,Fairmont Le Manoir Richelieu Golf Club - Tadoussac/St. Laurent,Pointe-au-Pic,La Malbaie,Quebec,Quebec,CA,CA
+756,40_left,22639_right,-0.4439279841865068,4,Le Manoir Richelieu Golf Club,Club de Golf Le Cardinal,Pointe-au-Pic,Laval,Quebec,Quebec,CA,CA
+757,40_left,22675_right,-0.4866038099889522,5,Le Manoir Richelieu Golf Club,Club de Golf Venise - Le Venise,Pointe-au-Pic,Magog,Quebec,Quebec,CA,CA
+803,41_left,20307_right,0.712356712309825,1,Banff Spring Golf Course,The Fairmont Banff Springs Golf Course,Banff,Banff,Alberta,Alberta,CA,CA
+804,41_left,20308_right,0.526787391976474,2,Banff Spring Golf Course,The Fairmont Banff Springs Golf Course - 9 Hole,Banff,Banff,Alberta,Alberta,CA,CA
+805,41_left,20317_right,-0.12474125513190679,3,Banff Spring Golf Course,Spring Creek Golf Course,Banff,Bon Accord,Alberta,Alberta,CA,CA
+806,41_left,20352_right,-0.2682729662574783,4,Banff Spring Golf Course,Lakeview Golf Course,Banff,Calgary,Alberta,Alberta,CA,CA
+807,41_left,20364_right,-0.2682729662574783,5,Banff Spring Golf Course,Lakeview Golf Course,Banff,Calgary,Alberta,Alberta,CA,CA
+853,42_left,7354_right,0.907799122712574,1,Samoset Resort,Samoset Resort,Rockport,Rockport,Maine,Maine,US,US
+854,43_left,11430_right,0.6489080102420083,1,Centennial Golf Club,Centennial Golf Club - Lakes/Meadows,Carmel,Carmel,New York,New York,US,US
+855,43_left,11432_right,0.6489080102420083,2,Centennial Golf Club,Centennial Golf Club - Meadows/Lakes,Carmel,Carmel,New York,New York,US,US
+856,43_left,11427_right,0.6251530201877679,3,Centennial Golf Club,Centennial Golf Club - Fairways/Lakes,Carmel,Carmel,New York,New York,US,US
+857,43_left,11429_right,0.6251530201877679,4,Centennial Golf Club,Centennial Golf Club - Lakes/Fairways,Carmel,Carmel,New York,New York,US,US
+858,43_left,11428_right,0.6172942447160549,5,Centennial Golf Club,Centennial Golf Club - Fairways/Meadows,Carmel,Carmel,New York,New York,US,US
+860,44_left,12217_right,0.9783073827282619,1,West Point,West Point Golf Course,West Point,West Point,New York,New York,US,US
+861,44_left,12210_right,0.1355999002215343,2,West Point,Bergen Point Golf Club,West Point,West Babylon,New York,New York,US,US
+862,45_left,11071_right,1.2092275885060249,1,Rutgers University Golf Course,Rutgers University Golf Course,Piscatraway,Piscataway,New Jersey,New Jersey,US,US
+863,46_left,7739_right,0.34257884967640934,1,Cape Code Country Club,Cape Cod Country Club,Brewster,Hatchville,Massachusetts,Massachusetts,US,US
+864,47_left,7675_right,0.8911214879868262,1,Eastward Ho!,Eastward Ho Country Club,Chatham,Chatham,Massachusetts,Massachusetts,US,US
+865,48_left,11397_right,0.9247097756850821,1,Split Rock,Split Rock Golf Course,Bronx,Bronx,New York,New York,US,US
+866,49_left,48_right,0.15414097361574877,1,RTJ - Ross Bridge,RTJ Golf Trail at Oxmoor Valley - Ridge,Birmingham,Birmingham,Alabama,Alabama,US,US
+867,49_left,50_right,0.035476331849160284,2,RTJ - Ross Bridge,RTJ Golf Trail at Oxmoor Valley - Valley,Birmingham,Birmingham,Alabama,Alabama,US,US
+868,49_left,49_right,-0.07527627939094142,3,RTJ - Ross Bridge,RTJ Golf Trail at Oxmoor Valley - Short,Birmingham,Birmingham,Alabama,Alabama,US,US
+869,50_left,18357_right,1.3857602749680984,1,Blackwolf Run - Meadow Valleys,Blackwolf Run Golf Course - Meadow Valleys,Kohler,Kohler,Wisconsin,Wisconsin,US,US
+870,51_left,18608_right,1.1962593561271466,1,Whistling Straits - Irish Course,Whistling Straits - The Irish,Sheboygan,Sheboygan,Wisconsin,Wisconsin,US,US
+871,51_left,18611_right,-0.21478832412691648,2,Whistling Straits - Irish Course,Sunset Hills Golf Course,Sheboygan,Sheboygan Falls,Wisconsin,Wisconsin,US,US
+872,51_left,18610_right,-0.2782198942423542,3,Whistling Straits - Irish Course,Hillcrest Pond Golf Course,Sheboygan,Sheboygan Falls,Wisconsin,Wisconsin,US,US
+873,51_left,18189_right,-0.5668267729059528,4,Whistling Straits - Irish Course,Whitetail Golf Course,Sheboygan,Colfax,Wisconsin,Wisconsin,US,US
+874,51_left,18127_right,-0.574121547555174,5,Whistling Straits - Irish Course,Riverview Golf Course,Sheboygan,Antigo,Wisconsin,Wisconsin,US,US
+1008,52_left,18609_right,0.9355490496304633,1,Whistling Straits - Straits Course,Whistling Straits - The Straits,Sheboygan,Sheboygan,Wisconsin,Wisconsin,US,US
+1009,52_left,18608_right,0.8033987216115064,2,Whistling Straits - Straits Course,Whistling Straits - The Irish,Sheboygan,Sheboygan,Wisconsin,Wisconsin,US,US
+1010,52_left,18611_right,-0.08263799610795965,3,Whistling Straits - Straits Course,Sunset Hills Golf Course,Sheboygan,Sheboygan Falls,Wisconsin,Wisconsin,US,US
+1011,52_left,18610_right,-0.1460695662233974,4,Whistling Straits - Straits Course,Hillcrest Pond Golf Course,Sheboygan,Sheboygan Falls,Wisconsin,Wisconsin,US,US
+1012,52_left,18189_right,-0.434676444886996,5,Whistling Straits - Straits Course,Whitetail Golf Course,Sheboygan,Colfax,Wisconsin,Wisconsin,US,US
+1147,53_left,2124_right,0.879894982167507,1,Broadmoor - East,Broadmoor Golf Club - East,Colorado Springs,Colorado Springs,Colorado,Colorado,US,US
+1148,54_left,2125_right,0.8935884099579415,1,Broadmoor - Mountain,Broadmoor Golf Club - Mountain,Colorado Springs,Colorado Springs,Colorado,Colorado,US,US
+1149,55_left,2126_right,0.9555740465516475,1,Broadmoor - West,Broadmoor Golf Club - West,Colorado Springs,Colorado Springs,Colorado,Colorado,US,US
+1150,56_left,11578_right,1.0302981264489897,1,Bethpage State Park - Black Course,Bethpage State Park Golf Course - The Black,Bethpage,Farmingdale,New York,New York,US,US
+1151,57_left,12162_right,0.9785278505755899,1,Tuxedo Club,The Tuxedo Club,Tuxedo Park,Tuxedo Park,New York,New York,US,US
+1152,58_left,24017_right,0.864540832458525,1,Royal Isabela,Golf Links at Royal Isabela,Isabella,Isabela,Puerto Rico,Puerto Rico,US,US
+1153,58_left,24018_right,0.6119700728207159,2,Royal Isabela,Golf Links at Royal Isabela - Long #6,Isabella,Isabela,Puerto Rico,Puerto Rico,US,US
+1154,59_left,10690_right,1.7001871783605442,1,Mount Washington Resort - Pleasant,Omni Mount Washington Resort - Mount Pleasant,Bretton Woods,Bretton Woods,New Hampshire,New Hampshire,US,US
+1155,60_left,10691_right,1.4737676769059243,1,Mount Washington Resort - Wahsington,Omni Mount Washington Resort - Mount Washington,Bretton Woods,Bretton Woods,New Hampshire,New Hampshire,US,US
+1156,60_left,10690_right,1.36111823728794,2,Mount Washington Resort - Wahsington,Omni Mount Washington Resort - Mount Pleasant,Bretton Woods,Bretton Woods,New Hampshire,New Hampshire,US,US
+1157,61_left,11399_right,1.141036260011274,1,Van Cortlandt Park,Van Cortlandt Park Golf Course,Bronx,Bronx,New York,New York,US,US
+1158,62_left,11543_right,1.2074140196848246,1,Eisenhower Park - White,Eisenhower Park Golf Course - White,East Meadow,East Meadow,New York,New York,US,US
+1159,62_left,11545_right,0.9973919868527901,2,Eisenhower Park - White,Eisenhower Park Golf Course - White(Par 3 Right),East Meadow,East Meadow,New York,New York,US,US
+1160,62_left,11544_right,0.9934553431168569,3,Eisenhower Park - White,Eisenhower Park Golf Course - White(Par 3 Left),East Meadow,East Meadow,New York,New York,US,US
+1161,63_left,17822_right,0.987673348079973,1,Newcastle - China Creek,Golf Club at Newcastle - China Creek,Newcastle,Newcastle,Washington,Washington,US,US
+1162,64_left,17823_right,0.9716833921597239,1,Newcastle - Coal Creek,Golf Club at Newcastle - Coal Creek,Newcastle,Newcastle,Washington,Washington,US,US
+1163,65_left,17871_right,0.9070284220686278,1,Redmond Ridge Golf Club,The Golf Club at Redmond Ridge,Redmond,Redmond,Washington,Washington,US,US
+1164,66_left,3318_right,1.0266076567848803,1,Miamai Beach Golf Club,Miami Beach Golf Club,Miami Beach,Miami Beach,Florida,Florida,US,US
+1165,67_left,3315_right,1.277737939354055,1,Trump National Doral - Blue Monster,Trump National Doral Miami - The Blue Monster,Miami,Miami,Florida,Florida,US,US
+1166,68_left,3314_right,0.459278019484558,1,Trump National Doral - Great White,Trump National Doral Miami - Silver Fox,Miami,Miami,Florida,Florida,US,US
+1167,68_left,3313_right,0.4373729775055998,2,Trump National Doral - Great White,Trump National Doral Miami - Red Tiger,Miami,Miami,Florida,Florida,US,US
+1168,68_left,3312_right,0.4312502094348791,3,Trump National Doral - Great White,Trump National Doral Miami - Golden Palm,Miami,Miami,Florida,Florida,US,US
+1169,68_left,3315_right,0.36572427111847006,4,Trump National Doral - Great White,Trump National Doral Miami - The Blue Monster,Miami,Miami,Florida,Florida,US,US
+1170,68_left,4139_right,-0.6600340955966495,5,Trump National Doral - Great White,White Oak Plantation,Miami,Yulee,Florida,Florida,US,US
+1294,69_left,17263_right,0.775403227527271,1,Stowe Mountain Club,Stowe Mountain Club Golf Course,Stowe,Stowe,Vermont,Vermont,US,US
+1295,70_left,17262_right,0.6650683533059335,1,Stowe County Club,Stowe Country Club,Stowe,Stowe,Vermont,Vermont,US,US
+1296,70_left,17263_right,0.41439904104849973,2,Stowe County Club,Stowe Mountain Club Golf Course,Stowe,Stowe,Vermont,Vermont,US,US
+1297,70_left,24782_right,0.13268308181449787,3,Stowe County Club,Stowe Golf Club,Stowe,Stowe,Vermont,Buckinghamshire,US,UK
+1298,70_left,17228_right,-0.07520704851047601,4,Stowe County Club,Capital City Country Club,Stowe,Montpelier,Vermont,Vermont,US,US
+1299,70_left,17240_right,-0.07520704851047601,5,Stowe County Club,Capital City Country Club,Stowe,Montpelier,Vermont,Vermont,US,US
+1419,71_left,42_right,0.8285710365054211,1,Highland Park Golf Course,Highland Park Golf Course,Birmingham,Birmingham,Alabama,Alabama,US,US
+1420,72_left,76_right,0.4543661834052279,1,TimberCreek,TimberCreek Golf Club - Dogwood/Pines,Daphne,Daphne,Alabama,Alabama,US,US
+1421,72_left,78_right,0.45142831378187614,2,TimberCreek,TimberCreek Golf Club - Pines/Magnolia,Daphne,Daphne,Alabama,Alabama,US,US
+1422,72_left,77_right,0.42661588631502007,3,TimberCreek,TimberCreek Golf Club - Magnolia/Dogwood,Daphne,Daphne,Alabama,Alabama,US,US
+1423,73_left,205_right,0.729696584691293,1,Arrowhead Country Club,Arrowhead Country Club,Montgomery,Montgomery,Alabama,Alabama,US,US
+1424,74_left,3319_right,0.7409683423613644,1,Normandy Shores,Normandy Shores Golf Course,Miami,Miami Beach,Florida,Florida,US,US
+1425,75_left,249_right,0.4190810213087879,1,RTJ - Lakewood - Azalea,RTJ Golf Trail at Lakewood Golf Club - Azalea,Fairhope,Point Clear,Alabama,Alabama,US,US
+1426,76_left,250_right,0.38003191149147675,1,RTJ - Lakewood - Dogwood,RTJ Golf Trail at Lakewood Golf Club - Dogwood,Fairhope,Point Clear,Alabama,Alabama,US,US
+1427,77_left,75_right,0.6033876956798937,1,Lake Forest Golf Club,Lake Forest Yacht & Country Club - Forest,Daphne,Daphne,Alabama,Alabama,US,US
+1428,77_left,76_right,-0.012960733428016645,2,Lake Forest Golf Club,TimberCreek Golf Club - Dogwood/Pines,Daphne,Daphne,Alabama,Alabama,US,US
+1429,77_left,78_right,-0.015898603051368355,3,Lake Forest Golf Club,TimberCreek Golf Club - Pines/Magnolia,Daphne,Daphne,Alabama,Alabama,US,US
+1430,77_left,77_right,-0.04071103051822452,4,Lake Forest Golf Club,TimberCreek Golf Club - Magnolia/Dogwood,Daphne,Daphne,Alabama,Alabama,US,US
+1431,77_left,248_right,-0.09605143934237555,5,Lake Forest Golf Club,Cumberland Lake Golf Club,Daphne,Pinson,Alabama,Alabama,US,US
+1526,78_left,142_right,1.0785364459930025,1,Gulf Shores Golf Club,Gulf Shores Golf Club,Gulf Shores,Gulf Shores,Alabama,Alabama,US,US
+1527,78_left,145_right,0.1601786915986736,2,Gulf Shores Golf Club,Peninsula Golf & Racquet Club - Lakes/Cypress,Gulf Shores,Gulf Shores,Alabama,Alabama,US,US
+1528,78_left,146_right,0.15501529293248215,3,Gulf Shores Golf Club,Peninsula Golf & Racquet Club - Marsh/Lakes,Gulf Shores,Gulf Shores,Alabama,Alabama,US,US
+1529,78_left,144_right,0.12827246192913672,4,Gulf Shores Golf Club,Peninsula Golf & Racquet Club - Cypress/Marsh,Gulf Shores,Gulf Shores,Alabama,Alabama,US,US
+1530,79_left,3687_right,0.7821055041373087,1,TPC Sawgrass - Dye's Valley Course,TPC at Sawgrass - Valley,Ponte Vedra,Ponte Vedra Beach,Florida,Florida,US,US
+1531,79_left,3686_right,0.42340823095890256,2,TPC Sawgrass - Dye's Valley Course,TPC at Sawgrass - Stadium,Ponte Vedra,Ponte Vedra Beach,Florida,Florida,US,US
+1532,79_left,2638_right,-0.838965678384937,3,TPC Sawgrass - Dye's Valley Course,Paradise Golf Course,Ponte Vedra,Arcadia,Florida,Florida,US,US
+1533,79_left,58_right,-0.8426854907055532,4,TPC Sawgrass - Dye's Valley Course,Hidden Valley Golf Course,Ponte Vedra,Bryant,Florida,Alabama,US,US
+1534,79_left,69_right,-0.857195782656434,5,TPC Sawgrass - Dye's Valley Course,Valley Landing Golf Course,Ponte Vedra,Courtland,Florida,Alabama,US,US
+1667,80_left,3686_right,1.1407067730782632,1,TPC Sawgrass - Stadium Course,TPC at Sawgrass - Stadium,Ponte Vedra,Ponte Vedra Beach,Florida,Florida,US,US
+1668,80_left,2638_right,-0.7067188502894982,2,TPC Sawgrass - Stadium Course,Paradise Golf Course,Ponte Vedra,Arcadia,Florida,Florida,US,US
+1669,80_left,2787_right,-0.7528180216077268,3,TPC Sawgrass - Stadium Course,Timber Creek Golf Course,Ponte Vedra,Bradenton,Florida,Florida,US,US
+1670,80_left,2771_right,-0.7885589803720863,4,TPC Sawgrass - Stadium Course,River Isles Golf Course,Ponte Vedra,Bradenton,Florida,Florida,US,US
+1671,80_left,2654_right,-0.7887987835527966,5,TPC Sawgrass - Stadium Course,Bartow Golf Course,Ponte Vedra,Bartow,Florida,Florida,US,US
+1803,81_left,4747_right,1.023899978589759,1,Black Rock,The Golf Club at Black Rock,Coeur d'Alene,Coeur D'Alene,Idaho,Idaho,US,US
+1804,82_left,4744_right,1.3216775299782868,1,Coeur D'Alene Resort GC,Coeur D'Alene Resort Golf Course,Couer d'Alene,Coeur D'Alene,Idaho,Idaho,US,US
+1805,83_left,1513_right,1.68338986388601,1,Pelican Hill Golf Club - The Ocean North,Pelican Hill Golf Club - The Ocean North,Newport Coast,Newport Coast,California,California,US,US
+1806,84_left,1514_right,1.6731986710159048,1,Pelican Hill Golf Club - The Ocean South,Pelican Hill Golf Club - The Ocean South,Newport Coast,Newport Coast,California,California,US,US
+1807,85_left,11611_right,1.0821520617031424,1,Garden City Golf Club,Garden City Golf Club,Garden City,Garden City,New York,New York,US,US
+1808,86_left,12129_right,0.5044087744881334,1,LaTourette,La Tourette Golf Course,Staten Island,Staten Island,New York,New York,US,US
+1809,86_left,12131_right,0.3274066395966803,2,LaTourette,Silver Lake Golf Course,Staten Island,Staten Island,New York,New York,US,US
+1810,86_left,12132_right,0.31225310008037965,3,LaTourette,South Shore Golf Course,Staten Island,Staten Island,New York,New York,US,US
+1811,86_left,12130_right,0.2802738233737448,4,LaTourette,Richmond County Country Club,Staten Island,Staten Island,New York,New York,US,US
+1812,87_left,12131_right,0.9635750893569022,1,Silver Lake,Silver Lake Golf Course,Staten Island,Staten Island,New York,New York,US,US
+1813,88_left,11398_right,1.0752377288677348,1,Trump Ferry Point,Trump Golf Links Ferry Point,Bronx,Bronx,New York,New York,US,US
+1814,89_left,17125_right,0.8835910305548469,1,Park City Golf Course,Park City Golf Course,Park City,Park City,Utah,Utah,US,US
+1815,89_left,17123_right,0.2027211577313032,2,Park City Golf Course,Canyons Resort Golf Course,Park City,Park City,Utah,Utah,US,US
+1816,89_left,17152_right,0.08169846791744202,3,Park City Golf Course,Rose Park Golf Course,Park City,Salt Lake City,Utah,Utah,US,US
+1817,89_left,17150_right,0.03985605108066516,4,Park City Golf Course,Nibley Park Golf Course,Park City,Salt Lake City,Utah,Utah,US,US
+1818,90_left,4682_right,0.48884817548933046,1,Ka'anapali,Kaanapali Golf Course - Kai,Lahaina,Lahaina,Hawaii,Hawaii,US,US
+1819,90_left,4683_right,0.19747777634587432,2,Ka'anapali,Kaanapali Golf Course - Royal,Lahaina,Lahaina,Hawaii,Hawaii,US,US
+1820,90_left,4684_right,-0.18801446656241266,3,Ka'anapali,The Kapalua Golf Resort - The Bay Course,Lahaina,Lahaina,Hawaii,Hawaii,US,US
+1821,90_left,4685_right,-0.19750432083980327,4,Ka'anapali,The Kapalua Golf Resort - The Plantation Course,Lahaina,Lahaina,Hawaii,Hawaii,US,US
+1822,91_left,8125_right,0.7654062568169275,1,Bay Harbor Golf Club - 27,Bay Harbor Golf Club - Preserve,Bay Harbor,Bay Harbor,Michigan,Michigan,US,US
+1823,91_left,8127_right,0.7054770960666787,2,Bay Harbor Golf Club - 27,Bay Harbor Golf Club - The Quarry,Bay Harbor,Bay Harbor,Michigan,Michigan,US,US
+1824,91_left,8126_right,0.6296438934924411,3,Bay Harbor Golf Club - 27,Bay Harbor Golf Club - The Links/The Quarry,Bay Harbor,Bay Harbor,Michigan,Michigan,US,US
+1825,91_left,8498_right,-0.009247372773546985,4,Bay Harbor Golf Club - 27,Little Traverse Bay Golf Club,Bay Harbor,Harbor Springs,Michigan,Michigan,US,US
+1826,92_left,8828_right,0.9906859789569009,1,Crooked Tree Golf Club,Crooked Tree Golf Club,Petoskey,Petoskey,Michigan,Michigan,US,US
+1827,93_left,11521_right,0.22208693745648694,1,Douglaston,Douglaston Golf Club,Queens,Douglaston,New York,New York,US,US
+1828,93_left,11279_right,-0.3456284322970068,2,Douglaston,Arrowhead Golf Club,Queens,Akron,New York,New York,US,US
+1829,93_left,11302_right,-0.3712760216962997,3,Douglaston,Audubon Golf Club - Audubon,Queens,Amherst,New York,New York,US,US
+1830,93_left,11304_right,-0.37605553832122257,4,Douglaston,Oakwood Golf Course,Queens,Amherst,New York,New York,US,US
+1831,93_left,11306_right,-0.3961242046988213,5,Douglaston,Grandview Golf Course,Queens,Angola,New York,New York,US,US
+1978,94_left,2419_right,1.5513112150275725,1,Griffith E. Harris Golf Course,Griffith E. Harris Golf Course,Greenwich,Greenwich,Connecticut,Connecticut,US,US
+1979,95_left,11401_right,0.9874799695142549,1,Dyker Beach,Dyker Beach Golf Course,Brooklyn,Brooklyn,New York,New York,US,US
+1980,96_left,11402_right,0.28647752769730245,1,Marine Park,Marine Park Golf Course,New York,Brooklyn,New York,New York,US,US
+1981,97_left,12074_right,1.0273675927926567,1,Saxon Woods,Saxon Woods Golf Course,Scarsdale,Scarsdale,New York,New York,US,US
+1982,97_left,12075_right,0.6901579749645627,2,Saxon Woods,Saxon Woods Golf Course - Summer Hole 2,Scarsdale,Scarsdale,New York,New York,US,US
+1983,98_left,12247_right,1.1587676053374958,1,Windham Country Club,Windham Country Club,Windham,Windham,New York,New York,US,US
+1984,99_left,15938_right,-0.15557074972638357,1,Fairways and Greens Golf Center,Willow Creek Golf Club,Knoxville,Knoxville,Tennessee,Tennessee,US,US
+1985,99_left,15928_right,-0.21847566702628338,2,Fairways and Greens Golf Center,Cherokee Country Club,Knoxville,Knoxville,Tennessee,Tennessee,US,US
+1986,99_left,15926_right,-0.23904788892479056,3,Fairways and Greens Golf Center,Beaver Brook Golf & Country Club,Knoxville,Knoxville,Tennessee,Tennessee,US,US
+1987,99_left,15935_right,-0.2436186273887043,4,Fairways and Greens Golf Center,Three Ridges Golf Course,Knoxville,Knoxville,Tennessee,Tennessee,US,US
+1988,99_left,15934_right,-0.25069967008457733,5,Fairways and Greens Golf Center,Knoxville Municipal Golf Course,Knoxville,Knoxville,Tennessee,Tennessee,US,US
+2223,100_left,2567_right,0.7783669258653657,1,Rolling Hills,Rolling Hills Country Club,Wilton,Wilton,Connecticut,Connecticut,US,US
+2224,101_left,10942_right,1.0579027556325622,1,Skyway,Skyway Golf Course,Jersey City,Jersey City,New Jersey,New Jersey,US,US
+2225,102_left,21354_right,1.2993748797463383,1,Fox Harb'r Resort,Fox Harb'r Golf Resort & Spa - Executive Course,Wallace,Wallace,Nova Scotia,Nova Scotia,CA,CA
+2226,102_left,21353_right,1.298996388050434,2,Fox Harb'r Resort,Fox Harb'r Golf Resort & Spa - Championship Course,Wallace,Wallace,Nova Scotia,Nova Scotia,CA,CA
+2227,103_left,21339_right,1.3010044813597945,1,Northumberland Links,Northumberland Links,Pugwash,Pugwash,Nova Scotia,Nova Scotia,CA,CA
+2228,104_left,17273_right,1.1575003287451977,1,Mount Snow,Mount Snow Golf Club,West Dover,West Dover,Vermont,Vermont,US,US
+2229,105_left,211_right,0.7768116571863024,1,Montgomery Country Club,Montgomery Country Club,Montgomery,Montgomery,Alabama,Alabama,US,US
+2230,105_left,205_right,0.25200028317798534,2,Montgomery Country Club,Arrowhead Country Club,Montgomery,Montgomery,Alabama,Alabama,US,US
+2231,105_left,212_right,0.17163845049187676,3,Montgomery Country Club,Wynlakes Golf & Country Club,Montgomery,Montgomery,Alabama,Alabama,US,US
+2232,106_left,2058_right,0.6619540163858358,1,Beaver Creek,Beaver Creek Golf Club,Avon,Avon,Colorado,Colorado,US,US
+2233,106_left,2070_right,0.6619540163858358,2,Beaver Creek,Beaver Creek Golf Club,Avon,Avon,Colorado,Colorado,US,US
+2234,107_left,2355_right,1.3893260223025954,1,Red Sky Golf Club - Fazio Course,Red Sky Golf Club - Fazio Course,Wolcott,Wolcott,Colorado,Colorado,US,US
+2235,108_left,2356_right,1.4094603417756244,1,Red Sky Golf Club - Norman Course,Red Sky Golf Club - Norman Course,Wolcott,Wolcott,Colorado,Colorado,US,US
+2236,109_left,12046_right,0.7783004943876787,1,Apawamis Club,The Apawamis Club,Rye,Rye,New York,New York,US,US
+2237,109_left,12047_right,0.5298179660774933,2,Apawamis Club,The Apawamis Club - Alternate #2,Rye,Rye,New York,New York,US,US
+2238,110_left,12253_right,0.17375447195228327,1,Forest Park,Forest Park Golf Course,New York,Woodhaven,New York,New York,US,US
+2239,111_left,11594_right,0.34116778483800553,1,Kissena Park,Kissena Park Golf Course,Queens,Flushing,New York,New York,US,US
+2240,111_left,11408_right,-0.18332438027796386,2,Kissena Park,South Park Golf Club,Queens,Buffalo,New York,New York,US,US
+2241,111_left,11319_right,-0.2103405770122203,3,Kissena Park,Highland Park Golf Course,Queens,Auburn,New York,New York,US,US
+2242,111_left,11558_right,-0.24428220120745972,4,Kissena Park,Heartland Golf Park,Queens,Edgewood,New York,New York,US,US
+2243,111_left,11406_right,-0.2626749728888465,5,Kissena Park,Delaware Park Golf Course,Queens,Buffalo,New York,New York,US,US
+2289,112_left,14139_right,0.7362064354099193,1,Bandon Dunes,Bandon Dunes Golf Resort - Bandon Dunes,Bandon,Bandon,Oregon,Oregon,US,US
+2290,112_left,14141_right,0.6238436681839991,2,Bandon Dunes,Bandon Dunes Golf Resort - Bandon Trails,Bandon,Bandon,Oregon,Oregon,US,US
+2291,112_left,14140_right,0.6213736108333874,3,Bandon Dunes,Bandon Dunes Golf Resort - Bandon Preserve,Bandon,Bandon,Oregon,Oregon,US,US
+2292,112_left,14143_right,0.6002579956474012,4,Bandon Dunes,Bandon Dunes Golf Resort - Pacific Dunes,Bandon,Bandon,Oregon,Oregon,US,US
+2293,112_left,14144_right,0.4985952643079677,5,Bandon Dunes,Bandon Dunes Golf Resort - Sheep Ranch,Bandon,Bandon,Oregon,Oregon,US,US
+2295,113_left,14140_right,0.6765179887395742,1,Bandon Preserve,Bandon Dunes Golf Resort - Bandon Preserve,Bandon,Bandon,Oregon,Oregon,US,US
+2296,114_left,14141_right,0.6710210175882558,1,Bandon Trails,Bandon Dunes Golf Resort - Bandon Trails,Bandon,Bandon,Oregon,Oregon,US,US
+2297,115_left,14253_right,0.39451505596290715,1,Diamond Woods,Diamond Woods Golf Course,Eugene,Monroe,Oregon,Oregon,US,US
+2298,116_left,14142_right,0.5281563369169799,1,Old Macdonald,Bandon Dunes Golf Resort - Old Macdonald,Bandon,Bandon,Oregon,Oregon,US,US
+2299,117_left,14143_right,0.6124357276569484,1,Pacific Dunes,Bandon Dunes Golf Resort - Pacific Dunes,Bandon,Bandon,Oregon,Oregon,US,US
+2300,118_left,269_right,1.2365535983287113,1,Farmlinks at Purcell Farms,Farmlinks Golf Club at Pursell Farms,Sylacauga,Sylacauga,Alabama,Alabama,US,US
+2301,119_left,11997_right,-0.11143474519465561,1,Citi Field,Quogue Field Club,Queens,Quogue,New York,New York,US,US
+2302,119_left,11301_right,-0.15546998399740622,2,Citi Field,Silo Ridge Field Club,Queens,Amenia,New York,New York,US,US
+2303,119_left,10821_right,-0.2995452206967412,3,Citi Field,Forest Hill Field Club,Queens,Bloomfield,New York,New Jersey,US,US
+2304,119_left,11300_right,-0.3028997432411585,4,Citi Field,South Fork Country Club,Queens,Amagansett,New York,New York,US,US
+2305,119_left,11296_right,-0.31248606647962424,5,Citi Field,St. Bonaventure Golf Course,Queens,Allegany,New York,New York,US,US
+2537,120_left,11357_right,0.6563449522874725,1,Clearview Park Golf Course,Clearview Park Golf Course,New York,Bayside,New York,New York,US,US
+2538,121_left,12242_right,0.09192528090700432,1,Hiland Park Country Club,Park Country Club,Queensbury,Williamsville,New York,New York,US,US
+2539,121_left,11928_right,-0.07117083872285558,2,Hiland Park Country Club,Orchard Park Country Club,Queensbury,Orchard Park,New York,New York,US,US
+2540,121_left,11323_right,-0.41935756253795425,3,Hiland Park Country Club,Burden Lake Country Club,Queensbury,Averill Park,New York,New York,US,US
+2541,121_left,11335_right,-0.41935756253795425,4,Hiland Park Country Club,Burden Lake Country Club,Queensbury,Averill Park,New York,New York,US,US
+2542,121_left,11592_right,-0.5449105673385327,5,Hiland Park Country Club,North Shore Towers Country Club,Queensbury,Floral Park,New York,New York,US,US
+2543,122_left,11408_right,0.09324235441765377,1,South Shore Golf Club,South Park Golf Club,Staten Island,Buffalo,New York,New York,US,US
+2544,122_left,11632_right,-0.07143795148418518,2,South Shore Golf Club,River Oaks Golf Club,Staten Island,Grand Island,New York,New York,US,US
+2545,122_left,11856_right,-0.24201970668598236,3,South Shore Golf Club,Spring Lake Golf Club - Sandpiper,Staten Island,Middle Island,New York,New York,US,US
+2546,122_left,11857_right,-0.24734306811489942,4,South Shore Golf Club,Spring Lake Golf Club - Thunderbird,Staten Island,Middle Island,New York,New York,US,US
+2547,122_left,11279_right,-0.26689145802792225,5,South Shore Golf Club,Arrowhead Golf Club,Staten Island,Akron,New York,New York,US,US
+2600,123_left,11395_right,0.18237463245055321,1,Mosholu,Mosholu Golf Course,New York,Bronx,New York,New York,US,US
+2601,124_left,11374_right,0.5674314329640091,1,Sagamore Golf Club,The Sagamore Resort & Golf Club,Bolton,Bolton Landing,New York,New York,US,US
+2602,125_left,12775_right,1.1650262734832633,1,Mid Pines Club,Mid Pines Inn & Golf Club,Southern Pines,Southern Pines,North Carolina,North Carolina,US,US
+2603,125_left,12787_right,1.1650262734832633,2,Mid Pines Club,Mid Pines Inn & Golf Club,Southern Pines,Southern Pines,North Carolina,North Carolina,US,US
+2604,125_left,12788_right,0.9496322037933811,3,Mid Pines Club,Mid South Club,Southern Pines,Southern Pines,North Carolina,North Carolina,US,US
+2605,126_left,12684_right,0.8072611368315139,1,Pinehurst #2,Pinehurst Resort - #2,Pinehurst,Pinehurst,North Carolina,North Carolina,US,US
+2606,127_left,12686_right,0.81836829279936,1,Pinehurst #4,Pinehurst Resort - #4,Pinehurst,Pinehurst,North Carolina,North Carolina,US,US
+2607,128_left,12690_right,0.8253967383098565,1,Pinehurst #8,Pinehurst Resort - #8,Pinehurst,Pinehurst,North Carolina,North Carolina,US,US
+2608,129_left,12755_right,0.9663640740887328,1,Tobacco Road,Tobacco Road Golf Club,Sanford,Sanford,North Carolina,North Carolina,US,US
+2609,130_left,10910_right,0.9733187291985448,1,Ballyowen Golf Club,Ballyowen Golf Club,Hamburg,Hamburg,New Jersey,New Jersey,US,US
+2610,130_left,10922_right,0.9733187291985448,2,Ballyowen Golf Club,Ballyowen Golf Club,Hamburg,Hamburg,New Jersey,New Jersey,US,US
+2611,131_left,10944_right,1.271168156198879,1,Galloping Hill Golf Course,Galloping Hill Golf Course - Nine Hole,Kenilworth,Kenilworth,New Jersey,New Jersey,US,US
+2612,131_left,10943_right,1.26130719613294,2,Galloping Hill Golf Course,Galloping Hill Golf Course - Eighteen Hole,Kenilworth,Kenilworth,New Jersey,New Jersey,US,US
+2613,132_left,10823_right,0.5438986116764245,1,Knoll West,Knoll Golf Club - West,Parsippany,Boonton,New Jersey,New Jersey,US,US
+2614,133_left,11090_right,1.1984818749517898,1,River Vale Country Club,River Vale Country Club,River Vale,River Vale,New Jersey,New Jersey,US,US
+2615,133_left,11089_right,0.5203289216832113,2,River Vale Country Club,Edgewood Country Club,River Vale,River Vale,New Jersey,New Jersey,US,US
+2616,134_left,10920_right,1.0222846107858599,1,Royce Brook East,Royce Brook Golf Club - East,Hillsborough,Hillsborough Township,New Jersey,New Jersey,US,US
+2617,134_left,10932_right,1.0222846107858599,2,Royce Brook East,Royce Brook Golf Club - East,Hillsborough,Hillsborough Township,New Jersey,New Jersey,US,US
+2618,135_left,11378_right,-0.041117083337977735,1,Pleasentville Country Club,Brentwood Country Club,Pleasentville,Brentwood,New York,New York,US,US
+2619,135_left,11469_right,-0.04967077853383002,2,Pleasentville Country Club,Clayton Country Club,Pleasentville,Clayton,New York,New York,US,US
+2620,135_left,11355_right,-0.05401523748366355,3,Pleasentville Country Club,Bath Country Club,Pleasentville,Bath,New York,New York,US,US
+2621,135_left,11449_right,-0.055403208256100726,4,Pleasentville Country Club,North Country Golf Club,Pleasentville,Champlain,New York,New York,US,US
+2622,135_left,11410_right,-0.06334326070346499,5,Pleasentville Country Club,Caledonia Country Club,Pleasentville,Caledonia,New York,New York,US,US
+2873,136_left,10991_right,1.045655855314003,1,Maplewood Country Club,Maplewood Country Club,Maplewood,Maplewood,New Jersey,New Jersey,US,US
+2874,137_left,11593_right,0.6693100757398989,1,Flushing Meadows Pitch & Putt,Flushing Meadows Golf Center,Flushing,Flushing,New York,New York,US,US
+2875,137_left,11959_right,-0.3723127600141592,2,Flushing Meadows Pitch & Putt,Beaver Meadows Golf Club,Flushing,Phoenix,New York,New York,US,US
+2876,137_left,11993_right,-0.37313390634323834,3,Flushing Meadows Pitch & Putt,Bay Meadows Golf Club,Flushing,Queensbury,New York,New York,US,US
+2877,137_left,12043_right,-0.40130384101038025,4,Flushing Meadows Pitch & Putt,Southern Meadows Golf Club,Flushing,Rush,New York,New York,US,US
+2878,137_left,12194_right,-0.40772347368589296,5,Flushing Meadows Pitch & Putt,Highland Meadows Golf & Country Club,Flushing,Watertown,New York,New York,US,US
+2894,138_left,11076_right,1.3669127466299997,1,Sunset Valley Golf Course,Sunset Valley Golf Course,Pompton Plains,Pompton Plains,New Jersey,New Jersey,US,US
+2895,139_left,2616_right,1.0266038447195105,1,Rock Manor Golf Club,Rock Manor Golf Club,Wilmington,Wilmington,Delaware,Delaware,US,US
+2896,140_left,11396_right,0.8765188245687795,1,Pelham Bay,Pelham Bay Golf Course,Bronx,Bronx,New York,New York,US,US
+2897,141_left,11748_right,0.8567614280191441,1,Whiteface Club,Whiteface Club & Resort Golf Course,Lake Placid,Lake Placid,New York,New York,US,US
+2898,141_left,11760_right,0.8567614280191441,2,Whiteface Club,Whiteface Club & Resort Golf Course,Lake Placid,Lake Placid,New York,New York,US,US
+2899,142_left,11748_right,0.19583159502241604,1,Lake Placid Club - Mountain Course,Whiteface Club & Resort Golf Course,Lake Placid,Lake Placid,New York,New York,US,US
+2900,142_left,11760_right,0.19583159502241604,2,Lake Placid Club - Mountain Course,Whiteface Club & Resort Golf Course,Lake Placid,Lake Placid,New York,New York,US,US
+2901,143_left,11748_right,0.2072002322807313,1,Lake Placid Club - Links Course,Whiteface Club & Resort Golf Course,Lake Placid,Lake Placid,New York,New York,US,US
+2902,143_left,11760_right,0.2072002322807313,2,Lake Placid Club - Links Course,Whiteface Club & Resort Golf Course,Lake Placid,Lake Placid,New York,New York,US,US
+2903,144_left,2475_right,0.6275990328315804,1,Oak Hills Park GC,Oak Hills Park Golf Course,Norwalk,Norwalk,Connecticut,Connecticut,US,US
+2904,145_left,12256_right,0.7695880722390259,1,Dunwoodie,Dunwoodie Golf Course,Yonkers,Yonkers,New York,New York,US,US
+2905,146_left,10179_right,1.763645257018392,1,The Reserve at Moonlight Basin,The Reserve at Moonlight Basin,Big Sky,Big Sky,Montana,Montana,US,US
+2906,147_left,10177_right,0.9155182842365581,1,The Club at Spanish Peaks,Spanish Peaks Mountain Club,Big Sky,Big Sky,Montana,Montana,US,US
+2907,147_left,10178_right,0.647640535751717,2,The Club at Spanish Peaks,Spanish Peaks Mountain Club - Optional 18,Big Sky,Big Sky,Montana,Montana,US,US
+2908,147_left,2324_right,-0.3019270395342672,3,The Club at Spanish Peaks,The Raven Golf Club at Three Peaks,Big Sky,Silverthorne,Montana,Colorado,US,US
+2909,147_left,1479_right,-0.5266696464753113,4,The Club at Spanish Peaks,The Club at Pasadera,Big Sky,Monterey,Montana,California,US,US
+2910,147_left,2310_right,-0.5373471010442196,5,The Club at Spanish Peaks,The Club at Pradera,Big Sky,Parker,Montana,Colorado,US,US
+3059,148_left,12257_right,0.9410821194925212,1,Sprain Lake,Sprain Lake Golf Course,Yonkers,Yonkers,New York,New York,US,US
+3060,149_left,10889_right,0.06117339346294982,1,Weequahic Park Golf Course,Howell Park Golf Course,Newark,Farmingdale,New Jersey,New Jersey,US,US
+3061,149_left,10894_right,-0.12459706196626757,2,Weequahic Park Golf Course,Pinch Brook Golf Course,Newark,Florham Park,New Jersey,New Jersey,US,US
+3062,149_left,10973_right,-0.28757312537893814,3,Weequahic Park Golf Course,Twin Willows Par 3 Golf Course,Newark,Lincoln Park,New Jersey,New Jersey,US,US
+3063,150_left,74_right,0.42609766082310613,1,Stillwater,Stillwaters Golf,Dadeville,Dadeville,Alabama,Alabama,US,US
+3064,150_left,9_right,-0.43548095071179843,2,Stillwater,Anderson Golf Club,Dadeville,Anderson,Alabama,Alabama,US,US
+3065,150_left,43_right,-0.43684863204810737,3,Stillwater,Inverness Country Club,Dadeville,Birmingham,Alabama,Alabama,US,US
+3066,150_left,44_right,-0.445826855021286,4,Stillwater,Mountain Brook Club,Dadeville,Birmingham,Alabama,Alabama,US,US
+3067,150_left,46_right,-0.45011329900384195,5,Stillwater,Riverchase Country Club,Dadeville,Birmingham,Alabama,Alabama,US,US
+3114,151_left,10601_right,1.054134852834759,1,Desert Pines Golf Club,Desert Pines Golf Club,Las Vegas,Las Vegas,Nevada,Nevada,US,US
+3115,152_left,10598_right,1.199102398615305,1,Bali Hai Golf Club,Bali Hai Golf Club,Las Vegas,Las Vegas,Nevada,Nevada,US,US
+3116,153_left,10611_right,1.4690872500268986,1,Las Vegas Paiute - Wolf,Las Vegas Paiute Resort - Wolf Course,Las Vegas,Las Vegas,Nevada,Nevada,US,US
+3117,154_left,209_right,0.47138160217326275,1,Gateway,Gateway Park Golf Course,Montgomery,Montgomery,Alabama,Alabama,US,US
+3118,155_left,12258_right,1.1713471354063831,1,Mohansic Golf Course,Mohansic Golf Course,Yorktown Heights,Yorktown Heights,New York,New York,US,US
+3119,156_left,15930_right,1.0443843522759715,1,Dead Horse Lake Golf Course,Dead Horse Lake Golf Club,Knoxville,Knoxville,Tennessee,Tennessee,US,US
+3120,156_left,85_right,-0.3003045991456951,2,Dead Horse Lake Golf Course,Horse Creek Golf Course,Knoxville,Dora,Tennessee,Alabama,US,US
+3121,156_left,15814_right,-0.30647083153567295,3,Dead Horse Lake Golf Course,Swan Lake Municipal Golf Course,Knoxville,Clarksville,Tennessee,Tennessee,US,US
+3122,156_left,15826_right,-0.30647083153567295,4,Dead Horse Lake Golf Course,Swan Lake Municipal Golf Course,Knoxville,Clarksville,Tennessee,Tennessee,US,US
+3123,156_left,15774_right,-0.42202292195428165,5,Dead Horse Lake Golf Course,Cedars Golf Course,Knoxville,Bristol,Tennessee,Tennessee,US,US
+3265,157_left,4501_right,0.9501269509584352,1,Farm Golf Club,The Farm Golf Club,Rocky Face,Rocky Face,Georgia,Georgia,US,US
+3266,158_left,15786_right,0.779498662702857,1,Chattanooga Golf and Country Club,Chattanooga Golf & Country Club,Chattanooga,Chattanooga,Tennessee,Tennessee,US,US
+3267,158_left,15798_right,0.779498662702857,2,Chattanooga Golf and Country Club,Chattanooga Golf & Country Club,Chattanooga,Chattanooga,Tennessee,Tennessee,US,US
+3268,158_left,15904_right,-0.18813953201846065,3,Chattanooga Golf and Country Club,Country Hills Golf Club,Chattanooga,Hendersonville,Tennessee,Tennessee,US,US
+3269,158_left,15947_right,-0.23492451381953794,4,Chattanooga Golf and Country Club,Lebanon Golf & Country Club,Chattanooga,Lebanon,Tennessee,Tennessee,US,US
+3270,158_left,15974_right,-0.2504207404296263,5,Chattanooga Golf and Country Club,Irene Golf & Country Club,Chattanooga,Memphis,Tennessee,Tennessee,US,US
+3297,159_left,5672_right,0.4910358074414162,1,Otter Creek,Otter Creek Golf Course - North/West,Columbus,Columbus,Indiana,Indiana,US,US
+3298,159_left,5674_right,0.4910358074414162,2,Otter Creek,Otter Creek Golf Course - West/North,Columbus,Columbus,Indiana,Indiana,US,US
+3299,159_left,5670_right,0.48654269106541764,3,Otter Creek,Otter Creek Golf Course - East/West,Columbus,Columbus,Indiana,Indiana,US,US
+3300,159_left,5673_right,0.48654269106541764,4,Otter Creek,Otter Creek Golf Course - West/East,Columbus,Columbus,Indiana,Indiana,US,US
+3301,159_left,5669_right,0.48650793358718386,5,Otter Creek,Otter Creek Golf Course - East/North,Columbus,Columbus,Indiana,Indiana,US,US
+3303,160_left,2532_right,0.8392106282168499,1,Sterling Farms,Sterling Farms Golf Course,Stamford,Stamford,Connecticut,Connecticut,US,US
+3304,161_left,2475_right,0.5834573325596142,1,Oak Hills,Oak Hills Park Golf Course,Norwalk,Norwalk,Connecticut,Connecticut,US,US
+3305,162_left,11430_right,0.48847434244246624,1,Centennial,Centennial Golf Club - Lakes/Meadows,Carmel,Carmel,New York,New York,US,US
+3306,162_left,11432_right,0.48847434244246624,2,Centennial,Centennial Golf Club - Meadows/Lakes,Carmel,Carmel,New York,New York,US,US
+3307,162_left,11427_right,0.46471935238822587,3,Centennial,Centennial Golf Club - Fairways/Lakes,Carmel,Carmel,New York,New York,US,US
+3308,162_left,11429_right,0.46471935238822587,4,Centennial,Centennial Golf Club - Lakes/Fairways,Carmel,Carmel,New York,New York,US,US
+3309,162_left,11428_right,0.4568605769165129,5,Centennial,Centennial Golf Club - Fairways/Meadows,Carmel,Carmel,New York,New York,US,US
+3311,163_left,2453_right,0.7171858034642012,1,Great River,Great River Golf Club,Milford,Milford,Connecticut,Connecticut,US,US
+3312,164_left,8011_right,0.7560939803650107,1,Chequessett,Chequessett Yacht & Country Club,Wellfleet,Wellfleet,Massachusetts,Massachusetts,US,US
+3313,165_left,7867_right,0.9796428618743864,1,Highland Links,Highland Links,North Truro,North Truro,Massachusetts,Massachusetts,US,US
+3314,166_left,2386_right,0.8100920144141038,1,Richter Park,Richter Park Golf Course,Danbury,Danbury,Connecticut,Connecticut,US,US
+3315,167_left,10627_right,0.04928144677436764,1,Rio Secco,The Summit Club,Las Vegas,Las Vegas,Nevada,Nevada,US,US
+3316,167_left,10618_right,0.04160003518286983,2,Rio Secco,Royal Links Golf Club,Las Vegas,Las Vegas,Nevada,Nevada,US,US
+3317,167_left,10619_right,0.040588192108886645,3,Rio Secco,Siena Golf Club,Las Vegas,Las Vegas,Nevada,Nevada,US,US
+3318,167_left,10626_right,0.037291364836505074,4,Rio Secco,The Legacy Golf Club,Las Vegas,Las Vegas,Nevada,Nevada,US,US
+3319,167_left,10601_right,0.014167327438144377,5,Rio Secco,Desert Pines Golf Club,Las Vegas,Las Vegas,Nevada,Nevada,US,US
+3354,168_left,2530_right,0.39543756236773486,1,Brennan,E. Gaynor Brennan Golf Course,Stamford,Stamford,Connecticut,Connecticut,US,US
+3355,169_left,2471_right,0.21033745277965812,1,Lake of Isles,Lake of Isles - South Course,New London,North Stonington,Connecticut,Connecticut,US,US
+3356,169_left,2470_right,0.21013014876849376,2,Lake of Isles,Lake of Isles - North Course,New London,North Stonington,Connecticut,Connecticut,US,US
+3357,169_left,2464_right,-0.12321994583899842,3,Lake of Isles,Lake Waramaug Country Club,New London,New Preston,Connecticut,Connecticut,US,US
+3358,169_left,2377_right,-0.447801179762125,4,Lake of Isles,Candlewood Lake Club Golf Course,New London,Brookfield,Connecticut,Connecticut,US,US
+3359,170_left,8084_right,0.7802312202022783,1,Stonebridge,Stonebridge Golf Club,Ann Arbor,Ann Arbor,Michigan,Michigan,US,US
+3360,171_left,10901_right,0.5342613090142684,1,Seaview,Stockton Seaview Hotel & Golf Club - Bay,Galloway,Galloway Township,New Jersey,New Jersey,US,US
+3361,171_left,10902_right,0.5334842092576085,2,Seaview,Stockton Seaview Hotel & Golf Club - Pines,Galloway,Galloway Township,New Jersey,New Jersey,US,US
+3362,172_left,2455_right,0.7757784093907419,1,Whitney Farms,Whitney Farms Golf Club,Monroe,Monroe,Connecticut,Connecticut,US,US
+3363,173_left,2544_right,0.7288546800965322,1,Tashua Knolls,Tashua Knolls Golf Club - Regulation,Trumbull,Trumbull Twn,Connecticut,Connecticut,US,US
+3364,173_left,2543_right,0.7020395626351198,2,Tashua Knolls,Tashua Knolls Golf Club - Executive Course,Trumbull,Trumbull Twn,Connecticut,Connecticut,US,US
+3365,174_left,2483_right,0.7557828238502103,1,Grassy Hill,Grassy Hill Country Club,Orange,Orange,Connecticut,Connecticut,US,US
+3366,175_left,27610_right,0.28283534842165026,1,New Course,St Andrews Links - The New Course,St. Andrews,St Andrews,Scotland,Fife,UK,UK
+3367,176_left,2418_right,1.0520757848664988,1,Greenwich Country Club,Greenwich Country Club,Greenwich,Greenwich,Connecticut,Connecticut,US,US
+3368,176_left,2422_right,0.34900172020436915,2,Greenwich Country Club,Tamarack Country Club,Greenwich,Greenwich,Connecticut,Connecticut,US,US
+3369,176_left,2417_right,0.34784298332906205,3,Greenwich Country Club,Fairview Country Club,Greenwich,Greenwich,Connecticut,Connecticut,US,US
+3370,176_left,2416_right,0.22675666226618466,4,Greenwich Country Club,Burning Tree Country Club,Greenwich,Greenwich,Connecticut,Connecticut,US,US
+3371,177_left,10618_right,0.33418403100136873,1,Revere Golf Club,Royal Links Golf Club,Las Vegas,Las Vegas,Nevada,Nevada,US,US
+3372,177_left,10619_right,0.33317218792738557,2,Revere Golf Club,Siena Golf Club,Las Vegas,Las Vegas,Nevada,Nevada,US,US
+3373,177_left,10626_right,0.329875360655004,3,Revere Golf Club,The Legacy Golf Club,Las Vegas,Las Vegas,Nevada,Nevada,US,US
+3374,177_left,10601_right,0.3067513232566433,4,Revere Golf Club,Desert Pines Golf Club,Las Vegas,Las Vegas,Nevada,Nevada,US,US
+3375,177_left,10620_right,0.28743059956093314,5,Revere Golf Club,Southern Highlands Golf Club,Las Vegas,Las Vegas,Nevada,Nevada,US,US
+3388,178_left,11594_right,0.31336432378849743,1,Kissena Park,Kissena Park Golf Course,New York,Flushing,New York,New York,US,US
+3389,179_left,221_right,0.5762543010411247,1,Grand National - Lake Course,RTJ Golf Trail at Grand National - Lake,Opelika,Opelika,Alabama,Alabama,US,US
+3390,179_left,233_right,0.5762543010411247,2,Grand National - Lake Course,RTJ Golf Trail at Grand National - Lake,Opelika,Opelika,Alabama,Alabama,US,US
+3391,179_left,72_right,-0.3853407534315293,3,Grand National - Lake Course,Cross Creek Golf Course,Opelika,Cullman,Alabama,Alabama,US,US
+3392,179_left,1_right,-0.4279030928660029,4,Grand National - Lake Course,Big Spring Lake Golf,Opelika,Albertville,Alabama,Alabama,US,US
+3393,179_left,179_right,-0.43184633628031316,5,Grand National - Lake Course,Colonial Golf Course,Opelika,Meridianville,Alabama,Alabama,US,US
+3476,180_left,222_right,0.5832598094226558,1,Grand National - Links Course,RTJ Golf Trail at Grand National - Links,Opelika,Opelika,Alabama,Alabama,US,US
+3477,180_left,234_right,0.5832598094226558,2,Grand National - Links Course,RTJ Golf Trail at Grand National - Links,Opelika,Opelika,Alabama,Alabama,US,US
+3478,180_left,166_right,-0.17235526809765023,3,Grand National - Links Course,Jackson Links Golf Course,Opelika,Jackson,Alabama,Alabama,US,US
+3479,180_left,112_right,-0.21220181523935247,4,Grand National - Links Course,Gulf Links Golf Course,Opelika,Foley,Alabama,Alabama,US,US
+3480,180_left,72_right,-0.3882209069518551,5,Grand National - Links Course,Cross Creek Golf Course,Opelika,Cullman,Alabama,Alabama,US,US
+3563,181_left,254_right,0.7414596577171887,1,Capitol Hill - Senator Course,RTJ Golf Trail at Capitol Hill - Senator,Prattville,Prattville,Alabama,Alabama,US,US
+3564,181_left,14_right,-0.34784264300617956,2,Capitol Hill - Senator Course,The Hill Municipal Golf Course,Prattville,Anniston,Alabama,Alabama,US,US
+3565,181_left,201_right,-0.42163949867410483,3,Capitol Hill - Senator Course,Spring Hill College Golf Course,Prattville,Mobile,Alabama,Alabama,US,US
+3566,181_left,13_right,-0.454617012367856,4,Capitol Hill - Senator Course,Pine Hill Country Club,Prattville,Anniston,Alabama,Alabama,US,US
+3567,181_left,72_right,-0.515967946128962,5,Capitol Hill - Senator Course,Cross Creek Golf Course,Prattville,Cullman,Alabama,Alabama,US,US
+3650,182_left,156_right,0.08019651812026714,1,Ross Bridge,RTJ Golf Trail at Ross Bridge,Birmingham,Hoover,Alabama,Alabama,US,US
+3651,182_left,53_right,-0.09243205172023612,2,Ross Bridge,Westside Golf,Birmingham,Birmingham,Alabama,Alabama,US,US
+3652,182_left,43_right,-0.10310708173650676,3,Ross Bridge,Inverness Country Club,Birmingham,Birmingham,Alabama,Alabama,US,US
+3653,182_left,44_right,-0.11208530470968538,4,Ross Bridge,Mountain Brook Club,Birmingham,Birmingham,Alabama,Alabama,US,US
+3654,182_left,46_right,-0.11637174869224134,5,Ross Bridge,Riverchase Country Club,Birmingham,Birmingham,Alabama,Alabama,US,US
+3704,183_left,48_right,0.5903411956848134,1,Oxmoor Valley - Ridge Course,RTJ Golf Trail at Oxmoor Valley - Ridge,Birmingham,Birmingham,Alabama,Alabama,US,US
+3705,183_left,50_right,0.3575388325910455,2,Oxmoor Valley - Ridge Course,RTJ Golf Trail at Oxmoor Valley - Valley,Birmingham,Birmingham,Alabama,Alabama,US,US
+3706,183_left,49_right,0.2467862213509438,3,Oxmoor Valley - Ridge Course,RTJ Golf Trail at Oxmoor Valley - Short,Birmingham,Birmingham,Alabama,Alabama,US,US
+3707,183_left,38_right,-0.013043051028898224,4,Oxmoor Valley - Ridge Course,Grayson Valley Country Club,Birmingham,Birmingham,Alabama,Alabama,US,US
+3708,183_left,42_right,-0.06699038085613548,5,Oxmoor Valley - Ridge Course,Highland Park Golf Course,Birmingham,Birmingham,Alabama,Alabama,US,US
+3790,184_left,199_right,0.5143094353024636,1,Magnolia Grove,RTJ Golf Trail at Magnolia Grove - Falls,Mobile,Mobile,Alabama,Alabama,US,US
+3791,184_left,200_right,0.5085246329677369,2,Magnolia Grove,RTJ Golf Trail at Magnolia Grove - Short,Mobile,Mobile,Alabama,Alabama,US,US
+3792,184_left,198_right,0.48596817931357467,3,Magnolia Grove,RTJ Golf Trail at Magnolia Grove - Crossings,Mobile,Mobile,Alabama,Alabama,US,US
+3793,185_left,12129_right,0.26913987386609123,1,La Tourette,La Tourette Golf Course,New York,Staten Island,New York,New York,US,US
+3794,186_left,11397_right,0.35551658630463495,1,Split Rock,Split Rock Golf Course,New York,Bronx,New York,New York,US,US
+3795,187_left,10627_right,0.17139744160452514,1,Cascata,The Summit Club,Las Vegas,Las Vegas,Nevada,Nevada,US,US
+3796,187_left,10618_right,0.16371603001302729,2,Cascata,Royal Links Golf Club,Las Vegas,Las Vegas,Nevada,Nevada,US,US
+3797,187_left,10619_right,0.16270418693904412,3,Cascata,Siena Golf Club,Las Vegas,Las Vegas,Nevada,Nevada,US,US
+3798,187_left,10626_right,0.15940735966666256,4,Cascata,The Legacy Golf Club,Las Vegas,Las Vegas,Nevada,Nevada,US,US
+3799,187_left,10601_right,0.13628332226830187,5,Cascata,Desert Pines Golf Club,Las Vegas,Las Vegas,Nevada,Nevada,US,US
+3834,188_left,3682_right,0.580829867475216,1,Sawgrass,Sawgrass Country Club - South/South,Ponte Vedra,Ponte Vedra Beach,Florida,Florida,US,US
+3835,188_left,3683_right,0.4988859628784898,2,Sawgrass,Sawgrass Country Club - West/South,Ponte Vedra,Ponte Vedra Beach,Florida,Florida,US,US
+3836,188_left,3681_right,0.49435808902425743,3,Sawgrass,Sawgrass Country Club - South/East,Ponte Vedra,Ponte Vedra Beach,Florida,Florida,US,US
+3837,188_left,3680_right,0.4941855424913269,4,Sawgrass,Sawgrass Country Club - East/West,Ponte Vedra,Ponte Vedra Beach,Florida,Florida,US,US
+3838,188_left,3687_right,0.4781104822273552,5,Sawgrass,TPC at Sawgrass - Valley,Ponte Vedra,Ponte Vedra Beach,Florida,Florida,US,US
+3840,189_left,23938_right,-0.03870968781946631,1,El Manglar,El Tinto Golf Course,Cancun,Cancun,,Quintana Roo,MX,MX
+3841,189_left,23828_right,-0.4000283887401349,2,El Manglar,El Cielo Country Club,Cancun,Guadalajara,,Jalisco,MX,MX
+3842,189_left,23788_right,-0.416840243613099,3,El Manglar,El Corazon Golf Club,Cancun,Manzanillo,,Colima,MX,MX
+3843,189_left,23944_right,-0.4545924823044109,4,El Manglar,Puerto Cancun Golf Course,Cancun,Cancun,,Quintana Roo,MX,MX
+3844,189_left,23939_right,-0.45594830530371994,5,El Manglar,Iberostar Cancun Golf Club,Cancun,Cancun,,Quintana Roo,MX,MX
+3975,190_left,4708_right,0.29128687590129293,1,Wailea Old Blue,Wailea Golf Club - Blue,Maui,Wailea,Hawaii,Hawaii,US,US
+3976,191_left,4681_right,0.2764697995919404,1,Poipu Bay,Poipu Bay Resort Golf Course,Kauai,Koloa,Hawaii,Hawaii,US,US
+3977,192_left,22709_right,0.9988860266670495,1,Club de Golf de I'lle de Montreal,Club de Golf de L'ile de Montreal - I'lrlande,Montreal,Montreal,Quebec,Quebec,CA,CA
+3978,193_left,11984_right,1.0251776637083,1,Pound Ridge,Pound Ridge Golf Club,Pound Ridge,Pound Ridge,New York,New York,US,US
+3979,194_left,3319_right,0.7409683423613644,1,Normandy Shores,Normandy Shores Golf Course,Miami,Miami Beach,Florida,Florida,US,US
+3980,195_left,10196_right,0.6512549248215098,1,Cottonwood Hills,Cottonwood Hills Golf Course - Executive,Bozeman,Bozeman,Montana,Montana,US,US
+3981,195_left,10195_right,0.6508764331256057,2,Cottonwood Hills,Cottonwood Hills Golf Course - Championship,Bozeman,Bozeman,Montana,Montana,US,US
+3982,196_left,10639_right,0.8158116390234212,1,Wolf Creek,Wolf Creek Golf Course,Mesquite,Mesquite,Nevada,Nevada,US,US
+3983,197_left,11398_right,0.5060445394872878,1,Trump Ferry Point,Trump Golf Links Ferry Point,New York,Bronx,New York,New York,US,US
+3984,198_left,11396_right,0.3073256351883324,1,Pelham Bay,Pelham Bay Golf Course,New York,Bronx,New York,New York,US,US
+3985,199_left,12074_right,1.0273675927926567,1,Saxon Woods,Saxon Woods Golf Course,Scarsdale,Scarsdale,New York,New York,US,US
+3986,199_left,12075_right,0.6901579749645627,2,Saxon Woods,Saxon Woods Golf Course - Summer Hole 2,Scarsdale,Scarsdale,New York,New York,US,US
+3987,200_left,11399_right,0.5718430706308271,1,Van Cortlandt Park,Van Cortlandt Park Golf Course,New York,Bronx,New York,New York,US,US
+3988,201_left,17273_right,1.1575003287451977,1,Mount Snow,Mount Snow Golf Club,West Dover,West Dover,Vermont,Vermont,US,US
+3989,202_left,15832_right,-0.1406225267765256,1,The Grove,The Grove,Hertfordshire,College Grove,England,Tennessee,UK,US
+3990,202_left,5233_right,-0.1909455815508269,2,The Grove,The Grove Country Club,Hertfordshire,Long Grove,England,Illinois,UK,US
+3991,202_left,25656_right,-0.22527009797296835,3,The Grove,The Grove,Hertfordshire,Chandler's Cross,England,Hertfordshire,UK,UK
+3992,202_left,7168_right,-0.23169139814303813,4,The Grove,The Grove Golf Retreat,Hertfordshire,Minden,England,Louisiana,UK,US
+3993,202_left,7180_right,-0.23169139814303813,5,The Grove,The Grove Golf Retreat,Hertfordshire,Minden,England,Louisiana,UK,US
+4194,203_left,24444_right,0.04269485496523114,1,Rondebosch Golf Club,Westlake Golf Club,Cape Town,Cape Town,,Western Cape,SA,ZA
+4195,203_left,24441_right,0.01939585482069718,2,Rondebosch Golf Club,Skills Golf Club,Cape Town,Cape Town,,Western Cape,SA,ZA
+4196,203_left,24436_right,0.009361521631897808,3,Rondebosch Golf Club,Durbanville Golf Club,Cape Town,Cape Town,,Western Cape,SA,ZA
+4197,203_left,24438_right,0.009361521631897808,4,Rondebosch Golf Club,Mupine Golf Club,Cape Town,Cape Town,,Western Cape,SA,ZA
+4198,203_left,24437_right,-0.2352172267084094,5,Rondebosch Golf Club,King David Mowbray Golf Club,Cape Town,Cape Town,,Western Cape,SA,ZA
+4199,204_left,23714_right,0.09183277927132037,1,Belle Mare Plage,Belle Mare Plage Resort - Links Course,Belle Mare,Poste De Flacq,,Flacq,MU,MU
+4200,204_left,23713_right,0.04245818524083722,2,Belle Mare Plage,Belle Mare Plage Resort - Legend Course,Belle Mare,Poste De Flacq,,Flacq,MU,MU
+4201,205_left,23712_right,-0.6774805478859778,1,Four Season - Mauritius al Anahita,Anahita Golf Club,Beau Champ,Grand River South East,,Flacq,MU,MU
+4202,205_left,14575_right,-0.7853525576755136,2,Four Season - Mauritius al Anahita,Four Seasons Golf Club,Beau Champ,Exeter,,Pennsylvania,MU,US
+4203,205_left,23721_right,-0.80541565212789,3,Four Season - Mauritius al Anahita,Mauritius Gymkhana Club,Beau Champ,Vacoas,,Plaines Wilhems,MU,MU
+4204,205_left,9858_right,-0.8101680700263771,4,Four Season - Mauritius al Anahita,Four Seasons Country Club,Beau Champ,Chesterfield,,Missouri,MU,US
+4205,205_left,18546_right,-0.8287770211363331,5,Four Season - Mauritius al Anahita,Four Seasons Golf Course,Beau Champ,Pembine,,Wisconsin,MU,US
+4299,206_left,11402_right,0.28647752769730245,1,Marine Park,Marine Park Golf Course,New York,Brooklyn,New York,New York,US,US
+4300,207_left,12046_right,0.7783004943876787,1,Apawamis Club,The Apawamis Club,Rye,Rye,New York,New York,US,US
+4301,207_left,12047_right,0.5298179660774933,2,Apawamis Club,The Apawamis Club - Alternate #2,Rye,Rye,New York,New York,US,US
+4302,208_left,11578_right,1.0302981264489897,1,Bethpage State Park - Black Course,Bethpage State Park Golf Course - The Black,Bethpage,Farmingdale,New York,New York,US,US
+4303,209_left,12246_right,1.657671242190335,1,Christman's Windham House,Christman's Windham House - Valley,Windham,Windham,New York,New York,US,US
+4304,209_left,12245_right,1.6416182129511745,2,Christman's Windham House,Christman's Windham House - Mountain,Windham,Windham,New York,New York,US,US
+4305,210_left,11521_right,0.19428347640697882,1,Douglaston,Douglaston Golf Club,New York,Douglaston,New York,New York,US,US
+4306,211_left,10645_right,0.9052735856906221,1,Shadow Creek,Shadow Creek Golf Course,Las Vegas,North Las Vegas,Nevada,Nevada,US,US
+4307,212_left,10628_right,0.8123773394072561,1,Wynn,The Wynn Golf Club,Las Vegas,Las Vegas,Nevada,Nevada,US,US
+4308,213_left,10630_right,1.2271564384443046,1,TPC Las Vegas,TPC Las Vegas,Las Vegas,Las Vegas,Nevada,Nevada,US,US
+4309,213_left,10629_right,0.29771919706946437,2,TPC Las Vegas,TPC at Summerlin,Las Vegas,Las Vegas,Nevada,Nevada,US,US
+4310,214_left,12247_right,0.9487678237559541,1,Windham,Windham Country Club,Windham,Windham,New York,New York,US,US
+4311,214_left,12246_right,0.5890629785487905,2,Windham,Christman's Windham House - Valley,Windham,Windham,New York,New York,US,US
+4312,214_left,12245_right,0.57300994930963,3,Windham,Christman's Windham House - Mountain,Windham,Windham,New York,New York,US,US
+4313,215_left,2422_right,0.3389673870155698,1,Stanwich Country Club,Tamarack Country Club,Greenwich,Greenwich,Connecticut,Connecticut,US,US
+4314,215_left,2417_right,0.3378086501402627,2,Stanwich Country Club,Fairview Country Club,Greenwich,Greenwich,Connecticut,Connecticut,US,US
+4315,215_left,2418_right,0.31187027512747456,3,Stanwich Country Club,Greenwich Country Club,Greenwich,Greenwich,Connecticut,Connecticut,US,US
+4316,215_left,2416_right,0.21672232907738528,4,Stanwich Country Club,Burning Tree Country Club,Greenwich,Greenwich,Connecticut,Connecticut,US,US
+4317,216_left,2531_right,0.016106389140235836,1,The Griff,Rockrimmon Country Club,Stamford,Stamford,Connecticut,Connecticut,US,US
+4318,216_left,2532_right,-0.056103201285632134,2,The Griff,Sterling Farms Golf Course,Stamford,Stamford,Connecticut,Connecticut,US,US
+4319,216_left,2501_right,-0.2016379118026528,3,The Griff,The Sharon Country Club,Stamford,Sharon,Connecticut,Connecticut,US,US
+4320,216_left,2423_right,-0.24448668291294362,4,The Griff,The Round Hill Club,Stamford,Greenwich,Connecticut,Connecticut,US,US
+4321,216_left,2454_right,-0.250312146095275,5,The Griff,The Orchard's Golf Course,Stamford,Milford,Connecticut,Connecticut,US,US
+4432,217_left,27609_right,0.38028868009071953,1,Jubilee Course,St Andrews Links - The Jubilee Course,St. Andrews,St Andrews,Scotland,Fife,UK,UK
+4433,218_left,27607_right,0.1867357626792238,1,Castle Course,St Andrews Links - The Castle Course,St. Andrews,St Andrews,Scotland,Fife,UK,UK
+4434,219_left,27611_right,0.15938199798402333,1,Old Course,St Andrews Links - The Old Course,St. Andrews,St Andrews,Scotland,Fife,UK,UK
+4435,220_left,27566_right,-0.25482980293490554,1,Burnt Island,Burntisland Golf Club,Burntisland,Burntisland,Scotland,Fife,UK,UK
+4436,220_left,4157_right,-0.5179395733197495,2,Burnt Island,Grand Island Club,Burntisland,Albany,Scotland,Georgia,UK,US
+4437,220_left,4263_right,-0.5347684562682536,3,Burnt Island,Green Island Country Club,Burntisland,Columbus,Scotland,Georgia,UK,US
+4438,220_left,3288_right,-0.5514040462486743,4,Burnt Island,Island Country Club,Burntisland,Marco Island,Scotland,Florida,UK,US
+4439,220_left,1651_right,-0.5541370712041095,5,Burnt Island,River Island Country Club,Burntisland,Porterville,Scotland,California,UK,US
+4547,221_left,23266_right,0.21869650385342665,1,Porto Elounda,Porto Elounda Golf Club,Crete,Elounda,,Crete,GR,GR
+4548,222_left,23267_right,0.07083592064070139,1,Crete Golf Club,The Crete Golf Club,Crete,Hersonissos,,Crete,GR,GR
+4549,222_left,23266_right,-0.6175374617290232,2,Crete Golf Club,Porto Elounda Golf Club,Crete,Elounda,,Crete,GR,GR
+4550,223_left,12253_right,0.17375447195228327,1,Forest Park,Forest Park Golf Course,New York,Woodhaven,New York,New York,US,US
+4551,224_left,12131_right,0.9635750893569022,1,Silver Lake,Silver Lake Golf Course,Staten Island,Staten Island,New York,New York,US,US
+4552,225_left,14744_right,0.8873854337646743,1,Hideaway Hills,Hideaway Hills Golf Club,Kresgeville,Kresgeville,Pennsylvania,Pennsylvania,US,US
+4553,226_left,10942_right,1.0579027556325622,1,Skyway,Skyway Golf Course,Jersey City,Jersey City,New Jersey,New Jersey,US,US
+4554,227_left,11395_right,0.18237463245055321,1,Mosholu,Mosholu Golf Course,New York,Bronx,New York,New York,US,US
+4555,228_left,10583_right,0.3907273340586809,1,Desert Willow,Desert Willow Golf Course,Hendersonville,Henderson,Nevada,Nevada,US,US
+4556,229_left,10585_right,0.3869317695143279,1,Reflection Bay,Reflection Bay Golf Club,Hendersonville,Henderson,Nevada,Nevada,US,US
+4557,230_left,17660_right,1.0460728613032335,1,Golden Horseshoe - Green Course,The Golden Horseshoe Golf Club - Green,Williamsburg,Williamsburg,Virginia,Virginia,US,US
+4558,230_left,17422_right,-0.30091306000656076,2,Golden Horseshoe - Green Course,Greenway Creek Golf Course,Williamsburg,Glade Springs,Virginia,Virginia,US,US
+4559,230_left,17599_right,-0.377936426116532,3,Golden Horseshoe - Green Course,Green's Folly Golf Course,Williamsburg,South Boston,Virginia,Virginia,US,US
+4560,230_left,17436_right,-0.4145626657838665,4,Golden Horseshoe - Green Course,Woodlands Golf Course,Williamsburg,Hampton,Virginia,Virginia,US,US
+4561,230_left,17288_right,-0.4252704451756088,5,Golden Horseshoe - Green Course,Pinecrest Golf Course,Williamsburg,Alexandria,Virginia,Virginia,US,US
+4694,231_left,17660_right,0.6159764332376233,1,Golden Horseshoe - Spotsman,The Golden Horseshoe Golf Club - Green,Wiliamsburg,Williamsburg,Virginia,Virginia,US,US
+4695,231_left,17659_right,0.6010498609120247,2,Golden Horseshoe - Spotsman,The Golden Horseshoe Golf Club - Gold,Wiliamsburg,Williamsburg,Virginia,Virginia,US,US
+4696,231_left,17661_right,0.4485877531351077,3,Golden Horseshoe - Spotsman,The Golden Horseshoe Golf Club - Spotswood Executive,Wiliamsburg,Williamsburg,Virginia,Virginia,US,US
+4697,232_left,17659_right,0.9645321145032655,1,Golden Horseshoe - Gold Course,The Golden Horseshoe Golf Club - Gold,Williamsbirg,Williamsburg,Virginia,Virginia,US,US
+4698,232_left,17456_right,-0.4083811734501451,2,Golden Horseshoe - Gold Course,The Homestead - Old Course,Williamsbirg,Hot Springs,Virginia,Virginia,US,US
+4699,232_left,17436_right,-0.4086523624526933,3,Golden Horseshoe - Gold Course,Woodlands Golf Course,Williamsbirg,Hampton,Virginia,Virginia,US,US
+4700,232_left,17288_right,-0.41936014184443554,4,Golden Horseshoe - Gold Course,Pinecrest Golf Course,Williamsbirg,Alexandria,Virginia,Virginia,US,US
+4701,232_left,17449_right,-0.455752487622957,5,Golden Horseshoe - Gold Course,Belmont Golf Course,Williamsbirg,Henrico,Virginia,Virginia,US,US
+4833,233_left,17537_right,1.0596268001296378,1,Prince William,Prince William Golf Club,Nokesville,Nokesville,Virginia,Virginia,US,US
+4834,234_left,23725_right,0.5901628023878605,1,Malta Golf Club,The Royal Malta Golf Club,Marsa,Marsa,,Malta,MT,MT
+4835,235_left,14140_right,0.6765179887395742,1,Bandon Preserve,Bandon Dunes Golf Resort - Bandon Preserve,Bandon,Bandon,Oregon,Oregon,US,US
+4836,236_left,14143_right,0.6124357276569484,1,Pacific Dunes,Bandon Dunes Golf Resort - Pacific Dunes,Bandon,Bandon,Oregon,Oregon,US,US
+4837,237_left,14139_right,0.7362064354099193,1,Bandon Dunes,Bandon Dunes Golf Resort - Bandon Dunes,Bandon,Bandon,Oregon,Oregon,US,US
+4838,237_left,14141_right,0.6238436681839991,2,Bandon Dunes,Bandon Dunes Golf Resort - Bandon Trails,Bandon,Bandon,Oregon,Oregon,US,US
+4839,237_left,14140_right,0.6213736108333874,3,Bandon Dunes,Bandon Dunes Golf Resort - Bandon Preserve,Bandon,Bandon,Oregon,Oregon,US,US
+4840,237_left,14143_right,0.6002579956474012,4,Bandon Dunes,Bandon Dunes Golf Resort - Pacific Dunes,Bandon,Bandon,Oregon,Oregon,US,US
+4841,237_left,14144_right,0.4985952643079677,5,Bandon Dunes,Bandon Dunes Golf Resort - Sheep Ranch,Bandon,Bandon,Oregon,Oregon,US,US
+4843,238_left,14141_right,0.6710210175882558,1,Bandon Trails,Bandon Dunes Golf Resort - Bandon Trails,Bandon,Bandon,Oregon,Oregon,US,US
+4844,239_left,14142_right,0.5281563369169799,1,Old Macdonald,Bandon Dunes Golf Resort - Old Macdonald,Bandon,Bandon,Oregon,Oregon,US,US
+4845,240_left,14253_right,0.39451505596290715,1,Diamond Woods,Diamond Woods Golf Course,Eugene,Monroe,Oregon,Oregon,US,US
+4846,241_left,5206_right,1.0485997701740208,1,Cog Hill Dubsdread,Cog Hill Golf & Country Club - Dubsdread,Lemont,Lemont,Illinois,Illinois,US,US
+4847,242_left,5580_right,1.029445343957023,1,Seven Bridges,Seven Bridges Golf Club,Woodridge,Woodridge,Illinois,Illinois,US,US
+4848,243_left,11401_right,0.9874799695142549,1,Dyker Beach,Dyker Beach Golf Course,Brooklyn,Brooklyn,New York,New York,US,US
+4849,244_left,2567_right,0.7783669258653657,1,Rolling Hills,Rolling Hills Country Club,Wilton,Wilton,Connecticut,Connecticut,US,US
+4850,245_left,17265_right,1.0172717150841235,1,Stratton Mountain Golf Course,Stratton Mountain Golf Club - Lake/Mountain,Stratton Mountain,Stratton Mountain,Vermont,Vermont,US,US
+4851,245_left,17266_right,0.9966710445934006,2,Stratton Mountain Golf Course,Stratton Mountain Golf Club - Mountain/Forest,Stratton Mountain,Stratton Mountain,Vermont,Vermont,US,US
+4852,245_left,17264_right,0.9237179955394889,3,Stratton Mountain Golf Course,Stratton Mountain Golf Club - Forest/Lake,Stratton Mountain,Stratton Mountain,Vermont,Vermont,US,US
+4853,245_left,9435_right,-0.06535428045399935,4,Stratton Mountain Golf Course,Mountain Lake Golf Course,Stratton Mountain,Mountain Lake,Vermont,Minnesota,US,US
+4854,245_left,10555_right,-0.14853905773019313,5,Stratton Mountain Golf Course,Mountain View Golf Course,Stratton Mountain,Battle Mountain,Vermont,Nevada,US,US
+4997,246_left,14898_right,0.20468761177974873,1,FDR Golf Club,Bala Golf Club,Philadelphia,Philadelphia,Pennsylvania,Pennsylvania,US,US
+4998,246_left,14903_right,0.19465327859094933,2,FDR Golf Club,Juniata Golf Club,Philadelphia,Philadelphia,Pennsylvania,Pennsylvania,US,US
+4999,246_left,14907_right,0.11612596957955836,3,FDR Golf Club,Walnut Lane Golf Club,Philadelphia,Philadelphia,Pennsylvania,Pennsylvania,US,US
+5000,246_left,14905_right,0.05354144016223983,4,FDR Golf Club,Philadelphia Quartet Golf Club,Philadelphia,Philadelphia,Pennsylvania,Pennsylvania,US,US
+5001,246_left,14900_right,-0.04597448771037751,5,FDR Golf Club,Cobb's Creek Golf Club - Olde,Philadelphia,Philadelphia,Pennsylvania,Pennsylvania,US,US
+5005,247_left,11997_right,-0.11143474519465561,1,Citi Field,Quogue Field Club,Queens,Quogue,New York,New York,US,US
+5006,247_left,11301_right,-0.15546998399740622,2,Citi Field,Silo Ridge Field Club,Queens,Amenia,New York,New York,US,US
+5007,247_left,10821_right,-0.2995452206967412,3,Citi Field,Forest Hill Field Club,Queens,Bloomfield,New York,New Jersey,US,US
+5008,247_left,11300_right,-0.3028997432411585,4,Citi Field,South Fork Country Club,Queens,Amagansett,New York,New York,US,US
+5009,247_left,11296_right,-0.31248606647962424,5,Citi Field,St. Bonaventure Golf Course,Queens,Allegany,New York,New York,US,US
+5241,248_left,4897_right,-0.5448456961872729,1,Royal Blue at Baha Mar,Bel-Mar Country Club,New Providence,Belvidere,,Illinois,BS,US
+5242,248_left,3417_right,-0.619883098012562,2,Royal Blue at Baha Mar,Royal Wood Golf & Country Club,New Providence,Naples,,Florida,BS,US
+5243,248_left,3449_right,-0.6275470665781951,3,Royal Blue at Baha Mar,Sugar Mill Country Club - Blue/White,New Providence,New Smyrna Beach,,Florida,BS,US
+5244,248_left,17556_right,-0.6279507109637985,4,Royal Blue at Baha Mar,The Tradition Golf Club at Royal New Kent,New Providence,Providence Forge,,Virginia,BS,US
+5245,248_left,23152_right,-0.651831340718838,5,Royal Blue at Baha Mar,Royal Blue Golf Club,New Providence,Nassau,,Bahamas,BS,Caribbean
+5468,249_left,3836_right,-0.037799592673429076,1,The Ocean Club,The Ocean Club,New Providence,Stuart,,Florida,BS,US
+5469,249_left,8755_right,-0.15571573038685838,2,The Ocean Club,The Dunes Club,New Providence,New Buffalo,,Michigan,BS,US
+5470,249_left,5941_right,-0.1979137041273669,3,The Ocean Club,The Links Golf Club,New Providence,New Palestine,,Indiana,BS,US
+5471,249_left,1791_right,-0.2642257982442783,4,The Ocean Club,The Olympic Club - Ocean,New Providence,San Francisco,,California,BS,US
+5472,249_left,3566_right,-0.31004879724390616,5,The Ocean Club,The Breakers - Ocean,New Providence,Palm Beach,,Florida,BS,US
+5704,250_left,12684_right,0.8072611368315139,1,Pinehurst #2,Pinehurst Resort - #2,Pinehurst,Pinehurst,North Carolina,North Carolina,US,US
+5705,251_left,12775_right,1.1650262734832633,1,Mid Pines Club,Mid Pines Inn & Golf Club,Southern Pines,Southern Pines,North Carolina,North Carolina,US,US
+5706,251_left,12787_right,1.1650262734832633,2,Mid Pines Club,Mid Pines Inn & Golf Club,Southern Pines,Southern Pines,North Carolina,North Carolina,US,US
+5707,251_left,12788_right,0.9496322037933811,3,Mid Pines Club,Mid South Club,Southern Pines,Southern Pines,North Carolina,North Carolina,US,US
+5708,252_left,12686_right,0.81836829279936,1,Pinehurst #4,Pinehurst Resort - #4,Pinehurst,Pinehurst,North Carolina,North Carolina,US,US
+5709,253_left,12690_right,0.8253967383098565,1,Pinehurst #8,Pinehurst Resort - #8,Pinehurst,Pinehurst,North Carolina,North Carolina,US,US
+5710,254_left,12755_right,0.9663640740887328,1,Tobacco Road,Tobacco Road Golf Club,Sanford,Sanford,North Carolina,North Carolina,US,US
+5711,255_left,11090_right,1.1984818749517898,1,River Vale Country Club,River Vale Country Club,River Vale,River Vale,New Jersey,New Jersey,US,US
+5712,255_left,11089_right,0.5203289216832113,2,River Vale Country Club,Edgewood Country Club,River Vale,River Vale,New Jersey,New Jersey,US,US
+5713,256_left,11374_right,0.5674314329640091,1,Sagamore Golf Club,The Sagamore Resort & Golf Club,Bolton,Bolton Landing,New York,New York,US,US
+5714,257_left,11408_right,0.09324235441765377,1,South Shore Golf Club,South Park Golf Club,Staten Island,Buffalo,New York,New York,US,US
+5715,257_left,11632_right,-0.07143795148418518,2,South Shore Golf Club,River Oaks Golf Club,Staten Island,Grand Island,New York,New York,US,US
+5716,257_left,11856_right,-0.24201970668598236,3,South Shore Golf Club,Spring Lake Golf Club - Sandpiper,Staten Island,Middle Island,New York,New York,US,US
+5717,257_left,11857_right,-0.24734306811489942,4,South Shore Golf Club,Spring Lake Golf Club - Thunderbird,Staten Island,Middle Island,New York,New York,US,US
+5718,257_left,11279_right,-0.26689145802792225,5,South Shore Golf Club,Arrowhead Golf Club,Staten Island,Akron,New York,New York,US,US
+5771,258_left,15016_right,0.7320995231835162,1,Glen Brook Golf Club,Glen Brook Country Club,Stroudsburg,Stroudsburg,Pennsylvania,Pennsylvania,US,US
+5772,258_left,14402_right,-0.04556409895988169,2,Glen Brook Golf Club,Berwick Golf Club,Stroudsburg,Berwick,Pennsylvania,Pennsylvania,US,US
+5773,258_left,44_right,-0.32685652312404734,3,Glen Brook Golf Club,Mountain Brook Club,Stroudsburg,Birmingham,Pennsylvania,Alabama,US,US
+5774,258_left,14382_right,-0.33279983205451613,4,Glen Brook Golf Club,Whitetail Golf Club,Stroudsburg,Bath,Pennsylvania,Pennsylvania,US,US
+5775,258_left,14464_right,-0.3378987473948009,5,Glen Brook Golf Club,Cumberland Golf Club,Stroudsburg,Carlisle,Pennsylvania,Pennsylvania,US,US
+5919,259_left,2367_right,1.1048464618479146,1,Mohegan Sun Golf Club,Mohegan Sun Golf Club,Baltic,Baltic,Connecticut,Connecticut,US,US
+5920,260_left,2767_right,1.2546573180904461,1,Legacy Golf Club at Lakewood Ranch,Legacy Golf Club at Lakewood Ranch,Bradenton,Bradenton,Florida,Florida,US,US
+5921,261_left,3611_right,0.8291536187941984,1,Innisbrook Golf and Spa - Copperhead,Innisbrook Golf Resort - Copperhead,Palm Harbor,Palm Harbor,Florida,Florida,US,US
+5922,261_left,3374_right,-0.6134405854496967,2,Innisbrook Golf and Spa - Copperhead,Glen Eagle Golf and Country Club,Palm Harbor,Naples,Florida,Florida,US,US
+5923,261_left,3485_right,-0.6171098041695304,3,Innisbrook Golf and Spa - Copperhead,Adena Golf and Country Club,Palm Harbor,Ocala,Florida,Florida,US,US
+5924,261_left,3276_right,-0.6424320656591848,4,Innisbrook Golf and Spa - Copperhead,Cheval Golf and Country Club,Palm Harbor,Lutz,Florida,Florida,US,US
+5925,261_left,2877_right,-0.6524663988479842,5,Innisbrook Golf and Spa - Copperhead,Davie Golf and Country Club,Palm Harbor,Davie,Florida,Florida,US,US
+6052,262_left,15865_right,0.7499510611758649,1,Greystone Golf Club,Greystone Golf Club,Dickson,Dickson,Tennessee,Tennessee,US,US
+6053,263_left,16019_right,0.7780061646711256,1,Gaylord Springs Golf Club,Gaylord Springs Golf Links,Nashville,Nashville,Tennessee,Tennessee,US,US
+6054,263_left,15838_right,-0.33264931214046906,2,Gaylord Springs Golf Club,Stoneybrook Golf Club,Nashville,Columbia,Tennessee,Tennessee,US,US
+6055,263_left,15787_right,-0.333355622109467,3,Gaylord Springs Golf Club,Concord Golf Club,Nashville,Chattanooga,Tennessee,Tennessee,US,US
+6056,263_left,15799_right,-0.333355622109467,4,Gaylord Springs Golf Club,Concord Golf Club,Nashville,Chattanooga,Tennessee,Tennessee,US,US
+6057,263_left,15760_right,-0.3355131330973555,5,Gaylord Springs Golf Club,Ridgewood Golf Club,Nashville,Athens,Tennessee,Tennessee,US,US
+6202,264_left,16085_right,0.4101826835438271,1,Legacy Golf Course,The Legacy,Springfield,Springfield,Tennessee,Tennessee,US,US
+6203,264_left,15767_right,-0.13834044024109907,2,Legacy Golf Course,Tri Cities Golf Course - Lakes,Springfield,Blountville,Tennessee,Tennessee,US,US
+6204,264_left,15774_right,-0.14987684453442335,3,Legacy Golf Course,Cedars Golf Course,Springfield,Bristol,Tennessee,Tennessee,US,US
+6205,264_left,15841_right,-0.176904672405893,4,Legacy Golf Course,Ironwood Golf Course,Springfield,Cookeville,Tennessee,Tennessee,US,US
+6206,264_left,15784_right,-0.19554827276946007,5,Legacy Golf Course,Brainerd Golf Course,Springfield,Chattanooga,Tennessee,Tennessee,US,US
+6348,265_left,15779_right,0.8455147906072918,1,Montgomery Bell Golf Course,Montgomery Bell State Park Golf Course,Burns,Burns,Tennessee,Tennessee,US,US
+6349,265_left,15791_right,0.8455147906072918,2,Montgomery Bell Golf Course,Montgomery Bell State Park Golf Course,Burns,Burns,Tennessee,Tennessee,US,US
+6350,266_left,16044_right,0.2896676860145094,1,President's Reserve,Hermitage Golf Course - President's Reserve,Hermitage,Old Hickory,Tennessee,Tennessee,US,US
+6351,267_left,15876_right,0.7577820556018131,1,Cheekwood Golf Club,Cheekwood Golf Club,Franklin,Franklin,Tennessee,Tennessee,US,US
+6352,268_left,16076_right,0.9818100510042631,1,Smyrna Golf Course,Smyrna Municipal Golf Course,Smyrna,Smyrna,Tennessee,Tennessee,US,US
+6353,268_left,16077_right,0.8855393345140882,2,Smyrna Golf Course,Smyrna Municipal Golf Course - Executive,Smyrna,Smyrna,Tennessee,Tennessee,US,US
+6354,269_left,15877_right,0.9533664197127052,1,Franklin Bridge Golf Club,Franklin Bridge Golf Club,Franklin,Franklin,Tennessee,Tennessee,US,US
+6355,270_left,16020_right,1.1166007108027876,1,Harpeth Hills Golf Course,Harpeth Hills Golf Course,Nashville,Nashville,Tennessee,Tennessee,US,US
+6356,271_left,15782_right,1.0473263559176549,1,Henry Horton Golf Course,Henry Horton State Park Golf Course,Chapel Hill,Chapel Hill,Tennessee,Tennessee,US,US
+6357,271_left,15794_right,1.0473263559176549,2,Henry Horton Golf Course,Henry Horton State Park Golf Course,Chapel Hill,Chapel Hill,Tennessee,Tennessee,US,US
+6358,272_left,15391_right,1.4746051429374487,1,Osprey Point at Kiawah Island,Osprey Point Golf Course at Kiawah Island Resort,Kiawah Island,Kiawah Island,South Carolina,South Carolina,US,US
+6359,273_left,15396_right,1.486598222215014,1,Turtle Point at Kiawah Island,Turtle Point Golf Course at Kiawah Island Resort,Kiawah Island,Kiawah Island,South Carolina,South Carolina,US,US
+6360,274_left,15390_right,1.4172768806188378,1,Oak Point at Kiawah Island,Oak Point Golf Course at Kiawah Island Resort,Kiawah Island,Kiawah Island,South Carolina,South Carolina,US,US
+6361,275_left,15394_right,1.3649371524459375,1,Ocean Course at Kiawah Island,The Ocean Course at Kiawah Island Resort,Kiawah Island,Kiawah Island,South Carolina,South Carolina,US,US
+6362,276_left,15377_right,1.5299898219097787,1,Cougar Point at Kiawah Island,Cougar Point Golf Club at Kiawah Island Resort,Kiawah Island,Kiawah Island,South Carolina,South Carolina,US,US
+6363,276_left,15389_right,1.5299898219097787,2,Cougar Point at Kiawah Island,Cougar Point Golf Club at Kiawah Island Resort,Kiawah Island,Kiawah Island,South Carolina,South Carolina,US,US
+6364,277_left,10944_right,1.271168156198879,1,Galloping Hill Golf Course,Galloping Hill Golf Course - Nine Hole,Kenilworth,Kenilworth,New Jersey,New Jersey,US,US
+6365,277_left,10943_right,1.26130719613294,2,Galloping Hill Golf Course,Galloping Hill Golf Course - Eighteen Hole,Kenilworth,Kenilworth,New Jersey,New Jersey,US,US
+6366,278_left,10920_right,1.0222846107858599,1,Royce Brook East,Royce Brook Golf Club - East,Hillsborough,Hillsborough Township,New Jersey,New Jersey,US,US
+6367,278_left,10932_right,1.0222846107858599,2,Royce Brook East,Royce Brook Golf Club - East,Hillsborough,Hillsborough Township,New Jersey,New Jersey,US,US
+6368,279_left,2448_right,0.4041981024671078,1,Indian Springs Golf Club,Indian Springs Golf Club,Middletown,Middlefield,Connecticut,Connecticut,US,US
+6369,280_left,10910_right,0.9733187291985448,1,Ballyowen Golf Club,Ballyowen Golf Club,Hamburg,Hamburg,New Jersey,New Jersey,US,US
+6370,280_left,10922_right,0.9733187291985448,2,Ballyowen Golf Club,Ballyowen Golf Club,Hamburg,Hamburg,New Jersey,New Jersey,US,US
+6371,281_left,11357_right,0.6563449522874725,1,Clearview Park Golf Course,Clearview Park Golf Course,New York,Bayside,New York,New York,US,US
+6372,282_left,11076_right,1.3669127466299997,1,Sunset Valley Golf Course,Sunset Valley Golf Course,Pompton Plains,Pompton Plains,New Jersey,New Jersey,US,US
+6373,283_left,2616_right,0.8661701769199683,1,Rock Manor,Rock Manor Golf Club,Wilmington,Wilmington,Delaware,Delaware,US,US
+6374,284_left,7481_right,1.226593153742103,1,Bulle Rock Golf Course,Bulle Rock Golf Club,Havre de Grace,Havre de Grace,Maryland,Maryland,US,US
+6375,284_left,7493_right,1.226593153742103,2,Bulle Rock Golf Course,Bulle Rock Golf Club,Havre de Grace,Havre de Grace,Maryland,Maryland,US,US
+6376,284_left,7476_right,-0.23561767271852896,3,Bulle Rock Golf Course,Black Rock Golf Course,Havre de Grace,Hagerstown,Maryland,Maryland,US,US
+6377,284_left,7488_right,-0.23561767271852896,4,Bulle Rock Golf Course,Black Rock Golf Course,Havre de Grace,Hagerstown,Maryland,Maryland,US,US
+6378,284_left,7459_right,-0.3287618043101877,5,Bulle Rock Golf Course,Rocky Point Golf Course,Havre de Grace,Essex,Maryland,Maryland,US,US
+6521,285_left,2405_right,1.2434917128146534,1,Fairchild-Wheeler - Red Course,D. Fairchild Wheeler Golf Course - Red,Fairfield,Fairfield,Connecticut,Connecticut,US,US
+6522,286_left,10603_right,0.2862767082719425,1,Desert Pines Golf Course,Eagle Crest Golf Course,Las Vegas,Las Vegas,Nevada,Nevada,US,US
+6523,286_left,10645_right,0.2264795196534733,2,Desert Pines Golf Course,Shadow Creek Golf Course,Las Vegas,North Las Vegas,Nevada,Nevada,US,US
+6524,286_left,10612_right,0.20967893479700364,3,Desert Pines Golf Course,Los Prados Golf Course,Las Vegas,Las Vegas,Nevada,Nevada,US,US
+6525,286_left,10608_right,0.1467710153193899,4,Desert Pines Golf Course,Las Vegas National Golf Course,Las Vegas,Las Vegas,Nevada,Nevada,US,US
+6526,286_left,10644_right,0.08083573915110799,5,Desert Pines Golf Course,North Las Vegas Golf Course,Las Vegas,North Las Vegas,Nevada,Nevada,US,US
+6567,287_left,10598_right,1.199102398615305,1,Bali Hai Golf Club,Bali Hai Golf Club,Las Vegas,Las Vegas,Nevada,Nevada,US,US
+6568,288_left,10611_right,1.6621649384589987,1,Las Vegas Paiute Golf Resort - Wolf,Las Vegas Paiute Resort - Wolf Course,Las Vegas,Las Vegas,Nevada,Nevada,US,US
+6569,288_left,10631_right,-0.6836273891584217,2,Las Vegas Paiute Golf Resort - Wolf,Mojave Resort Golf Club,Las Vegas,Laughlin,Nevada,Nevada,US,US
+6570,288_left,1424_right,-0.8132952166998165,3,Las Vegas Paiute Golf Resort - Wolf,Sea Pines Golf Resort,Las Vegas,Los Osos,Nevada,California,US,US
+6571,288_left,1436_right,-0.8132952166998165,4,Las Vegas Paiute Golf Resort - Wolf,Sea Pines Golf Resort,Las Vegas,Los Osos,Nevada,California,US,US
+6572,288_left,1566_right,-0.8797608272203328,5,Las Vegas Paiute Golf Resort - Wolf,Desert Willow Golf Resort - Firecliff,Las Vegas,Palm Desert,Nevada,California,US,US
+6688,289_left,8494_right,1.1838775432861233,1,Boyne Highlands - Heather,Boyne Highlands Resort - The Heather,Harbor Springs,Harbor Springs,Michigan,Michigan,US,US
+6689,290_left,8492_right,1.4244888430035565,1,Boyne Highlands - Arthur Hills,Boyne Highlands Resort - Arthur Hills,Harbor Springs,Harbor Springs,Michigan,Michigan,US,US
+6690,291_left,2462_right,1.2561792603164623,1,The Course at Yale,The Course at Yale,New Haven,New Haven,Connecticut,Connecticut,US,US
+6691,292_left,2565_right,0.8071271045661101,1,Longshore Golf Club,Westport Longshore Golf Club,Westport,Westport,Connecticut,Connecticut,US,US
+6692,293_left,15480_right,0.369737964119319,1,The Legends Golf Resort: Parkland,The Wizard Golf Course,Myrtle Beach,Myrtle Beach,South Carolina,South Carolina,US,US
+6693,293_left,15478_right,0.27636967916807187,2,The Legends Golf Resort: Parkland,The Dunes Golf and Beach Club,Myrtle Beach,Myrtle Beach,South Carolina,South Carolina,US,US
+6694,293_left,15479_right,0.13889598972019793,3,The Legends Golf Resort: Parkland,The Dunes Golf and Beach Club - Alt,Myrtle Beach,Myrtle Beach,South Carolina,South Carolina,US,US
+6695,294_left,15480_right,0.25133964901156625,1,The Legends Golf Resort: Moorland,The Wizard Golf Course,Mrytle Beach,Myrtle Beach,South Carolina,South Carolina,US,US
+6696,294_left,15478_right,0.15797136406031914,2,The Legends Golf Resort: Moorland,The Dunes Golf and Beach Club,Mrytle Beach,Myrtle Beach,South Carolina,South Carolina,US,US
+6697,294_left,15479_right,0.020497674612445227,3,The Legends Golf Resort: Moorland,The Dunes Golf and Beach Club - Alt,Mrytle Beach,Myrtle Beach,South Carolina,South Carolina,US,US
+6698,295_left,15480_right,0.24546994037637684,1,The Legends Golf Resort: Heathlands,The Wizard Golf Course,Mrytle Beach,Myrtle Beach,South Carolina,South Carolina,US,US
+6699,295_left,15478_right,0.15210165542512977,2,The Legends Golf Resort: Heathlands,The Dunes Golf and Beach Club,Mrytle Beach,Myrtle Beach,South Carolina,South Carolina,US,US
+6700,295_left,15479_right,0.014627965977255856,3,The Legends Golf Resort: Heathlands,The Dunes Golf and Beach Club - Alt,Mrytle Beach,Myrtle Beach,South Carolina,South Carolina,US,US
+6701,296_left,15481_right,0.1397114872186353,1,Grand Dunes Resort Course,Whispering Pines Golf Course,Mrytle Beach,Myrtle Beach,South Carolina,South Carolina,US,US
+6702,296_left,15480_right,0.11774013681910102,2,Grand Dunes Resort Course,The Wizard Golf Course,Mrytle Beach,Myrtle Beach,South Carolina,South Carolina,US,US
+6703,296_left,15492_right,0.02052683406213287,3,Grand Dunes Resort Course,Azalea Sands Golf Course,Mrytle Beach,North Myrtle Beach,South Carolina,South Carolina,US,US
+6704,296_left,15498_right,-0.05628233428710473,4,Grand Dunes Resort Course,Possum Trot Golf Course,Mrytle Beach,North Myrtle Beach,South Carolina,South Carolina,US,US
+6705,296_left,15465_right,-0.07600949317308191,5,Grand Dunes Resort Course,Man O' War Golf Course,Mrytle Beach,Myrtle Beach,South Carolina,South Carolina,US,US
+6709,297_left,15481_right,0.33963347739714334,1,Beachwood Golf Course,Whispering Pines Golf Course,Mrytle Beach,Myrtle Beach,South Carolina,South Carolina,US,US
+6710,297_left,15480_right,0.3176621269976091,2,Beachwood Golf Course,The Wizard Golf Course,Mrytle Beach,Myrtle Beach,South Carolina,South Carolina,US,US
+6711,297_left,15492_right,0.2204488242406409,3,Beachwood Golf Course,Azalea Sands Golf Course,Mrytle Beach,North Myrtle Beach,South Carolina,South Carolina,US,US
+6712,297_left,15498_right,0.14363965589140332,4,Beachwood Golf Course,Possum Trot Golf Course,Mrytle Beach,North Myrtle Beach,South Carolina,South Carolina,US,US
+6713,297_left,15465_right,0.12391249700542616,5,Beachwood Golf Course,Man O' War Golf Course,Mrytle Beach,Myrtle Beach,South Carolina,South Carolina,US,US
+6716,298_left,11682_right,0.7094880471828058,1,Apple Greens Golf Course,Apple Greens Golf Course - East & Two,Highland,Highland Twn,New York,New York,US,US
+6717,298_left,11685_right,0.7094880471828058,2,Apple Greens Golf Course,Apple Greens Golf Course - Two & East,Highland,Highland Twn,New York,New York,US,US
+6718,298_left,11681_right,0.7028356353526324,3,Apple Greens Golf Course,Apple Greens Golf Course - East & One,Highland,Highland Twn,New York,New York,US,US
+6719,298_left,11683_right,0.7028356353526324,4,Apple Greens Golf Course,Apple Greens Golf Course - One & East,Highland,Highland Twn,New York,New York,US,US
+6720,298_left,11684_right,0.6626507607395005,5,Apple Greens Golf Course,Apple Greens Golf Course - One & Two,Highland,Highland Twn,New York,New York,US,US
+6722,299_left,11879_right,1.0413648169122591,1,Mohonk Golf Course,Mohonk Mountain House Golf Course,New Paltz,New Paltz,New York,New York,US,US

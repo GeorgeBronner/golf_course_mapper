@@ -172,6 +172,54 @@
         "documentation": {}
     },
     {
+        "label": "Boolean",
+        "importPath": "sqlalchemy",
+        "description": "sqlalchemy",
+        "isExtraImport": true,
+        "detail": "sqlalchemy",
+        "documentation": {}
+    },
+    {
+        "label": "create_engine",
+        "importPath": "sqlalchemy",
+        "description": "sqlalchemy",
+        "isExtraImport": true,
+        "detail": "sqlalchemy",
+        "documentation": {}
+    },
+    {
+        "label": "Column",
+        "importPath": "sqlalchemy",
+        "description": "sqlalchemy",
+        "isExtraImport": true,
+        "detail": "sqlalchemy",
+        "documentation": {}
+    },
+    {
+        "label": "Integer",
+        "importPath": "sqlalchemy",
+        "description": "sqlalchemy",
+        "isExtraImport": true,
+        "detail": "sqlalchemy",
+        "documentation": {}
+    },
+    {
+        "label": "String",
+        "importPath": "sqlalchemy",
+        "description": "sqlalchemy",
+        "isExtraImport": true,
+        "detail": "sqlalchemy",
+        "documentation": {}
+    },
+    {
+        "label": "Float",
+        "importPath": "sqlalchemy",
+        "description": "sqlalchemy",
+        "isExtraImport": true,
+        "detail": "sqlalchemy",
+        "documentation": {}
+    },
+    {
         "label": "create_engine",
         "importPath": "sqlalchemy",
         "description": "sqlalchemy",
@@ -241,6 +289,22 @@
         "description": "sqlalchemy.ext.declarative",
         "isExtraImport": true,
         "detail": "sqlalchemy.ext.declarative",
+        "documentation": {}
+    },
+    {
+        "label": "declarative_base",
+        "importPath": "sqlalchemy.ext.declarative",
+        "description": "sqlalchemy.ext.declarative",
+        "isExtraImport": true,
+        "detail": "sqlalchemy.ext.declarative",
+        "documentation": {}
+    },
+    {
+        "label": "sessionmaker",
+        "importPath": "sqlalchemy.orm",
+        "description": "sqlalchemy.orm",
+        "isExtraImport": true,
+        "detail": "sqlalchemy.orm",
         "documentation": {}
     },
     {
@@ -746,7 +810,7 @@
         "kind": 2,
         "importPath": "app",
         "description": "app",
-        "peekOfCode": "def find_movie():\n    # movie_api_id = request.args.get(\"id\")\n    # if movie_api_id:\n    #     movie_api_url = f\"{MOVIE_DB_INFO_URL}/{movie_api_id}\"\n    #     response = requests.get(movie_api_url, params={\"api_key\": creds.MOVIE_DB_API_KEY, \"language\": \"en-US\"})\n    #     data = response.json()\n    #     new_movie = Movie(\n    #         title=data[\"title\"],\n    #         year=data[\"release_date\"].split(\"-\")[0],\n    #         img_url=f\"{MOVIE_DB_IMAGE_URL}{data['poster_path']}\",",
+        "peekOfCode": "def find_movie():\n    form = EditMatchForm()\n    match_id = request.args.get(\"id\")\n    match_edit = users.query.get(match_id)\n    # movie_api_id = request.args.get(\"id\")\n    # if movie_api_id:\n    #     movie_api_url = f\"{MOVIE_DB_INFO_URL}/{movie_api_id}\"\n    #     response = requests.get(movie_api_url, params={\"api_key\": creds.MOVIE_DB_API_KEY, \"language\": \"en-US\"})\n    #     data = response.json()\n    #     new_movie = Movie(",
         "detail": "app",
         "documentation": {}
     },
@@ -814,6 +878,123 @@
         "documentation": {}
     },
     {
+        "label": "link_table",
+        "kind": 6,
+        "importPath": "link_table",
+        "description": "link_table",
+        "peekOfCode": "class link_table(Base):\n    __tablename__ = 'link_table'\n    index_label = Column(Integer, primary_key=True)\n    user = Column(String(250))\n    course = Column(String(250))\n    city = Column(String(100))\n    state = Column(String(40))\n    country = Column(String(40))\n    year = Column(Integer)\n    match_score = Column(Float)",
+        "detail": "link_table",
+        "documentation": {}
+    },
+    {
+        "label": "engine",
+        "kind": 5,
+        "importPath": "link_table",
+        "description": "link_table",
+        "peekOfCode": "engine = create_engine('sqlite:///garmin.db', echo = True)\nfrom sqlalchemy.ext.declarative import declarative_base\nBase = declarative_base()\nclass link_table(Base):\n    __tablename__ = 'link_table'\n    index_label = Column(Integer, primary_key=True)\n    user = Column(String(250))\n    course = Column(String(250))\n    city = Column(String(100))\n    state = Column(String(40))",
+        "detail": "link_table",
+        "documentation": {}
+    },
+    {
+        "label": "Base",
+        "kind": 5,
+        "importPath": "link_table",
+        "description": "link_table",
+        "peekOfCode": "Base = declarative_base()\nclass link_table(Base):\n    __tablename__ = 'link_table'\n    index_label = Column(Integer, primary_key=True)\n    user = Column(String(250))\n    course = Column(String(250))\n    city = Column(String(100))\n    state = Column(String(40))\n    country = Column(String(40))\n    year = Column(Integer)",
+        "detail": "link_table",
+        "documentation": {}
+    },
+    {
+        "label": "Session",
+        "kind": 5,
+        "importPath": "link_table",
+        "description": "link_table",
+        "peekOfCode": "Session = sessionmaker(bind = engine)\nsession = Session()\n# result = session.query(courses).all()\ncnx = sqlite3.connect('garmin.db')\ndf_all_courses = pd.read_sql_query(\"SELECT * FROM courses\", cnx)\ndf_all = pd.read_sql_query(\"SELECT * FROM users\", cnx)\ndf_all = df_all.drop(df_all.columns[[7,10,11,12,13,14,15,16]], axis=1)\ng_left = [\"course\", \"city\", \"state\", \"country\"]\ndb_right = [\"g_course\", \"g_city\", \"g_state\", \"g_country\"]\nfuzzy_table = fuzzymatcher.link_table(df_all, df_all_courses, g_left, db_right)",
+        "detail": "link_table",
+        "documentation": {}
+    },
+    {
+        "label": "session",
+        "kind": 5,
+        "importPath": "link_table",
+        "description": "link_table",
+        "peekOfCode": "session = Session()\n# result = session.query(courses).all()\ncnx = sqlite3.connect('garmin.db')\ndf_all_courses = pd.read_sql_query(\"SELECT * FROM courses\", cnx)\ndf_all = pd.read_sql_query(\"SELECT * FROM users\", cnx)\ndf_all = df_all.drop(df_all.columns[[7,10,11,12,13,14,15,16]], axis=1)\ng_left = [\"course\", \"city\", \"state\", \"country\"]\ndb_right = [\"g_course\", \"g_city\", \"g_state\", \"g_country\"]\nfuzzy_table = fuzzymatcher.link_table(df_all, df_all_courses, g_left, db_right)\nfuzzy_table = fuzzy_table[fuzzy_table['match_rank'] < 6]",
+        "detail": "link_table",
+        "documentation": {}
+    },
+    {
+        "label": "cnx",
+        "kind": 5,
+        "importPath": "link_table",
+        "description": "link_table",
+        "peekOfCode": "cnx = sqlite3.connect('garmin.db')\ndf_all_courses = pd.read_sql_query(\"SELECT * FROM courses\", cnx)\ndf_all = pd.read_sql_query(\"SELECT * FROM users\", cnx)\ndf_all = df_all.drop(df_all.columns[[7,10,11,12,13,14,15,16]], axis=1)\ng_left = [\"course\", \"city\", \"state\", \"country\"]\ndb_right = [\"g_course\", \"g_city\", \"g_state\", \"g_country\"]\nfuzzy_table = fuzzymatcher.link_table(df_all, df_all_courses, g_left, db_right)\nfuzzy_table = fuzzy_table[fuzzy_table['match_rank'] < 6]\nfuzzy_table.to_csv(\"match_table.csv\")",
+        "detail": "link_table",
+        "documentation": {}
+    },
+    {
+        "label": "df_all_courses",
+        "kind": 5,
+        "importPath": "link_table",
+        "description": "link_table",
+        "peekOfCode": "df_all_courses = pd.read_sql_query(\"SELECT * FROM courses\", cnx)\ndf_all = pd.read_sql_query(\"SELECT * FROM users\", cnx)\ndf_all = df_all.drop(df_all.columns[[7,10,11,12,13,14,15,16]], axis=1)\ng_left = [\"course\", \"city\", \"state\", \"country\"]\ndb_right = [\"g_course\", \"g_city\", \"g_state\", \"g_country\"]\nfuzzy_table = fuzzymatcher.link_table(df_all, df_all_courses, g_left, db_right)\nfuzzy_table = fuzzy_table[fuzzy_table['match_rank'] < 6]\nfuzzy_table.to_csv(\"match_table.csv\")",
+        "detail": "link_table",
+        "documentation": {}
+    },
+    {
+        "label": "df_all",
+        "kind": 5,
+        "importPath": "link_table",
+        "description": "link_table",
+        "peekOfCode": "df_all = pd.read_sql_query(\"SELECT * FROM users\", cnx)\ndf_all = df_all.drop(df_all.columns[[7,10,11,12,13,14,15,16]], axis=1)\ng_left = [\"course\", \"city\", \"state\", \"country\"]\ndb_right = [\"g_course\", \"g_city\", \"g_state\", \"g_country\"]\nfuzzy_table = fuzzymatcher.link_table(df_all, df_all_courses, g_left, db_right)\nfuzzy_table = fuzzy_table[fuzzy_table['match_rank'] < 6]\nfuzzy_table.to_csv(\"match_table.csv\")",
+        "detail": "link_table",
+        "documentation": {}
+    },
+    {
+        "label": "df_all",
+        "kind": 5,
+        "importPath": "link_table",
+        "description": "link_table",
+        "peekOfCode": "df_all = df_all.drop(df_all.columns[[7,10,11,12,13,14,15,16]], axis=1)\ng_left = [\"course\", \"city\", \"state\", \"country\"]\ndb_right = [\"g_course\", \"g_city\", \"g_state\", \"g_country\"]\nfuzzy_table = fuzzymatcher.link_table(df_all, df_all_courses, g_left, db_right)\nfuzzy_table = fuzzy_table[fuzzy_table['match_rank'] < 6]\nfuzzy_table.to_csv(\"match_table.csv\")",
+        "detail": "link_table",
+        "documentation": {}
+    },
+    {
+        "label": "g_left",
+        "kind": 5,
+        "importPath": "link_table",
+        "description": "link_table",
+        "peekOfCode": "g_left = [\"course\", \"city\", \"state\", \"country\"]\ndb_right = [\"g_course\", \"g_city\", \"g_state\", \"g_country\"]\nfuzzy_table = fuzzymatcher.link_table(df_all, df_all_courses, g_left, db_right)\nfuzzy_table = fuzzy_table[fuzzy_table['match_rank'] < 6]\nfuzzy_table.to_csv(\"match_table.csv\")",
+        "detail": "link_table",
+        "documentation": {}
+    },
+    {
+        "label": "db_right",
+        "kind": 5,
+        "importPath": "link_table",
+        "description": "link_table",
+        "peekOfCode": "db_right = [\"g_course\", \"g_city\", \"g_state\", \"g_country\"]\nfuzzy_table = fuzzymatcher.link_table(df_all, df_all_courses, g_left, db_right)\nfuzzy_table = fuzzy_table[fuzzy_table['match_rank'] < 6]\nfuzzy_table.to_csv(\"match_table.csv\")",
+        "detail": "link_table",
+        "documentation": {}
+    },
+    {
+        "label": "fuzzy_table",
+        "kind": 5,
+        "importPath": "link_table",
+        "description": "link_table",
+        "peekOfCode": "fuzzy_table = fuzzymatcher.link_table(df_all, df_all_courses, g_left, db_right)\nfuzzy_table = fuzzy_table[fuzzy_table['match_rank'] < 6]\nfuzzy_table.to_csv(\"match_table.csv\")",
+        "detail": "link_table",
+        "documentation": {}
+    },
+    {
+        "label": "fuzzy_table",
+        "kind": 5,
+        "importPath": "link_table",
+        "description": "link_table",
+        "peekOfCode": "fuzzy_table = fuzzy_table[fuzzy_table['match_rank'] < 6]\nfuzzy_table.to_csv(\"match_table.csv\")",
+        "detail": "link_table",
+        "documentation": {}
+    },
+    {
         "label": "users",
         "kind": 6,
         "importPath": "load_and_match",
@@ -845,7 +1026,7 @@
         "kind": 5,
         "importPath": "load_and_match",
         "description": "load_and_match",
-        "peekOfCode": "Session = sessionmaker(bind = engine)\nsession = Session()\n# result = session.query(courses).all()\ncnx = sqlite3.connect('garmin.db')\ndf_all_courses = pd.read_sql_query(\"SELECT * FROM courses\", cnx)\ndf_george_raw = pd.read_csv ('george_courses.csv')\ndf_mike_raw = pd.read_csv ('mike_courses.csv')\ng_left = [\"Course\", \"City1\", \"State1\"]\ndb_right = [\"name\", \"city\", \"state\"]\nfuzzy_match_george = fuzzymatcher.fuzzy_left_join(df_george_raw, df_all_courses, g_left, db_right)",
+        "peekOfCode": "Session = sessionmaker(bind = engine)\nsession = Session()\n# result = session.query(courses).all()\ncnx = sqlite3.connect('garmin.db')\ndf_all_courses = pd.read_sql_query(\"SELECT * FROM courses\", cnx)\ndf_george_raw = pd.read_csv ('george_courses.csv')\ndf_mike_raw = pd.read_csv ('mike_courses.csv')\ng_left = [\"Course\", \"City\", \"State\", \"Country\"]\ndb_right = [\"g_course\", \"g_city\", \"g_state\", \"g_country\"]\nfuzzy_match_george = fuzzymatcher.fuzzy_left_join(df_george_raw, df_all_courses, g_left, db_right)",
         "detail": "load_and_match",
         "documentation": {}
     },
@@ -854,7 +1035,7 @@
         "kind": 5,
         "importPath": "load_and_match",
         "description": "load_and_match",
-        "peekOfCode": "session = Session()\n# result = session.query(courses).all()\ncnx = sqlite3.connect('garmin.db')\ndf_all_courses = pd.read_sql_query(\"SELECT * FROM courses\", cnx)\ndf_george_raw = pd.read_csv ('george_courses.csv')\ndf_mike_raw = pd.read_csv ('mike_courses.csv')\ng_left = [\"Course\", \"City1\", \"State1\"]\ndb_right = [\"name\", \"city\", \"state\"]\nfuzzy_match_george = fuzzymatcher.fuzzy_left_join(df_george_raw, df_all_courses, g_left, db_right)\nfor i in fuzzy_match_george.itertuples():",
+        "peekOfCode": "session = Session()\n# result = session.query(courses).all()\ncnx = sqlite3.connect('garmin.db')\ndf_all_courses = pd.read_sql_query(\"SELECT * FROM courses\", cnx)\ndf_george_raw = pd.read_csv ('george_courses.csv')\ndf_mike_raw = pd.read_csv ('mike_courses.csv')\ng_left = [\"Course\", \"City\", \"State\", \"Country\"]\ndb_right = [\"g_course\", \"g_city\", \"g_state\", \"g_country\"]\nfuzzy_match_george = fuzzymatcher.fuzzy_left_join(df_george_raw, df_all_courses, g_left, db_right)\nfor i in fuzzy_match_george.itertuples():",
         "detail": "load_and_match",
         "documentation": {}
     },
@@ -863,7 +1044,7 @@
         "kind": 5,
         "importPath": "load_and_match",
         "description": "load_and_match",
-        "peekOfCode": "cnx = sqlite3.connect('garmin.db')\ndf_all_courses = pd.read_sql_query(\"SELECT * FROM courses\", cnx)\ndf_george_raw = pd.read_csv ('george_courses.csv')\ndf_mike_raw = pd.read_csv ('mike_courses.csv')\ng_left = [\"Course\", \"City1\", \"State1\"]\ndb_right = [\"name\", \"city\", \"state\"]\nfuzzy_match_george = fuzzymatcher.fuzzy_left_join(df_george_raw, df_all_courses, g_left, db_right)\nfor i in fuzzy_match_george.itertuples():\n    if i[1] > .3:\n        a_good_match = True",
+        "peekOfCode": "cnx = sqlite3.connect('garmin.db')\ndf_all_courses = pd.read_sql_query(\"SELECT * FROM courses\", cnx)\ndf_george_raw = pd.read_csv ('george_courses.csv')\ndf_mike_raw = pd.read_csv ('mike_courses.csv')\ng_left = [\"Course\", \"City\", \"State\", \"Country\"]\ndb_right = [\"g_course\", \"g_city\", \"g_state\", \"g_country\"]\nfuzzy_match_george = fuzzymatcher.fuzzy_left_join(df_george_raw, df_all_courses, g_left, db_right)\nfor i in fuzzy_match_george.itertuples():\n    if i[1] > .3:\n        a_good_match = True",
         "detail": "load_and_match",
         "documentation": {}
     },
@@ -872,7 +1053,7 @@
         "kind": 5,
         "importPath": "load_and_match",
         "description": "load_and_match",
-        "peekOfCode": "df_all_courses = pd.read_sql_query(\"SELECT * FROM courses\", cnx)\ndf_george_raw = pd.read_csv ('george_courses.csv')\ndf_mike_raw = pd.read_csv ('mike_courses.csv')\ng_left = [\"Course\", \"City1\", \"State1\"]\ndb_right = [\"name\", \"city\", \"state\"]\nfuzzy_match_george = fuzzymatcher.fuzzy_left_join(df_george_raw, df_all_courses, g_left, db_right)\nfor i in fuzzy_match_george.itertuples():\n    if i[1] > .3:\n        a_good_match = True\n    else:",
+        "peekOfCode": "df_all_courses = pd.read_sql_query(\"SELECT * FROM courses\", cnx)\ndf_george_raw = pd.read_csv ('george_courses.csv')\ndf_mike_raw = pd.read_csv ('mike_courses.csv')\ng_left = [\"Course\", \"City\", \"State\", \"Country\"]\ndb_right = [\"g_course\", \"g_city\", \"g_state\", \"g_country\"]\nfuzzy_match_george = fuzzymatcher.fuzzy_left_join(df_george_raw, df_all_courses, g_left, db_right)\nfor i in fuzzy_match_george.itertuples():\n    if i[1] > .3:\n        a_good_match = True\n        new_match = users(",
         "detail": "load_and_match",
         "documentation": {}
     },
@@ -881,7 +1062,7 @@
         "kind": 5,
         "importPath": "load_and_match",
         "description": "load_and_match",
-        "peekOfCode": "df_george_raw = pd.read_csv ('george_courses.csv')\ndf_mike_raw = pd.read_csv ('mike_courses.csv')\ng_left = [\"Course\", \"City1\", \"State1\"]\ndb_right = [\"name\", \"city\", \"state\"]\nfuzzy_match_george = fuzzymatcher.fuzzy_left_join(df_george_raw, df_all_courses, g_left, db_right)\nfor i in fuzzy_match_george.itertuples():\n    if i[1] > .3:\n        a_good_match = True\n    else:\n        a_good_match = False",
+        "peekOfCode": "df_george_raw = pd.read_csv ('george_courses.csv')\ndf_mike_raw = pd.read_csv ('mike_courses.csv')\ng_left = [\"Course\", \"City\", \"State\", \"Country\"]\ndb_right = [\"g_course\", \"g_city\", \"g_state\", \"g_country\"]\nfuzzy_match_george = fuzzymatcher.fuzzy_left_join(df_george_raw, df_all_courses, g_left, db_right)\nfor i in fuzzy_match_george.itertuples():\n    if i[1] > .3:\n        a_good_match = True\n        new_match = users(\n            user = 'george',",
         "detail": "load_and_match",
         "documentation": {}
     },
@@ -890,7 +1071,7 @@
         "kind": 5,
         "importPath": "load_and_match",
         "description": "load_and_match",
-        "peekOfCode": "df_mike_raw = pd.read_csv ('mike_courses.csv')\ng_left = [\"Course\", \"City1\", \"State1\"]\ndb_right = [\"name\", \"city\", \"state\"]\nfuzzy_match_george = fuzzymatcher.fuzzy_left_join(df_george_raw, df_all_courses, g_left, db_right)\nfor i in fuzzy_match_george.itertuples():\n    if i[1] > .3:\n        a_good_match = True\n    else:\n        a_good_match = False\n    new_match = users(",
+        "peekOfCode": "df_mike_raw = pd.read_csv ('mike_courses.csv')\ng_left = [\"Course\", \"City\", \"State\", \"Country\"]\ndb_right = [\"g_course\", \"g_city\", \"g_state\", \"g_country\"]\nfuzzy_match_george = fuzzymatcher.fuzzy_left_join(df_george_raw, df_all_courses, g_left, db_right)\nfor i in fuzzy_match_george.itertuples():\n    if i[1] > .3:\n        a_good_match = True\n        new_match = users(\n            user = 'george',\n            course = i[4],",
         "detail": "load_and_match",
         "documentation": {}
     },
@@ -899,7 +1080,7 @@
         "kind": 5,
         "importPath": "load_and_match",
         "description": "load_and_match",
-        "peekOfCode": "g_left = [\"Course\", \"City1\", \"State1\"]\ndb_right = [\"name\", \"city\", \"state\"]\nfuzzy_match_george = fuzzymatcher.fuzzy_left_join(df_george_raw, df_all_courses, g_left, db_right)\nfor i in fuzzy_match_george.itertuples():\n    if i[1] > .3:\n        a_good_match = True\n    else:\n        a_good_match = False\n    new_match = users(\n        user = 'george',",
+        "peekOfCode": "g_left = [\"Course\", \"City\", \"State\", \"Country\"]\ndb_right = [\"g_course\", \"g_city\", \"g_state\", \"g_country\"]\nfuzzy_match_george = fuzzymatcher.fuzzy_left_join(df_george_raw, df_all_courses, g_left, db_right)\nfor i in fuzzy_match_george.itertuples():\n    if i[1] > .3:\n        a_good_match = True\n        new_match = users(\n            user = 'george',\n            course = i[4],\n            city = i[5],",
         "detail": "load_and_match",
         "documentation": {}
     },
@@ -908,7 +1089,7 @@
         "kind": 5,
         "importPath": "load_and_match",
         "description": "load_and_match",
-        "peekOfCode": "db_right = [\"name\", \"city\", \"state\"]\nfuzzy_match_george = fuzzymatcher.fuzzy_left_join(df_george_raw, df_all_courses, g_left, db_right)\nfor i in fuzzy_match_george.itertuples():\n    if i[1] > .3:\n        a_good_match = True\n    else:\n        a_good_match = False\n    new_match = users(\n        user = 'george',\n        course = i[4],",
+        "peekOfCode": "db_right = [\"g_course\", \"g_city\", \"g_state\", \"g_country\"]\nfuzzy_match_george = fuzzymatcher.fuzzy_left_join(df_george_raw, df_all_courses, g_left, db_right)\nfor i in fuzzy_match_george.itertuples():\n    if i[1] > .3:\n        a_good_match = True\n        new_match = users(\n            user = 'george',\n            course = i[4],\n            city = i[5],\n            state = i[6],",
         "detail": "load_and_match",
         "documentation": {}
     },
@@ -917,7 +1098,7 @@
         "kind": 5,
         "importPath": "load_and_match",
         "description": "load_and_match",
-        "peekOfCode": "fuzzy_match_george = fuzzymatcher.fuzzy_left_join(df_george_raw, df_all_courses, g_left, db_right)\nfor i in fuzzy_match_george.itertuples():\n    if i[1] > .3:\n        a_good_match = True\n    else:\n        a_good_match = False\n    new_match = users(\n        user = 'george',\n        course = i[4],\n        city = i[5],",
+        "peekOfCode": "fuzzy_match_george = fuzzymatcher.fuzzy_left_join(df_george_raw, df_all_courses, g_left, db_right)\nfor i in fuzzy_match_george.itertuples():\n    if i[1] > .3:\n        a_good_match = True\n        new_match = users(\n            user = 'george',\n            course = i[4],\n            city = i[5],\n            state = i[6],\n            country = i[7],",
         "detail": "load_and_match",
         "documentation": {}
     },
@@ -926,7 +1107,25 @@
         "kind": 5,
         "importPath": "load_and_match",
         "description": "load_and_match",
-        "peekOfCode": "fuzzy_match_mike = fuzzymatcher.fuzzy_left_join(df_mike_raw, df_all_courses, g_left, db_right)\nfor i in fuzzy_match_mike.itertuples():\n    if i[1] > .3:\n        a_good_match = True\n    else:\n        a_good_match = False\n    new_match = users(\n        user = 'mike',\n        course = i[4],\n        city = i[5],",
+        "peekOfCode": "fuzzy_match_mike = fuzzymatcher.fuzzy_left_join(df_mike_raw, df_all_courses, g_left, db_right)\nfor i in fuzzy_match_mike.itertuples():\n    if i[1] > .3:\n        a_good_match = True\n        new_match = users(\n            user = 'mike',\n            course = i[4],\n            city = i[5],\n            state = i[6],\n            country = i[7],",
+        "detail": "load_and_match",
+        "documentation": {}
+    },
+    {
+        "label": "fuzzy_table",
+        "kind": 5,
+        "importPath": "load_and_match",
+        "description": "load_and_match",
+        "peekOfCode": "fuzzy_table = fuzzymatcher.link_table(df_george_raw, df_all_courses, g_left, db_right)\nfuzzy_table = fuzzy_table[fuzzy_table['match_rank'] < 6]\nfuzzy_table.to_csv(\"fuzzy_table.csv\")\n# fuzzy_match.to_sql(name='george', con=cnx)\n# cnx.close()\n# fuzzy_match.to_csv('george_fuzzy_match.csv')\n# dfm = pd.read_csv('george_fuzzy_match.csv')\n# print(dfm)\n# courses_to_map = []\n# for i in dfm.itertuples():",
+        "detail": "load_and_match",
+        "documentation": {}
+    },
+    {
+        "label": "fuzzy_table",
+        "kind": 5,
+        "importPath": "load_and_match",
+        "description": "load_and_match",
+        "peekOfCode": "fuzzy_table = fuzzy_table[fuzzy_table['match_rank'] < 6]\nfuzzy_table.to_csv(\"fuzzy_table.csv\")\n# fuzzy_match.to_sql(name='george', con=cnx)\n# cnx.close()\n# fuzzy_match.to_csv('george_fuzzy_match.csv')\n# dfm = pd.read_csv('george_fuzzy_match.csv')\n# print(dfm)\n# courses_to_map = []\n# for i in dfm.itertuples():\n#     if i[2] < .2:",
         "detail": "load_and_match",
         "documentation": {}
     },
@@ -1061,7 +1260,7 @@
         "kind": 6,
         "importPath": "manual_GPS_edit",
         "description": "manual_GPS_edit",
-        "peekOfCode": "class courses(Base):\n    __tablename__ = 'courses'\n    id = Column(Integer, primary_key=True)\n    name = Column(String(250))\n    address = Column(String(250))\n    city = Column(String(100))\n    state = Column(String(40))\n    country = Column(String(40))\n    latitude = Column(Float)\n    longitude = Column(Float)",
+        "peekOfCode": "class courses(Base):\n    __tablename__ = 'courses'\n    id = Column(Integer, primary_key=True)\n    g_course = Column(String(250))\n    g_address = Column(String(250))\n    g_city = Column(String(100))\n    g_state = Column(String(40))\n    g_country = Column(String(40))\n    g_latitude = Column(Float)\n    g_longitude = Column(Float)",
         "detail": "manual_GPS_edit",
         "documentation": {}
     },
@@ -1070,7 +1269,7 @@
         "kind": 5,
         "importPath": "manual_GPS_edit",
         "description": "manual_GPS_edit",
-        "peekOfCode": "engine = create_engine('sqlite:///garmin.db', echo = True)\nfrom sqlalchemy.ext.declarative import declarative_base\nBase = declarative_base()\nclass courses(Base):\n    __tablename__ = 'courses'\n    id = Column(Integer, primary_key=True)\n    name = Column(String(250))\n    address = Column(String(250))\n    city = Column(String(100))\n    state = Column(String(40))",
+        "peekOfCode": "engine = create_engine('sqlite:///garmin.db', echo = True)\nfrom sqlalchemy.ext.declarative import declarative_base\nBase = declarative_base()\nclass courses(Base):\n    __tablename__ = 'courses'\n    id = Column(Integer, primary_key=True)\n    g_course = Column(String(250))\n    g_address = Column(String(250))\n    g_city = Column(String(100))\n    g_state = Column(String(40))",
         "detail": "manual_GPS_edit",
         "documentation": {}
     },
@@ -1079,7 +1278,7 @@
         "kind": 5,
         "importPath": "manual_GPS_edit",
         "description": "manual_GPS_edit",
-        "peekOfCode": "Base = declarative_base()\nclass courses(Base):\n    __tablename__ = 'courses'\n    id = Column(Integer, primary_key=True)\n    name = Column(String(250))\n    address = Column(String(250))\n    city = Column(String(100))\n    state = Column(String(40))\n    country = Column(String(40))\n    latitude = Column(Float)",
+        "peekOfCode": "Base = declarative_base()\nclass courses(Base):\n    __tablename__ = 'courses'\n    id = Column(Integer, primary_key=True)\n    g_course = Column(String(250))\n    g_address = Column(String(250))\n    g_city = Column(String(100))\n    g_state = Column(String(40))\n    g_country = Column(String(40))\n    g_latitude = Column(Float)",
         "detail": "manual_GPS_edit",
         "documentation": {}
     },
@@ -1088,7 +1287,7 @@
         "kind": 5,
         "importPath": "manual_GPS_edit",
         "description": "manual_GPS_edit",
-        "peekOfCode": "Session = sessionmaker(bind = engine)\nsession = Session()\nresult = session.query(courses).all()\nfor i in result:\n    if i.id == 48:\n        print(f'Course: {i.name}, city: {i.city}, country: {i.country}, id: {i.id}')\n        new_lat = float(input('Enter Latitude: '))\n        new_long = float(input('Enter Longitude: '))\n        confirm = input(f'Do you want to update Course: {i.name}, city: {i.city}, country: {i.country}, id: {i.id}, with lat: {new_lat}, long={new_long} ? ')\n        if confirm == 'y':",
+        "peekOfCode": "Session = sessionmaker(bind = engine)\nsession = Session()\nresult = int(input(f\"Which course id to you want to edit? \"))\ni = session.query(courses).get(result)\nprint(f'Course: {i.g_course}, city: {i.g_city}, country: {i.g_country}, id: {i.id}')\nresult = input(\"Is this the course you want to edit? \")\nif result == 'y':\n    new_lat = float(input('Enter Latitude: '))\n    new_long = float(input('Enter Longitude: '))\n    confirm = input(f'Do you want to update Course: {i.g_course}, city: {i.g_city}, country: {i.g_country}, id: {i.id}, with lat: {new_lat}, long={new_long} ? ')",
         "detail": "manual_GPS_edit",
         "documentation": {}
     },
@@ -1097,7 +1296,7 @@
         "kind": 5,
         "importPath": "manual_GPS_edit",
         "description": "manual_GPS_edit",
-        "peekOfCode": "session = Session()\nresult = session.query(courses).all()\nfor i in result:\n    if i.id == 48:\n        print(f'Course: {i.name}, city: {i.city}, country: {i.country}, id: {i.id}')\n        new_lat = float(input('Enter Latitude: '))\n        new_long = float(input('Enter Longitude: '))\n        confirm = input(f'Do you want to update Course: {i.name}, city: {i.city}, country: {i.country}, id: {i.id}, with lat: {new_lat}, long={new_long} ? ')\n        if confirm == 'y':\n            i.latitude = new_lat",
+        "peekOfCode": "session = Session()\nresult = int(input(f\"Which course id to you want to edit? \"))\ni = session.query(courses).get(result)\nprint(f'Course: {i.g_course}, city: {i.g_city}, country: {i.g_country}, id: {i.id}')\nresult = input(\"Is this the course you want to edit? \")\nif result == 'y':\n    new_lat = float(input('Enter Latitude: '))\n    new_long = float(input('Enter Longitude: '))\n    confirm = input(f'Do you want to update Course: {i.g_course}, city: {i.g_city}, country: {i.g_country}, id: {i.id}, with lat: {new_lat}, long={new_long} ? ')\n    if confirm == 'y':",
         "detail": "manual_GPS_edit",
         "documentation": {}
     },
@@ -1106,7 +1305,25 @@
         "kind": 5,
         "importPath": "manual_GPS_edit",
         "description": "manual_GPS_edit",
-        "peekOfCode": "result = session.query(courses).all()\nfor i in result:\n    if i.id == 48:\n        print(f'Course: {i.name}, city: {i.city}, country: {i.country}, id: {i.id}')\n        new_lat = float(input('Enter Latitude: '))\n        new_long = float(input('Enter Longitude: '))\n        confirm = input(f'Do you want to update Course: {i.name}, city: {i.city}, country: {i.country}, id: {i.id}, with lat: {new_lat}, long={new_long} ? ')\n        if confirm == 'y':\n            i.latitude = new_lat\n            i.longitude = new_long",
+        "peekOfCode": "result = int(input(f\"Which course id to you want to edit? \"))\ni = session.query(courses).get(result)\nprint(f'Course: {i.g_course}, city: {i.g_city}, country: {i.g_country}, id: {i.id}')\nresult = input(\"Is this the course you want to edit? \")\nif result == 'y':\n    new_lat = float(input('Enter Latitude: '))\n    new_long = float(input('Enter Longitude: '))\n    confirm = input(f'Do you want to update Course: {i.g_course}, city: {i.g_city}, country: {i.g_country}, id: {i.id}, with lat: {new_lat}, long={new_long} ? ')\n    if confirm == 'y':\n        i.g_latitude = new_lat",
+        "detail": "manual_GPS_edit",
+        "documentation": {}
+    },
+    {
+        "label": "i",
+        "kind": 5,
+        "importPath": "manual_GPS_edit",
+        "description": "manual_GPS_edit",
+        "peekOfCode": "i = session.query(courses).get(result)\nprint(f'Course: {i.g_course}, city: {i.g_city}, country: {i.g_country}, id: {i.id}')\nresult = input(\"Is this the course you want to edit? \")\nif result == 'y':\n    new_lat = float(input('Enter Latitude: '))\n    new_long = float(input('Enter Longitude: '))\n    confirm = input(f'Do you want to update Course: {i.g_course}, city: {i.g_city}, country: {i.g_country}, id: {i.id}, with lat: {new_lat}, long={new_long} ? ')\n    if confirm == 'y':\n        i.g_latitude = new_lat\n        i.g_longitude = new_long",
+        "detail": "manual_GPS_edit",
+        "documentation": {}
+    },
+    {
+        "label": "result",
+        "kind": 5,
+        "importPath": "manual_GPS_edit",
+        "description": "manual_GPS_edit",
+        "peekOfCode": "result = input(\"Is this the course you want to edit? \")\nif result == 'y':\n    new_lat = float(input('Enter Latitude: '))\n    new_long = float(input('Enter Longitude: '))\n    confirm = input(f'Do you want to update Course: {i.g_course}, city: {i.g_city}, country: {i.g_country}, id: {i.id}, with lat: {new_lat}, long={new_long} ? ')\n    if confirm == 'y':\n        i.g_latitude = new_lat\n        i.g_longitude = new_long\n        session.commit()\nelse:",
         "detail": "manual_GPS_edit",
         "documentation": {}
     },
@@ -1115,7 +1332,7 @@
         "kind": 2,
         "importPath": "map",
         "description": "map",
-        "peekOfCode": "def load_feature_group(dfm, name, color):\n    courses_to_map = []\n    for i in dfm.itertuples():\n        if i[2] != name:\n            continue\n        if not i[9]:\n             print(f\"course: {i[3]}, match score: {i[8]}\")  # list bad matches\n        else :\n            c = {\n                'course':i[11],",
+        "peekOfCode": "def load_feature_group(dfm, name, color):\n    courses_to_map = []\n    for i in dfm.itertuples():\n        id = i[11] - 1 # get the id from the gamrin list and subtract 1 to match with dataframe index\n        print(f\"id= {i[11]}\")\n        if i[2] != name:\n            print(f\"name= {name}\")\n            continue\n        if not i[9]:\n            print(f\"i[9]= is {i[9]}\")",
         "detail": "map",
         "documentation": {}
     },
@@ -1124,7 +1341,7 @@
         "kind": 5,
         "importPath": "map",
         "description": "map",
-        "peekOfCode": "cnx = sqlite3.connect('garmin.db')\ndf_all_courses = pd.read_sql_query(\"SELECT * FROM courses\", cnx)\ndf_matches = pd.read_sql_query(\"SELECT * FROM users\", cnx)\ndef load_feature_group(dfm, name, color):\n    courses_to_map = []\n    for i in dfm.itertuples():\n        if i[2] != name:\n            continue\n        if not i[9]:\n             print(f\"course: {i[3]}, match score: {i[8]}\")  # list bad matches",
+        "peekOfCode": "cnx = sqlite3.connect('garmin.db')\ndf_all_courses = pd.read_sql_query(\"SELECT * FROM courses\", cnx)\ndf_matches = pd.read_sql_query(\"SELECT * FROM users\", cnx)\ndef load_feature_group(dfm, name, color):\n    courses_to_map = []\n    for i in dfm.itertuples():\n        id = i[11] - 1 # get the id from the gamrin list and subtract 1 to match with dataframe index\n        print(f\"id= {i[11]}\")\n        if i[2] != name:\n            print(f\"name= {name}\")",
         "detail": "map",
         "documentation": {}
     },
@@ -1133,7 +1350,7 @@
         "kind": 5,
         "importPath": "map",
         "description": "map",
-        "peekOfCode": "df_all_courses = pd.read_sql_query(\"SELECT * FROM courses\", cnx)\ndf_matches = pd.read_sql_query(\"SELECT * FROM users\", cnx)\ndef load_feature_group(dfm, name, color):\n    courses_to_map = []\n    for i in dfm.itertuples():\n        if i[2] != name:\n            continue\n        if not i[9]:\n             print(f\"course: {i[3]}, match score: {i[8]}\")  # list bad matches\n        else :",
+        "peekOfCode": "df_all_courses = pd.read_sql_query(\"SELECT * FROM courses\", cnx)\ndf_matches = pd.read_sql_query(\"SELECT * FROM users\", cnx)\ndef load_feature_group(dfm, name, color):\n    courses_to_map = []\n    for i in dfm.itertuples():\n        id = i[11] - 1 # get the id from the gamrin list and subtract 1 to match with dataframe index\n        print(f\"id= {i[11]}\")\n        if i[2] != name:\n            print(f\"name= {name}\")\n            continue",
         "detail": "map",
         "documentation": {}
     },
@@ -1142,16 +1359,7 @@
         "kind": 5,
         "importPath": "map",
         "description": "map",
-        "peekOfCode": "df_matches = pd.read_sql_query(\"SELECT * FROM users\", cnx)\ndef load_feature_group(dfm, name, color):\n    courses_to_map = []\n    for i in dfm.itertuples():\n        if i[2] != name:\n            continue\n        if not i[9]:\n             print(f\"course: {i[3]}, match score: {i[8]}\")  # list bad matches\n        else :\n            c = {",
-        "detail": "map",
-        "documentation": {}
-    },
-    {
-        "label": "cm",
-        "kind": 5,
-        "importPath": "map",
-        "description": "map",
-        "peekOfCode": "cm = df_matches[[\"g_course\",\"latitude\",\"longitude\", \"best_match_score\"]]\nmap = folium.Map(location=[cm.latitude.mean(), cm.longitude.mean()], zoom_start=3, control_scale=True)\nload_feature_group(df_matches, \"george\", 'red')\nload_feature_group(df_matches, \"mike\", 'blue')\nmap.add_child(folium.LayerControl())\nmap.save(\"templates/George_Mike_test.html\")",
+        "peekOfCode": "df_matches = pd.read_sql_query(\"SELECT * FROM users\", cnx)\ndef load_feature_group(dfm, name, color):\n    courses_to_map = []\n    for i in dfm.itertuples():\n        id = i[11] - 1 # get the id from the gamrin list and subtract 1 to match with dataframe index\n        print(f\"id= {i[11]}\")\n        if i[2] != name:\n            print(f\"name= {name}\")\n            continue\n        if not i[9]:",
         "detail": "map",
         "documentation": {}
     },
@@ -1160,7 +1368,7 @@
         "kind": 5,
         "importPath": "map",
         "description": "map",
-        "peekOfCode": "map = folium.Map(location=[cm.latitude.mean(), cm.longitude.mean()], zoom_start=3, control_scale=True)\nload_feature_group(df_matches, \"george\", 'red')\nload_feature_group(df_matches, \"mike\", 'blue')\nmap.add_child(folium.LayerControl())\nmap.save(\"templates/George_Mike_test.html\")",
+        "peekOfCode": "map = folium.Map(location=[40, -90], zoom_start=4, control_scale=True)\n# map = folium.Map(location=[cm.latitude.mean(), cm.longitude.mean()], zoom_start=3, control_scale=True)\nload_feature_group(df_matches, \"george\", 'red')\nload_feature_group(df_matches, \"mike\", 'blue')\nmap.add_child(folium.LayerControl())\nmap.save(\"templates/George_Mike_test.html\")",
         "detail": "map",
         "documentation": {}
     },
@@ -1367,7 +1575,7 @@
         "kind": 5,
         "importPath": "single_search",
         "description": "single_search",
-        "peekOfCode": "cnx = sqlite3.connect('garmin.db')\ndf_all_courses = pd.read_sql_query(\"SELECT * FROM courses\", cnx)\ndf_george_raw = pd.read_csv ('george_courses.csv')\ng_left = [\"Course\", \"City1\", \"State1\"]\ndb_right = [\"name\", \"city\", \"state\"]\nfuzzy_match = fuzzymatcher.fuzzy_left_join(df_george_raw, df_all_courses, g_left, db_right)\nfuzzy_match.to_sql(name='george', con=cnx)\ncnx.close()\n# fuzzy_match.to_csv('george_fuzzy_match.csv')\n# dfm = pd.read_csv('george_fuzzy_match.csv')",
+        "peekOfCode": "cnx = sqlite3.connect('garmin.db')\ndf_all_courses = pd.read_sql_query(\"SELECT * FROM courses\", cnx)\ndf_george_raw = pd.read_csv ('george_courses.csv')\ng_left = [\"Course\", \"City1\", \"State1\", \"Country\"]\ndb_right = [\"name\", \"city\", \"state\", \"country\"]\nfuzzy_match = fuzzymatcher.fuzzy_left_join(df_george_raw, df_all_courses, g_left, db_right)\nfuzzy_match.to_sql(name='george', con=cnx)\ncnx.close()\n# fuzzy_match.to_csv('george_fuzzy_match.csv')\n# dfm = pd.read_csv('george_fuzzy_match.csv')",
         "detail": "single_search",
         "documentation": {}
     },
@@ -1376,7 +1584,7 @@
         "kind": 5,
         "importPath": "single_search",
         "description": "single_search",
-        "peekOfCode": "df_all_courses = pd.read_sql_query(\"SELECT * FROM courses\", cnx)\ndf_george_raw = pd.read_csv ('george_courses.csv')\ng_left = [\"Course\", \"City1\", \"State1\"]\ndb_right = [\"name\", \"city\", \"state\"]\nfuzzy_match = fuzzymatcher.fuzzy_left_join(df_george_raw, df_all_courses, g_left, db_right)\nfuzzy_match.to_sql(name='george', con=cnx)\ncnx.close()\n# fuzzy_match.to_csv('george_fuzzy_match.csv')\n# dfm = pd.read_csv('george_fuzzy_match.csv')\n# print(dfm)",
+        "peekOfCode": "df_all_courses = pd.read_sql_query(\"SELECT * FROM courses\", cnx)\ndf_george_raw = pd.read_csv ('george_courses.csv')\ng_left = [\"Course\", \"City1\", \"State1\", \"Country\"]\ndb_right = [\"name\", \"city\", \"state\", \"country\"]\nfuzzy_match = fuzzymatcher.fuzzy_left_join(df_george_raw, df_all_courses, g_left, db_right)\nfuzzy_match.to_sql(name='george', con=cnx)\ncnx.close()\n# fuzzy_match.to_csv('george_fuzzy_match.csv')\n# dfm = pd.read_csv('george_fuzzy_match.csv')\n# print(dfm)",
         "detail": "single_search",
         "documentation": {}
     },
@@ -1385,7 +1593,7 @@
         "kind": 5,
         "importPath": "single_search",
         "description": "single_search",
-        "peekOfCode": "df_george_raw = pd.read_csv ('george_courses.csv')\ng_left = [\"Course\", \"City1\", \"State1\"]\ndb_right = [\"name\", \"city\", \"state\"]\nfuzzy_match = fuzzymatcher.fuzzy_left_join(df_george_raw, df_all_courses, g_left, db_right)\nfuzzy_match.to_sql(name='george', con=cnx)\ncnx.close()\n# fuzzy_match.to_csv('george_fuzzy_match.csv')\n# dfm = pd.read_csv('george_fuzzy_match.csv')\n# print(dfm)\n# courses_to_map = []",
+        "peekOfCode": "df_george_raw = pd.read_csv ('george_courses.csv')\ng_left = [\"Course\", \"City1\", \"State1\", \"Country\"]\ndb_right = [\"name\", \"city\", \"state\", \"country\"]\nfuzzy_match = fuzzymatcher.fuzzy_left_join(df_george_raw, df_all_courses, g_left, db_right)\nfuzzy_match.to_sql(name='george', con=cnx)\ncnx.close()\n# fuzzy_match.to_csv('george_fuzzy_match.csv')\n# dfm = pd.read_csv('george_fuzzy_match.csv')\n# print(dfm)\n# courses_to_map = []",
         "detail": "single_search",
         "documentation": {}
     },
@@ -1394,7 +1602,7 @@
         "kind": 5,
         "importPath": "single_search",
         "description": "single_search",
-        "peekOfCode": "g_left = [\"Course\", \"City1\", \"State1\"]\ndb_right = [\"name\", \"city\", \"state\"]\nfuzzy_match = fuzzymatcher.fuzzy_left_join(df_george_raw, df_all_courses, g_left, db_right)\nfuzzy_match.to_sql(name='george', con=cnx)\ncnx.close()\n# fuzzy_match.to_csv('george_fuzzy_match.csv')\n# dfm = pd.read_csv('george_fuzzy_match.csv')\n# print(dfm)\n# courses_to_map = []\n# for i in dfm.itertuples():",
+        "peekOfCode": "g_left = [\"Course\", \"City1\", \"State1\", \"Country\"]\ndb_right = [\"name\", \"city\", \"state\", \"country\"]\nfuzzy_match = fuzzymatcher.fuzzy_left_join(df_george_raw, df_all_courses, g_left, db_right)\nfuzzy_match.to_sql(name='george', con=cnx)\ncnx.close()\n# fuzzy_match.to_csv('george_fuzzy_match.csv')\n# dfm = pd.read_csv('george_fuzzy_match.csv')\n# print(dfm)\n# courses_to_map = []\n# for i in dfm.itertuples():",
         "detail": "single_search",
         "documentation": {}
     },
@@ -1403,7 +1611,7 @@
         "kind": 5,
         "importPath": "single_search",
         "description": "single_search",
-        "peekOfCode": "db_right = [\"name\", \"city\", \"state\"]\nfuzzy_match = fuzzymatcher.fuzzy_left_join(df_george_raw, df_all_courses, g_left, db_right)\nfuzzy_match.to_sql(name='george', con=cnx)\ncnx.close()\n# fuzzy_match.to_csv('george_fuzzy_match.csv')\n# dfm = pd.read_csv('george_fuzzy_match.csv')\n# print(dfm)\n# courses_to_map = []\n# for i in dfm.itertuples():\n#     if i[2] < .2:",
+        "peekOfCode": "db_right = [\"name\", \"city\", \"state\", \"country\"]\nfuzzy_match = fuzzymatcher.fuzzy_left_join(df_george_raw, df_all_courses, g_left, db_right)\nfuzzy_match.to_sql(name='george', con=cnx)\ncnx.close()\n# fuzzy_match.to_csv('george_fuzzy_match.csv')\n# dfm = pd.read_csv('george_fuzzy_match.csv')\n# print(dfm)\n# courses_to_map = []\n# for i in dfm.itertuples():\n#     if i[2] < .2:",
         "detail": "single_search",
         "documentation": {}
     },

@@ -7,30 +7,32 @@ Base = declarative_base()
 class courses(Base):
     __tablename__ = 'courses'
     id = Column(Integer, primary_key=True)
-    name = Column(String(250))
-    address = Column(String(250))
-    city = Column(String(100))
-    state = Column(String(40))
-    country = Column(String(40))
-    latitude = Column(Float)
-    longitude = Column(Float)
+    g_course = Column(String(250))
+    g_address = Column(String(250))
+    g_city = Column(String(100))
+    g_state = Column(String(40))
+    g_country = Column(String(40))
+    g_latitude = Column(Float)
+    g_longitude = Column(Float)
 
 from sqlalchemy.orm import sessionmaker
 Session = sessionmaker(bind = engine)
 session = Session()
-result = session.query(courses).all()
+result = int(input(f"Which course id to you want to edit? "))
+i = session.query(courses).get(result)
     
-for i in result:
-    if i.id == 48:
-        print(f'Course: {i.name}, city: {i.city}, country: {i.country}, id: {i.id}')
-        new_lat = float(input('Enter Latitude: '))
-        new_long = float(input('Enter Longitude: '))
-        confirm = input(f'Do you want to update Course: {i.name}, city: {i.city}, country: {i.country}, id: {i.id}, with lat: {new_lat}, long={new_long} ? ')
-        if confirm == 'y':
-            i.latitude = new_lat
-            i.longitude = new_long
-            session.commit()
-            break
+print(f'Course: {i.g_course}, city: {i.g_city}, country: {i.g_country}, id: {i.id}')
+result = input("Is this the course you want to edit? ")
+if result == 'y':
+    new_lat = float(input('Enter Latitude: '))
+    new_long = float(input('Enter Longitude: '))
+    confirm = input(f'Do you want to update Course: {i.g_course}, city: {i.g_city}, country: {i.g_country}, id: {i.id}, with lat: {new_lat}, long={new_long} ? ')
+    if confirm == 'y':
+        i.g_latitude = new_lat
+        i.g_longitude = new_long
+        session.commit()
+else:
+    pass
     
 # for i in courses:   # to remove leading spaces
 #     i.name = i.name.replace("~","-")

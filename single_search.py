@@ -37,8 +37,8 @@ df_all_courses = pd.read_sql_query("SELECT * FROM courses", cnx)
 df_george_raw = pd.read_csv ('george_courses.csv')
 
 
-g_left = ["Course", "City1", "State1"]
-db_right = ["name", "city", "state"]
+g_left = ["Course", "City1", "State1", "Country"]
+db_right = ["name", "city", "state", "country"]
 fuzzy_match = fuzzymatcher.fuzzy_left_join(df_george_raw, df_all_courses, g_left, db_right)
 
 fuzzy_match.to_sql(name='george', con=cnx)

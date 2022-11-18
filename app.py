@@ -119,6 +119,10 @@ def show_map():
 
 @app.route("/find")
 def find_movie():
+    form = EditMatchForm()
+    match_id = request.args.get("id")
+    match_edit = users.query.get(match_id)
+    
     # movie_api_id = request.args.get("id")
     # if movie_api_id:
     #     movie_api_url = f"{MOVIE_DB_INFO_URL}/{movie_api_id}"
@@ -133,7 +137,7 @@ def find_movie():
     #     )
     #     db.session.add(new_movie)
     #     db.session.commit()
-        return redirect(url_for("rate_movie", id=new_movie.id))
+    return redirect(url_for("rate_movie", match_edit=match_edit))
 
 @app.route("/delete")
 def delete_movie():
