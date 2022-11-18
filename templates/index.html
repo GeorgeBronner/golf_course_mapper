@@ -18,7 +18,7 @@
   <div class="list-group" ></div>
   {% for i in matches %}
     {% if i.user == user and i.good_match %}
-    <li class="list-group-item">{{garmin_courses[i.garmin_ID - 1].g_course}}</li>
+    <li class="list-group-item">{{garmin_courses[i.garmin_ID - 1].g_course}} <a href="{{ url_for('edit_match', id=i.index_label)}}" class="button">Update</a></li>
     {% endif %}
   {% endfor %}
 </ul>

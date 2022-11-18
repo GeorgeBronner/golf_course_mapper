@@ -28,7 +28,7 @@ class courses(db.Model):
 
     #Optional: this will allow each book object to be identified by its title when printed.
     def __repr__(self):
-        return f'<course {self.name}>'
+        return f'<course {self.g_course}>'
 
 class users(db.Model):
     index_label = db.Column(db.Integer, primary_key=True)
@@ -76,10 +76,11 @@ def home():
 @app.route("/mike")
 def mike():
 
-    matches = users.query.order_by(users.year,users.course).all()
+    garmin_courses = courses.query.all()
+    user_matches = users.query.order_by(users.year,users.course).all()
 
     picked_user = 'mike'
-    return render_template("index.html", matches=matches, user=picked_user)
+    return render_template("index.html", matches=user_matches, user=picked_user, garmin_courses=garmin_courses)
 
 class SelectUserForm(FlaskForm):
     picked_user = StringField("Pick a user: (george or mike)")
@@ -109,13 +110,56 @@ def edit_match():
     form = EditMatchForm()
     match_id = request.args.get("id")
     match_edit = users.query.get(match_id)
+    id_left = str(int(match_id) - 1) + "_left"
     
     if form.validate_on_submit():
         # movie.rating = float(form.rating.data)
         # movie.review = form.review.data
         # db.session.commit()
         return redirect(url_for('home'))
-    return render_template("edit.html", match_edit=match_edit, raw_matches=raw_matches, form=form)
+    return render_template("edit.html", match_edit=match_edit, raw_matches=raw_matches, form=form, id_left=id_left)
+
+@app.route("/confirm-auto", methods=['GET', 'POST'])
+def confirmAuto():
+    form = EditMatchForm()
+    garmin_id = request.args.get("id")
+    garmin_id = int(garmin_id.split("_")[0]) + 1
+    course_to_edit_id = request.args.get("id_left")
+    course_to_edit_id = int(course_to_edit_id.split("_")[0]) + 1
+    garmin_course = courses.query.get(garmin_id)
+    print(garmin_id)
+    match_edit = users.query.get(course_to_edit_id)
+    
+    # if form.validate_on_submit():
+    #     # movie.rating = float(form.rating.data)
+    #     # movie.review = form.review.data
+    #     # db.session.commit()
+    #     return redirect(url_for('home'))
+    return render_template("confirm-auto.html", match_edit=match_edit, form=form, garmin_course=garmin_course, match_id=course_to_edit_id)    
+
+@app.route("/update_success", methods=['GET', 'POST'])
+def updateSuccess():
+    garmin_id = request.args.get("garmin_id")
+    # garmin_id = int(garmin_id.split("_")[0]) + 1
+    course_to_edit_id = request.args.get("match_id")
+    # course_to_edit_id = int(course_to_edit_id.split("_")[0]) + 1
+    garmin_course = courses.query.get(garmin_id)
+    # print(garmin_course)
+    match_edit = users.query.get(course_to_edit_id)
+    
+    match_edit.garmin_id = int(garmin_id) + 1
+    match_edit.good_match = 1
+    db.session.commit()
+    import map
+    map.make_map()
+
+    # if form.validate_on_submit():
+    #     # movie.rating = float(form.rating.data)
+    #     # movie.review = form.review.data
+    #     # db.session.commit()
+    #     return redirect(url_for('home'))
+    return render_template("update-success.html", garmin_course=garmin_course, match_edit=match_edit)    
+
 
 class AddMoviesForm(FlaskForm):
     movie_to_seach = StringField("Movie Title", validators=[DataRequired()])
@@ -138,6 +182,7 @@ def find_movie():
     form = EditMatchForm()
     match_id = request.args.get("id")
     match_edit = users.query.get(match_id)
+    
     
     # movie_api_id = request.args.get("id")
     # if movie_api_id:
