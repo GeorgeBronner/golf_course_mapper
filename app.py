@@ -82,6 +82,15 @@ def mike():
     picked_user = 'mike'
     return render_template("index.html", matches=user_matches, user=picked_user, garmin_courses=garmin_courses)
 
+@app.route("/top100")
+def top100():
+
+    garmin_courses = courses.query.all()
+    user_matches = users.query.order_by(users.year,users.course).all()
+
+    picked_user = 'top100'
+    return render_template("index.html", matches=user_matches, user=picked_user, garmin_courses=garmin_courses)
+
 class SelectUserForm(FlaskForm):
     picked_user = StringField("Pick a user: (george or mike)")
     submit = SubmitField("Done")

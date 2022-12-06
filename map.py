@@ -43,6 +43,7 @@ def make_map():
 
     load_feature_group(df_matches, "george", 'red')
     load_feature_group(df_matches, "mike", 'blue')
+    load_feature_group(df_matches, "top100", 'yellow')
     map.add_child(folium.LayerControl())
 
     map.save("templates/George_Mike_test.html")
