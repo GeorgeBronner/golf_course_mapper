@@ -1,0 +1,141 @@
+,best_match_score,__id_left,__id_right,Course,City,State,Country,id,g_course,g_address,g_city,g_state,g_country,g_latitude,g_longitude
+0,1.2623409590965795,0_left,1625_right,Pebble Beach Golf Links,Pebble Beach,California,US,1626,Pebble Beach Golf Links - Golf Links,  1700 17 Mile Dr,Pebble Beach,California,US,36.56966455,-121.94974129475571
+2,0.6124357276569484,1_left,14143_right,Pacific Dunes,Bandon,Oregon,US,14144,Bandon Dunes Golf Resort - Pacific Dunes,  57744 Round Lake Drive,Bandon,Oregon,US,43.1969,-124.3917
+3,0.43726160080923043,2_left,18609_right,Whistling Straits Golf Club (Straits),Kohler,Wisconsin,US,18610,Whistling Straits - The Straits,  N 8501 Lakeshore Road,Sheboygan,Wisconsin,US,43.838932,-87.740826
+152,1.8203567971886865,3_left,15394_right,The Ocean Course at Kiawah Island Resort,Kiawah Island,South Carolina,US,15395,The Ocean Course at Kiawah Island Resort,  1 Sanctuary Beach Dr,Kiawah Island,South Carolina,US,32.601291,-80.092228
+153,1.2083365834104336,4_left,10645_right,Shadow Creek,North Las Vegas,Nevada,US,10646,Shadow Creek Golf Course,  3 Shadow Creek Drive,North Las Vegas,Nevada,US,36.25801161388945,-115.10649077597161
+154,0.8763804674389584,5_left,12684_right,Pinehurst Resort (No. 2),Pinehurst,North Carolina,US,12685,Pinehurst Resort - #2,  80 Carolina Vista Drive,Pinehurst,North Carolina,US,35.1926,-79.4639
+155,0.7362064354099193,6_left,14139_right,Bandon Dunes,Bandon,Oregon,US,14140,Bandon Dunes Golf Resort - Bandon Dunes,  57744 Round Lake Dr,Bandon,Oregon,US,43.1878,-124.3912
+161,1.339521709013812,7_left,11578_right,Bethpage State Park (Black),Farmingdale,New York,US,11579,Bethpage State Park Golf Course - The Black,  99 Quaker Meetinghouse Rd,Farmingdale,New York,US,40.742354,-73.45519
+162,0.9600735946388297,8_left,18259_right,Erin Hills Golf Course,Erin,Wisconsin,US,18260,Erin Hills Golf Course,  7169 County Hwy O,Erin,Wisconsin,US,43.96804,-88.94345
+163,1.1743072673336052,9_left,1628_right,Spyglass Hill Golf Course,Pebble Beach,California,US,1629,Spyglass Hill Golf Course,  Stevenson Dr,Pebble Beach,California,US,36.599413,-121.954831
+164,1.206869786503852,10_left,3686_right,TPC Sawgrass (Players Stadium),Ponde Vedra Beach,Florida,US,3687,TPC at Sawgrass - Stadium,  110 Championship Way,Ponte Vedra Beach,Florida,US,30.19560685,-81.393715457703
+166,0.5281563369169799,11_left,14142_right,Old Macdonald,Bandon,Oregon,US,14143,Bandon Dunes Golf Resort - Old Macdonald,  57744 Round Lake Drive,Bandon,Oregon,US,43.2063,-124.3897
+167,0.6710210175882558,12_left,14141_right,Bandon Trails,Bandon,Oregon,US,14142,Bandon Dunes Golf Resort - Bandon Trails,  57744 Round Lake Drive,Bandon,Oregon,US,43.1811,-124.384
+168,0.9336358861706854,13_left,8087_right,Arcadia Bluffs Golf Club (Bluffs),Arcadia,Michigan,US,8088,Arcadia Bluffs Golf Course,  14710 Northwood Hwy,Arcadia,Michigan,US,44.456365399999996,-86.24336500773762
+317,0.5974119371761039,14_left,14144_right,Sheep Ranch,Bandon,Oregon,US,14145,Bandon Dunes Golf Resort - Sheep Ranch,  57744 Round Lake Rd,Bandon,Oregon,US,43.106694,-124.378355
+318,0.9920879459229327,15_left,18359_right,Blackwolf Run (River),Kohler,Wisconsin,US,18360,Blackwolf Run Golf Course - River,  1111 W Riverside Dr,Kohler,Wisconsin,US,43.7281062,-87.77243646325422
+319,0.9777583516194005,16_left,1848_right,Pasatiempo Golf Club,Santa Cruz,California,US,1849,Pasatiempo Golf Club,  20 Clubhouse Rd,Santa Cruz,California,US,37.00335036801189,-122.02631048206759
+320,0.8081033547056795,17_left,18489_right,Sand Valley (Sand Valley),Nekoosa,Wisconsin,US,18490,Sand Valley,  1697 Leopold Way,Nekoosa,Wisconsin,US,44.171016,-89.852533
+321,1.8769459316825778,18_left,5766_right,French Lick Resort (Pete Dye),French Lick,Indiana,US,5767,French Lick Resort - Pete Dye Course,  8760 West State Road 56,French Lick,Indiana,US,38.55379,-86.625504
+322,0.3018552773987105,19_left,2739_right,Streamsong Resort (Red),Streamsong,Florida,US,2740,Streamsong Golf Resort - Red Course,  1000 Streamsong Dr,Bowling Green,Florida,US,27.69248365,-81.93421414184263
+323,0.7724291777321844,20_left,4687_right,Manele Golf Course,"Lanai City, Lanai",Hawaii,US,4688,Manele Golf Course,  1 Manele Bay Road,Lanai,Hawaii,US,20.827894,-156.914741
+469,1.1400056180445013,21_left,17944_right,Chambers Bay,University Place,Washington,US,17945,Chambers Bay Golf Course,  6320 Grandview Dr. W,University Place,Washington,US,47.2213849,-122.5588209
+470,0.4161719926201883,22_left,4685_right,Kapalua Resort (Plantation),"Kapalua, Maui",Hawaii,US,4686,The Kapalua Golf Resort - The Plantation Course,  2000 Plantation Club Dr,Lahaina,Hawaii,US,21.006348,-156.638239
+471,0.9211656861082673,23_left,14089_right,Karsten Creek Golf Club,Stillwater,Oklahoma,US,14090,Karsten Creek Golf Club,  1800 S Memorial Dr,Stillwater,Oklahoma,US,36.0965924,-97.1897693
+472,1.1442425672046457,24_left,15345_right,Harbour Town Golf Links,Hilton Head Island,South Carolina,US,15346,Sea Pines Resort - Harbour Town Golf Links,  11 Lighthouse Ln,Hilton Head Island,South Carolina,US,32.13728719447342,-80.80949125148662
+474,0.29772875679061156,25_left,2738_right,Streamsong Resort (Blue),Streamsong,Florida,US,2739,Streamsong Golf Resort - Blue Course,  1000 Streamsong Dr,Bowling Green,Florida,US,27.69248365,-81.93421414184263
+475,0.12312934841311667,26_left,4666_right,Mauna Kea Golf Course,Kamuela,Hawaii,US,4667,Hapuna Golf Course,  62-100 Kauna'Oa Drive,Kamuela,Hawaii,US,20.8281,-156.912758
+476,1.7426297284447974,27_left,17508_right,The Highland Course at Primland Resort,Meadows of Dan,Virginia,US,17509,The Highland Course at Primland,  2000 Busted Rock Road,Meadows of Dan,Virginia,US,36.73652,-80.39534
+478,1.1538322427762833,28_left,18488_right,Mammoth Dunes,Nekoosa,Wisconsin,US,18489,Mammoth Dunes,  1697 Leopold Way,Nekoosa,Wisconsin,US,44.171016,-89.852533
+479,0.43068871488316696,29_left,9929_right,Ozarks National at Big Cedar Lodge,Hollister,Missouri,US,9930,Big Cedar Lodge - Mountain Top Course,  1250 Golf Club Drive,Hollister,Missouri,US,36.560824,-93.196783
+603,0.8473253287922583,30_left,17454_right,Omni Homestead (Cascades),Hot Springs,Virginia,US,17455,The Homestead - Cascades,  3789 Sam Snead Hwy,Hot Springs,Virginia,US,37.949836,-79.869886
+606,0.8874876234068044,31_left,12686_right,Pinehurst Resort (No. 4),Pinehurst,North Carolina,US,12687,Pinehurst Resort - #4,  80 Carolina Vista Drive,Pinehurst,North Carolina,US,35.1877,-79.4651
+607,1.1942143026622696,32_left,8898_right,Forest Dunes Golf Club (Loop: Red/Black),Roscommon,Michigan,US,8899,Forest Dunes Golf Club - The Loop (Red),  6376 Forest Dunes Drive,Roscommon,Michigan,US,44.491448,-84.591205
+608,0.6969088516691795,33_left,3824_right,Streamsong Resort (Black),Streamsong,Florida,US,3825,Streamsong Golf Resort - Black Course 13 Right,  1000 Streamsong Drive,Streamsong,Florida,US,27.69248365,-81.93421414184263
+610,1.0506551841891913,34_left,9130_right,The Quarry at Giants Ridge,Biwabik,Minnesota,US,9131,Quarry at Giants Ridge Golf & Ski Resort,  6325 Wynne Creek Drive,Biwabik,Minnesota,US,47.576949,-92.303571
+756,1.5086331569481866,35_left,4543_right,Sea Island Golf Club (Seaside),St. Simons Island,Georgia,US,4544,Sea Island Golf Club - Seaside,  100 Retreat Rd,St Simons Island,Georgia,US,31.15051,-81.36954
+757,2.090822663545798,36_left,18119_right,The Greenbrier (Old White TPC),White Sulphur Springs,West Virginia,US,18120,The Greenbrier - Old White TPC,  300 W Main St,White Sulphur Springs,West Virginia,US,37.786721,-80.304668
+758,1.030340734578356,37_left,17703_right,Gamble Sands,Brewster,Washington,US,17704,Gamble Sands,  200 Sands Trail Road,Brewster,Washington,US,48.076211,-119.651529
+759,1.284376483899609,38_left,3252_right,Black Diamond Ranch (Quarry),Lecanto,Florida,US,3253,Black Diamond Ranch - Quarry,  3125 West Black Diamond Circle,Lecanto,Florida,US,28.9074826,-82.4898937
+760,0.4167281896724442,39_left,14150_right,Prongorn Resort (Nicklaus),Bend,Oregon,US,14151,Golf Club at Pronghorn - Jack Nicklaus,  830 NW Wall Street,Bend,Oregon,US,44.0583425,-121.31440277266034
+881,0.053423538453352584,40_left,12878_right,Fallen Oak at Beau Rivage Resort,Biloxi,Mississippi,US,12879,Beau Rivage Resort & Golf Club,  649 Rivage Promenade,Wilmington,North Carolina,US,34.11430475,-77.90638052042254
+1031,1.3162276296006474,41_left,1326_right,Torrey Pines Golf Course (South),La Jolla,California,US,1327,Torrey Pines Municipal Golf Course - South,  11480 N Torrey Pines Rd,La Jolla,California,US,32.9038813,-117.2442733
+1032,0.9196267601983107,42_left,17659_right,Gold Horseshoe Golf Club (Gold),Williamsburg,Virginia,US,17660,The Golden Horseshoe Golf Club - Gold,  401 S England St,Williamsburg,Virginia,US,37.267002,-76.699636
+1033,0.16893938366182726,43_left,2145_right,The Broadmoor (East),Colorado Springs,Colorado,US,2146,The Country Club of Colorado,  125 E Clubhouse Dr,Colorado Springs,Colorado,US,38.77852755,-104.82653953092307
+1039,1.04645201727559,44_left,10543_right,The Prairie Club (Dunes),Valentine,Nebraska,US,10544,The Prairie Club - Dunes,  88897 State Highway 97,Valentine,Nebraska,US,42.713914,-100.805769
+1040,0.293383692299749,45_left,2461_right,Yale Golf Course,New Haven,Connecticut,US,2462,Alling Memorial Golf Course,  35 Eastern St,New Haven,Connecticut,US,41.3083545,-72.86736204298538
+1041,0.697971907305914,46_left,18608_right,Whistling Straits Golf Club (Irish),Kohler,Wisconsin,US,18609,Whistling Straits - The Irish,  N 8501 Lakeshore Road,Sheboygan,Wisconsin,US,43.838932,-87.740826
+1193,1.6439381660491816,47_left,15204_right,May River Golf Club at Palmetto Bluff,Bluffton,South Carolina,US,15205,May River Golf Club at Palmetto Bluff,  476 MOUNT PELIA RD,Bluffton,South Carolina,US,32.20374897443514,-80.88514610188354
+1194,1.1267977418882749,48_left,12755_right,Tobacco Road Golf Club,Sanford,North Carolina,US,12756,Tobacco Road Golf Club,  442 Tobacco Rd,Sanford,North Carolina,US,35.3985925,-79.21239179249083
+1195,0.08443524868189246,49_left,18632_right,SentryWorld,Stevens Points,Wisconsin,US,18633,Wisconsin River Golf Club,  705 W River Dr,Stevens Point,Wisconsin,US,44.470829550000005,-89.5880251789123
+1198,0.9490505780229547,50_left,1822_right,CordeValle,San Martin,California,US,1823,CordeValle Golf Club,  One CordeValle Club Dr,San Martin,California,US,37.067816,-121.627205
+1199,0.624833608184853,51_left,8088_right,Arcadia Bluffs Golf Club (South),Bear Lake,Michigan,US,8089,Arcadia Bluffs Golf Course - South Course,  14710 Northwood Highway,Arcadia,Michigan,US,44.456365399999996,-86.24336500773762
+1389,1.4326301520865512,52_left,1629_right,The Links at Spanish Bay,Pebble Beach,California,US,1630,The Links at Spanish Bay,  2700 17 Mile Dr,Pebble Beach,California,US,36.6132634,-121.9403927
+1390,1.0025931676834678,53_left,1343_right,Stadium Course at PGA West,La Quinta,California,US,1344,PGA West - TPC Stadium,  55-955 PGA Boulevard,La Quinta,California,US,33.6500405,-116.2662264
+1536,0.5022754902902575,54_left,5205_right,Cog Hill (No. 4),Lemont,Illinois,US,5206,Cog Hill Golf & Country Club - Blue (Right #4),  12294 Archer Avenue,Lemont,Illinois,US,41.6648908,-87.961506
+1538,0.8239865039974071,55_left,10219_right,Wilderness Club,Eureka,Montana,US,10220,Wilderness Club,  1885 Sophie Lake Road,Eureka,Montana,US,48.927829,-115.121686
+1539,1.1935630335118645,56_left,11250_right,Paa-Ko Ridge Golf Club,Sandia Park,New Mexico,US,11251,Paa-Ko Ridge Golf Club - Back/Front,  1 Club House Dr,Sandia Park,New Mexico,US,35.245345,-106.673785
+1542,0.8288849565063642,57_left,8897_right,The Loop (Black),Roscommon,Michigan,US,8898,Forest Dunes Golf Club - The Loop (Black),  6376 Forest Dunes Drive,Roscommon,Michigan,US,44.491448,-84.591205
+1543,1.1110030966353353,58_left,9794_right,Mossy Oak Golf Club,West Point,Mississippi,US,9795,Mossy Oak Golf Club,  One Mossy Oak Drive,West Point,Mississippi,US,33.593495,-88.659456
+1544,0.52935111294538,59_left,14313_right,Crosswater at Sunriver Resort,Sunriver,Oregon,US,14314,Sunriver Resort - The Links at Caldera,  17750 Caldera Springs Dr.,Sunriver,Oregon,US,43.853656,-121.437621
+1545,0.7893945141208617,60_left,9155_right,The Classic at Maddens Resort,Brainerd,Minnesota,US,9156,Madden's Resort - The Classic,  11266 Pine Beach Peninsula,Brainerd,Minnesota,US,46.3965872,-94.3747945
+1591,1.3119848148811637,61_left,8126_right,Bay Harbor Golf Club (Links/Quarry),Bay Harbor,Michigan,US,8127,Bay Harbor Golf Club - The Links/The Quarry,  5800 Coastal Ridge Drive,Bay Harbor,Michigan,US,45.3624499,-85.0560398
+1592,1.335511997097158,62_left,15478_right,Dunes Golf and Beach Club,Myrtle Beach,South Carolina,US,15479,The Dunes Golf and Beach Club,  9000 N OCEAN BLVD,Myrtle Beach,South Carolina,US,33.7257607,-78.8401701
+1594,0.8651819856011614,63_left,10639_right,Wolf Creek Golf Club,Mesquite,Nevada,US,10640,Wolf Creek Golf Course,  403 Paradise Parkway,Mesquite,Nevada,US,36.83687785,-114.05920265671853
+1742,1.1176290013035823,64_left,2356_right,Red Sky Ranch and Golf Club (Norman),Wolcott,Colorado,US,2357,Red Sky Golf Club - Norman Course,  376 Red Sky Rd,Wolcott,Colorado,US,39.687773,-106.68071
+1890,1.0793478518062605,65_left,8687_right,Marquette Golf Club (Greywalls),Marquette,Michigan,US,8688,Marquette Golf Club - Greywalls Course,  1075 Grove Street,Marquette,Michigan,US,46.536000764643134,-87.42844333636947
+1891,0.875864449411965,66_left,18298_right,The Golf Courses of Lawsonia (Links),Green Lake,Wisconsin,US,18299,Lawsonia Golf Course - Links,  W2615 S. Valley View Drive,Green Lake,Wisconsin,US,43.829492,-89.012444
+2092,1.5415884106176456,67_left,9583_right,The Wilderness at Fortune Bay,Tower,Minnesota,US,9584,The Wilderness at Fortune Bay,  1450 BOIS FORTE RD,Tower,Minnesota,US,47.821515,-92.346357
+2093,0.8391221668595741,68_left,10560_right,Cascata,Boulder City,Nevada,US,10561,Cascata,  1 Cascata Drive,Boulder City,Nevada,US,35.9770654,-114.89179799664197
+2094,0.010637079724296224,69_left,10318_right,Wild Horse Golf Club,Gothenburg,Nebraska,US,10319,Iron Horse Golf Club,  900 Clubhouse Drive,Ashland,Nebraska,US,41.03761505,-96.34973185958384
+2144,1.5858545784235445,70_left,14587_right,Nemacolin Woodlands Resort (Mystic Rock),Farmington,Pennsylvania,US,14588,Nemacolin Woodlands Resort - Mystic Rock,  1001 Lafayette Drive,Farmington,Pennsylvania,US,39.8048512,-79.55178
+2145,1.5346267137195038,71_left,12789_right,Pine Needles Lodge and Golf Club,Southern Pines,North Carolina,US,12790,Pine Needles Lodge & Golf Club,  1005 Midland Rd,Southern Pines,North Carolina,US,35.201036,-79.38397376026586
+2293,1.095878824849591,72_left,18357_right,Blackwolf Run (Meadown Valleys),Kohler,Wisconsin,US,18358,Blackwolf Run Golf Course - Meadow Valleys,  1111 W Riverside Dr,Kohler,Wisconsin,US,43.7281062,-87.77243646325422
+2294,1.254590456811281,73_left,9795_right,Old Waverly Golf Club,West Point,Mississippi,US,9796,Old Waverly Golf Club,  One Magnolia Drive,West Point,Mississippi,US,33.454819,-88.786123
+2295,0.894516068917301,74_left,12690_right,Pinehurst Resort (No. 8),Pinehurst,North Carolina,US,12691,Pinehurst Resort - #8,  100 Centennial Boulevard,Pinehurst,North Carolina,US,35.2172393,-79.4773277
+2296,0.9195696093099142,75_left,4318_right,Great Waters Course at Reynolds Plantation,Eatonton,Georgia,US,4319,Reynolds Lake Oconee - Great Waters,  112 Plantation Dr,Eatonton,Georgia,US,33.39396,-83.233561
+2436,0.7996701091020114,76_left,8898_right,The Loop (Red),Roscommon,Michigan,US,8899,Forest Dunes Golf Club - The Loop (Red),  6376 Forest Dunes Drive,Roscommon,Michigan,US,44.491448,-84.591205
+2437,1.0974946818305535,77_left,2355_right,Red Sky Ranch and Golf Club (Fazio),Wolcott,Colorado,US,2356,Red Sky Golf Club - Fazio Course,  376 Red Sky Rd,Wolcott,Colorado,US,39.687773,-106.68071
+2585,1.0102958254606065,78_left,13033_right,Firestone Country Club (South),Akron,Ohio,US,13034,Firestone Country Club - South,  452 E Warner Rd,Akron,Ohio,US,41.0077765,-81.5110394524275
+2586,0.0424345211029104,79_left,4695_right,Princeville Makai Golf Club,Kauai,Hawaii,US,4696,The Makai Course,  5-3900 Kuhio Highway,Princeville,Hawaii,US,22.2109375,-159.4529283
+2716,0.8165406044300614,80_left,14155_right,Tetherow Golf Club,Bend,Oregon,US,14156,The Golf Club at Tetherow,  61240 Skyline Ranch Road,Bend,Oregon,US,44.073385,-121.363253
+2717,1.2732292234977025,81_left,5622_right,The Pfau Course at Indiana University,Bloomington,Indiana,US,5623,Pfau Course at Indiana University,  1350 45/46 Bypass,Bloomington,Indiana,US,39.17883,-86.50586
+2855,1.0022361583258166,82_left,13588_right,The Virtues Golf Club,Nashport,Ohio,US,13589,The Virtues Golf Club,  One Long Drive,Nashport,Ohio,US,39.973079,-82.410468
+2856,1.2186774222890155,83_left,15511_right,Caledonia Golf and Fish Club,Pawleys Island,South Carolina,US,15512,Caledonia Golf & Fish Club,  369 CALEDONIA DR,Pawleys Island,South Carolina,US,33.45281275,-79.15150689782021
+2887,0.5556402516347088,84_left,10594_right,Edgewood Tahoe Golf Course,Stateline,Nevada,US,10595,Edgewood Tahoe Golf Course,  180 Lake Parkway,Lake Tahoe,Nevada,US,38.96657915,-119.94892735125927
+2888,1.277737939354055,85_left,3315_right,Trump National Doral (Blue Monster),Miami,Florida,US,3316,Trump National Doral Miami - The Blue Monster,  4400 NW 87th Ave,Miami,Florida,US,25.7867392,-80.3366498
+2889,0.6615013142510817,86_left,507_right,Quintero Golf Club,Peoria,Arizona,US,508,Quintero Golf Club,  16752 W State Route 74,Peoria,Arizona,US,33.850303,-112.418505
+2890,1.0634815409460705,87_left,2062_right,TPC Colorado,Berthoud,Colorado,US,2063,TPC Colorado,  2580 W County Rd 14,Berthoud,Colorado,US,40.349443,-105.107231
+2892,1.3918105567505625,88_left,2797_right,World Woods (Pine Barrens),Brooksville,Florida,US,2798,World Woods Golf Club - Pine Barrens,  17590 Ponce de Leon Blvd,Brooksville,Florida,US,28.551078,-82.3976854
+2893,1.5783108779043746,89_left,18612_right,The Bull at Pinehurst Farms,Sheboygan Falls,Wisconsin,US,18613,The Bull at Pinehurst Farms,  1 Long Dr,Sheboygan Falls,Wisconsin,US,43.714136,-87.815057
+2894,1.0804504639712889,90_left,1627_right,Poppy Hills Golf Course,Pebble Beach,California,US,1628,Poppy Hills Golf Course,  3200 Lopez Rd,Pebble Beach,California,US,36.581122,-121.940564
+2895,1.465571212617619,91_left,12775_right,Mid Pines Inn and Golf Club,Southern Pines,North Carolina,US,12776,Mid Pines Inn & Golf Club,  1010 Midland Rd,Southern Pines,North Carolina,US,35.1917569,-79.3965685910872
+3044,1.1891316511207886,92_left,7481_right,Bulle Rock,Havre de Grace,Maryland,US,7482,Bulle Rock Golf Club,  320 Blenheim Lane,Havre de Grace,Maryland,US,39.545816,-76.132808
+3046,0.9119794130112301,93_left,1652_right,Grizzly Ranch,Portola,California,US,1653,Grizzly Ranch Golf Club,  250 Clubhouse Drive,Portola,California,US,39.845671,-120.415053
+3047,1.0933685221269165,94_left,17655_right,Kingsmill Resort (River),Williamsburg,Virginia,US,17656,Kingsmill Golf Club & Resort - River,  1010 Kingsmill Rd,Williamsburg,Virginia,US,37.22963705,-76.66997598913352
+3048,1.0326736818713633,95_left,10545_right,The Prairie Club (Pines),Valentine,Nebraska,US,10546,The Prairie Club - Pines,  88897 State Highway 97,Valentine,Nebraska,US,42.713914,-100.805769
+3049,0.1654139570077142,96_left,1014_right,Rams Hill Golf Course,Borrego Springs,California,US,1015,Club Circle Golf Course,  3134 Club Circle E,Borrego Springs,California,US,33.23402725916958,-116.35605629433192
+3062,1.286720191882012,97_left,4497_right,The McLemore Club,Rising Fawn,Georgia,US,4498,The McLemore Club,  785 Canyon Ridge Rd,Rising Fawn,Georgia,US,34.742229,-85.450824
+3063,0.9536884685453959,98_left,17428_right,Spring Creek Golf Club,Gordonsville,Virginia,US,17429,Spring Creek Golf Club,  109 Clubhouse Way,Gordonsville,Virginia,US,37.991055,-78.210436
+3064,0.13668568613353094,99_left,8966_right,Tullymore Golf Resort,Stanwood,Michigan,US,8967,St. Ives Resort,  9900 ST IVES DR,Stanwood,Michigan,US,43.60616185,-85.30787331265509
+3200,1.0131008342380328,100_left,18326_right,Troy Burne Golf Club,Hudson,Wisconsin,US,18327,Troy Burne Golf Club,  295 Lindsay Rd,Hudson,Wisconsin,US,44.89910155,-92.73268024959732
+3201,0.6362198565848833,101_left,12170_right,Atunyote at Turning Stone Resort,Verona,New York,US,12171,Kaluhyat Golf Club at Turning Stone,  5218 Patrick Rd,Verona,New York,US,43.115089600000005,-75.58882212990653
+3230,1.4361114635988534,102_left,1514_right,Pelican Hill Golf Club (Ocean South),Newport Coast,California,US,1515,Pelican Hill Golf Club - The Ocean South,  22701 Pelican Hill Rd S,Newport Coast,California,US,33.5806,-117.8418
+3231,1.2365929674719824,103_left,16149_right,Omni Barton Creek Resort (Fazio Canyons),Austin,Texas,US,16150,Barton Creek Resort - Fazio Canyons,  8212 Barton Club Dr,Austin,Texas,US,30.292555,-97.860101
+3233,1.0026673883688655,104_left,4654_right,Hualalai Golf Course,Kailua-Kona,Hawaii,US,4655,Hualalai Golf Club - Hualalai Course,  72-100 Ka`upulehu Drive,Kailua Kona,Hawaii,US,19.8278417,-155.991648
+3235,1.5929173698824397,105_left,14261_right,Pumpkin Ridge Golf Club (Ghost Creek),North Plains,Oregon,US,14262,Pumpkin Ridge Golf Club - Ghost Creek,  12930 NW Old Pumpkin Ridge Rd,North Plains,Oregon,US,45.616476,-123.000533
+3236,0.815215264127934,106_left,8241_right,Belvedere Golf Club,Charlevoix,Michigan,US,8242,Belvedere Golf Club,  5731 MARION CENTER RD,Charlevoix,Michigan,US,45.28874060792648,-85.26811891142745
+3238,1.398888607765457,107_left,16920_right,TPC San Antonio (AT&T),San Antonio,Texas,US,16921,TPC San Antonio - AT&T Oaks,  23808 Resort Parkway,San Antonio,Texas,US,20.98556,-101.49
+3240,1.1838775432861233,108_left,8494_right,Boyne Highlands (Heather),Harbor Springs,Michigan,US,8495,Boyne Highlands Resort - The Heather,  1343 Heather Drive,Harbor Springs,Michigan,US,45.47324685,-84.9311535341906
+3241,1.3264188224707527,109_left,1325_right,Torrey Pines Golf Course (North),La Jolla,California,US,1326,Torrey Pines Municipal Golf Course - North,  11480 N Torrey Pines Rd,La Jolla,California,US,32.9038813,-117.2442733
+3242,1.557183707287005,110_left,8049_right,Grand Traverse Resort and Spa (The Bear),Acme,Michigan,US,8050,Grand Traverse Resort & Spa - The Bear,  100 Grand Traverse Village Blvd,Acme,Michigan,US,44.779888,-85.488795
+3254,1.4463026564689585,111_left,1513_right,Pelican Hill Golf Club (Ocean North),Newport Coast,California,US,1514,Pelican Hill Golf Club - The Ocean North,  22701 Pelican Hill Rd S,Newport Coast,California,US,33.5933,-117.8537
+3255,0.498639870294645,112_left,4681_right,Poipu Bay Golf Course,Kauai,Hawaii,US,4682,Poipu Bay Resort Golf Course,  2250 Ainako Street,Koloa,Hawaii,US,21.877468,-159.436124
+3256,1.474901238986483,113_left,12170_right,Kaluhyat Golf Club at Turning Stone Resort,Verona,New York,US,12171,Kaluhyat Golf Club at Turning Stone,  5218 Patrick Rd,Verona,New York,US,43.115089600000005,-75.58882212990653
+3262,1.9596820643029453,114_left,5765_right,The Donald Ross Course at French Lick Resort,French Lick,Indiana,US,5766,French Lick Resort - Donald Ross Course,  8670 West State Road 56,French Lick,Indiana,US,38.552005,-86.619787
+3400,1.162849067887619,115_left,3611_right,Innisbrook Resort (Copperhead),Palm Harbor,Florida,US,3612,Innisbrook Golf Resort - Copperhead,  36750 US Highway 19 North,Palm Harbor,Florida,US,28.112587,-82.755099
+3401,0.5111766223940256,116_left,4697_right,The Prince Course,Kauai,Hawaii,US,4698,The Prince Course,  5-3900 Kuhio Highway,Princeville,Hawaii,US,22.2109375,-159.4529283
+3402,1.0334245033288765,117_left,6406_right,The Harvester Golf Club,Rhodes,Iowa,US,6407,The Harvester Golf Club,  833 Foster Dr,Rhodes,Iowa,US,41.87716,-93.210337
+3403,1.0812553769546274,118_left,12863_right,Dormie Club,West End,North Carolina,US,12864,Dormie Club,  6033 Beulah Hill Church Road,West End,North Carolina,US,35.263454100000004,-79.50118028936214
+3404,0.7011084273155963,119_left,12603_right,Linville (N.C.) Golf Club,Linville,North Carolina,US,12604,Linville Golf Club,  175 Linville Avenue,Linville,North Carolina,US,36.068421650000005,-81.86972065155372
+3594,1.0251229833282358,120_left,10594_right,Edgewood Tahoe,Lake Tahoe,Nevada,US,10595,Edgewood Tahoe Golf Course,  180 Lake Parkway,Lake Tahoe,Nevada,US,38.96657915,-119.94892735125927
+3595,0.8738541050694408,121_left,7246_right,Belgrade Lakes Golf Club,Belgrade Lakes,Maine,US,7247,Belgrade Lakes Golf Club,  1 WEST RD,Belgrade Twn,Maine,US,23.467621,120.436207
+3596,1.3108262023312882,122_left,11398_right,Trump Golf Links at Ferry Point,Bronx,New York,US,11399,Trump Golf Links Ferry Point,  500 Hutchinson River Parkway,Bronx,New York,US,40.8121,-73.8329
+3775,1.4538575842477155,123_left,4744_right,The Coeur D'Alene (Idaho) Resort,Coeur d'Alene,Idaho,US,4745,Coeur D'Alene Resort Golf Course,  900 Floating Green Dr,Coeur D'Alene,Idaho,US,47.666042149999996,-116.75687943087546
+3922,1.711981222953521,124_left,377_right,We-Ko-Pa Golf Club (Saguaro),Fort McDowell,Arizona,US,378,We-Ko-Pa Golf Club - Saguaro,  18200 E TOH VEE CIR,Fort McDowell,Arizona,US,33.583206,-111.684025
+3924,0.7800470273360695,125_left,9756_right,Dancing Rabbit (Azaleas),Choctaw,Mississippi,US,9757,Dancing Rabbit Golf Club - Azaleas,  13541 MS - 16,Philadelphia,Mississippi,US,32.757394541843055,-88.96901436127958
+3926,1.380877153377474,126_left,16150_right,Omni Barton Creek Resort (Fazio Foothills),Austin,Texas,US,16151,Barton Creek Resort - Fazio Foothills,  8212 Barton Club Dr,Austin,Texas,US,30.292555,-97.860101
+3928,1.195305940582043,127_left,4317_right,Golf Club at Cuscowilla,Eatonton,Georgia,US,4318,Golf Club at Cuscowilla,  126 Cuscowilla Dr,Eatonton,Georgia,US,33.409768,-83.257314
+3929,0.8874876234068044,128_left,12686_right,Pinehurst Resort (No. 4),Pinehurst,North Carolina,US,12687,Pinehurst Resort - #4,  80 Carolina Vista Drive,Pinehurst,North Carolina,US,35.1877,-79.4651
+3930,0.6391153110889,129_left,4649_right,Turtle Bay Resort (Palmer),Oahu,Hawaii,US,4650,Turtle Bay Resort - Arnold Palmer,  57-091 Kamehameha Highway,Kahuku,Hawaii,US,21.44224,-158.013002
+3931,1.2423061150129853,130_left,1676_right,Trump National Golf Club Los Angelas,Rancho Palos Verdes,California,US,1677,Trump National Golf Club,  1 Ocean Trails Rd,Rancho Palos Verdes,California,US,33.729749,-118.349559
+3932,0.7735693604641996,131_left,1653_right,Maderas Golf Club,Poway,California,US,1654,Maderas Golf Club,  17750 Old Coach Rd,Poway,California,US,33.038607,-117.026525
+3933,0.2412764404721829,132_left,1835_right,Sandpiper Golf Club,Santa Barbara,California,US,1836,Birnam Wood Golf Club,  1941 East Valley Rd,Santa Barbara,California,US,34.438797158058684,-119.6130112923782
+3936,1.2002762378542964,133_left,10174_right,Old Works Golf Course,Anaconda,Montana,US,10175,Old Works Golf Course - Old Works,  1205 Pizzini Way,Anaconda,Montana,US,46.133621649999995,-112.933460175486
+3937,0.44567234310655923,134_left,4850_right,Circling Raven,Worley,Idaho,US,4851,Circling Raven Golf Club at Coeur D'Alene Casino,  27068 S Highway 95,Worley,Idaho,US,47.40003,-116.9142683
+3938,-0.026786565428893922,135_left,3540_right,Arnold Palmer's Bay Hill Club (Champion),Orlando,Florida,US,3541,The Bay Hill Club & Lodge - Championship,  9000 Bay Hill Blvd,Orlando,Florida,US,28.4654217,-81.510443667533
+4169,0.6989338003962194,136_left,9930_right,Buffalo Ridge Golf Club,Hollister,Missouri,US,9931,Buffalo Ridge Springs Golf Course,  1001 Branson Creek Blvd,Hollister,Missouri,US,36.575895,-93.194487
+4317,0.31692639926634547,137_left,4708_right,Wailea Golf Club,Maui,Hawaii,US,4709,Wailea Golf Club - Blue,  100 Wailea Ike Drive,Wailea,Hawaii,US,20.6865832,-156.4378959
+4320,0.5601826134497699,138_left,10628_right,Wynn Las Vegas,Las Vegas,Nevada,US,10629,The Wynn Golf Club,  3145 Las Vegas Blvd South,Las Vegas,Nevada,US,36.1255,-115.1599
+4321,1.4198810547012857,139_left,2470_right,Lake of Isles (North),North Stonington,Connecticut,US,2471,Lake of Isles - North Course,  1 CLUBHOUSE DR,North Stonington,Connecticut,US,41.4829856,-71.951742
