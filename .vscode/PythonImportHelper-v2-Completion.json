@@ -846,7 +846,7 @@
         "kind": 2,
         "importPath": "app",
         "description": "app",
-        "peekOfCode": "def mike():\n    garmin_courses = courses.query.all()\n    user_matches = users.query.order_by(users.year,users.course).all()\n    picked_user = 'mike'\n    return render_template(\"index.html\", matches=user_matches, user=picked_user, garmin_courses=garmin_courses)\n@app.route(\"/top100\")\ndef top100():\n    garmin_courses = courses.query.all()\n    user_matches = users.query.order_by(users.year,users.course).all()\n    picked_user = 'top100'",
+        "peekOfCode": "def mike():\n    garmin_courses = courses.query.all()\n    user_matches = users.query.order_by(users.year,users.course).all()\n    picked_user = 'mike'\n    return render_template(\"mike.html\", matches=user_matches, user=picked_user, garmin_courses=garmin_courses)\n@app.route(\"/top100\")\ndef top100():\n    garmin_courses = courses.query.all()\n    user_matches = users.query.order_by(users.year,users.course).all()\n    picked_user = 'top100'",
         "detail": "app",
         "documentation": {}
     },
@@ -855,7 +855,7 @@
         "kind": 2,
         "importPath": "app",
         "description": "app",
-        "peekOfCode": "def top100():\n    garmin_courses = courses.query.all()\n    user_matches = users.query.order_by(users.year,users.course).all()\n    picked_user = 'top100'\n    return render_template(\"index.html\", matches=user_matches, user=picked_user, garmin_courses=garmin_courses)\nclass SelectUserForm(FlaskForm):\n    picked_user = StringField(\"Pick a user: (george or mike)\")\n    submit = SubmitField(\"Done\")\n@app.route(\"/user\", methods=['GET', 'POST'])\ndef pick_user():",
+        "peekOfCode": "def top100():\n    garmin_courses = courses.query.all()\n    user_matches = users.query.order_by(users.year,users.course).all()\n    picked_user = 'top100'\n    return render_template(\"top100.html\", matches=user_matches, user=picked_user, garmin_courses=garmin_courses)\nclass SelectUserForm(FlaskForm):\n    picked_user = StringField(\"Pick a user: (george or mike)\")\n    submit = SubmitField(\"Done\")\n@app.route(\"/user\", methods=['GET', 'POST'])\ndef pick_user():",
         "detail": "app",
         "documentation": {}
     },

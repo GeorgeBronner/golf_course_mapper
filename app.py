@@ -80,7 +80,7 @@ def mike():
     user_matches = users.query.order_by(users.year,users.course).all()
 
     picked_user = 'mike'
-    return render_template("index.html", matches=user_matches, user=picked_user, garmin_courses=garmin_courses)
+    return render_template("mike.html", matches=user_matches, user=picked_user, garmin_courses=garmin_courses)
 
 @app.route("/top100")
 def top100():
@@ -89,7 +89,7 @@ def top100():
     user_matches = users.query.order_by(users.year,users.course).all()
 
     picked_user = 'top100'
-    return render_template("index.html", matches=user_matches, user=picked_user, garmin_courses=garmin_courses)
+    return render_template("top100.html", matches=user_matches, user=picked_user, garmin_courses=garmin_courses)
 
 class SelectUserForm(FlaskForm):
     picked_user = StringField("Pick a user: (george or mike)")
