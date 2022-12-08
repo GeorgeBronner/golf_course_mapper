@@ -1,10 +1,13 @@
+import os
 import pandas as pd
 import folium
 import sqlite3
 import fuzzymatcher
 
 def make_map():
-    cnx = sqlite3.connect('garmin.db')
+    basedir = os.path.abspath(os.path.dirname(__file__))
+    cnx = sqlite3.connect(os.path.join(basedir, "garmin.db"))
+    # cnx = sqlite3.connect('garmin.db')
 
     df_all_courses = pd.read_sql_query("SELECT * FROM courses", cnx)
 

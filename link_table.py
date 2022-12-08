@@ -1,3 +1,4 @@
+import os
 import pandas as pd
 import sqlite3
 import fuzzymatcher
@@ -39,7 +40,8 @@ session = Session()
 
 
 
-cnx = sqlite3.connect('garmin.db')
+basedir = os.path.abspath(os.path.dirname(__file__))
+cnx = sqlite3.connect(os.path.join(basedir, "garmin.db"))
 df_all_courses = pd.read_sql_query("SELECT * FROM courses", cnx)
 
 df_all = pd.read_sql_query("SELECT * FROM users", cnx)

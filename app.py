@@ -1,4 +1,5 @@
 import os
+import sys
 from flask import Flask, render_template, redirect, url_for, request, jsonify
 from flask_bootstrap import Bootstrap
 from flask_sqlalchemy import SQLAlchemy
@@ -131,7 +132,7 @@ def edit_match():
 @app.route("/confirm-auto", methods=['GET', 'POST'])
 def confirmAuto():
     form = EditMatchForm()
-    garmin_id = request.args.get("id")
+    garmin_id = request.args.get("id") 
     garmin_id = int(garmin_id.split("_")[0]) + 1
     course_to_edit_id = request.args.get("id_left")
     course_to_edit_id = int(course_to_edit_id.split("_")[0]) + 1
@@ -155,8 +156,8 @@ def updateSuccess():
     garmin_course = courses.query.get(garmin_id)
     # print(garmin_course)
     match_edit = users.query.get(course_to_edit_id)
-    
-    match_edit.garmin_id = int(garmin_id) + 1
+    print(f'The garmin id is: {garmin_id} and the type is {type(garmin_id)}', file=sys.stdout)
+    match_edit.garmin_ID = int(garmin_id)
     match_edit.good_match = 1
     db.session.commit()
     import map
@@ -169,10 +170,6 @@ def updateSuccess():
     #     return redirect(url_for('home'))
     return render_template("update-success.html", garmin_course=garmin_course, match_edit=match_edit)    
 
-
-class AddMoviesForm(FlaskForm):
-    movie_to_seach = StringField("Movie Title", validators=[DataRequired()])
-    submit = SubmitField("Add Movie")
 
 @app.route("/map", methods=['GET', 'POST'])
 def show_map():

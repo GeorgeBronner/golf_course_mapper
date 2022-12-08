@@ -535,6 +535,15 @@
         "documentation": {}
     },
     {
+        "label": "sys",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "sys",
+        "description": "sys",
+        "detail": "sys",
+        "documentation": {}
+    },
+    {
         "label": "Bootstrap",
         "importPath": "flask_bootstrap",
         "description": "flask_bootstrap",
@@ -824,15 +833,6 @@
         "documentation": {}
     },
     {
-        "label": "AddMoviesForm",
-        "kind": 6,
-        "importPath": "app",
-        "description": "app",
-        "peekOfCode": "class AddMoviesForm(FlaskForm):\n    movie_to_seach = StringField(\"Movie Title\", validators=[DataRequired()])\n    submit = SubmitField(\"Add Movie\")\n@app.route(\"/map\", methods=['GET', 'POST'])\ndef show_map():\n    # form = AddMoviesForm()\n    # if form.validate_on_submit():\n    #     movie_to_search = form.movie_to_seach.data\n    #     response = requests.get(MOVIE_DB_SEARCH_URL, params={\"api_key\": creds.MOVIE_DB_API_KEY, \"query\": movie_to_search})\n    #     data = response.json()[\"results\"]",
-        "detail": "app",
-        "documentation": {}
-    },
-    {
         "label": "home",
         "kind": 2,
         "importPath": "app",
@@ -882,7 +882,7 @@
         "kind": 2,
         "importPath": "app",
         "description": "app",
-        "peekOfCode": "def confirmAuto():\n    form = EditMatchForm()\n    garmin_id = request.args.get(\"id\")\n    garmin_id = int(garmin_id.split(\"_\")[0]) + 1\n    course_to_edit_id = request.args.get(\"id_left\")\n    course_to_edit_id = int(course_to_edit_id.split(\"_\")[0]) + 1\n    garmin_course = courses.query.get(garmin_id)\n    print(garmin_id)\n    match_edit = users.query.get(course_to_edit_id)\n    # if form.validate_on_submit():",
+        "peekOfCode": "def confirmAuto():\n    form = EditMatchForm()\n    garmin_id = request.args.get(\"id\") \n    garmin_id = int(garmin_id.split(\"_\")[0]) + 1\n    course_to_edit_id = request.args.get(\"id_left\")\n    course_to_edit_id = int(course_to_edit_id.split(\"_\")[0]) + 1\n    garmin_course = courses.query.get(garmin_id)\n    print(garmin_id)\n    match_edit = users.query.get(course_to_edit_id)\n    # if form.validate_on_submit():",
         "detail": "app",
         "documentation": {}
     },
@@ -891,7 +891,7 @@
         "kind": 2,
         "importPath": "app",
         "description": "app",
-        "peekOfCode": "def updateSuccess():\n    garmin_id = request.args.get(\"garmin_id\")\n    # garmin_id = int(garmin_id.split(\"_\")[0]) + 1\n    course_to_edit_id = request.args.get(\"match_id\")\n    # course_to_edit_id = int(course_to_edit_id.split(\"_\")[0]) + 1\n    garmin_course = courses.query.get(garmin_id)\n    # print(garmin_course)\n    match_edit = users.query.get(course_to_edit_id)\n    match_edit.garmin_id = int(garmin_id) + 1\n    match_edit.good_match = 1",
+        "peekOfCode": "def updateSuccess():\n    garmin_id = request.args.get(\"garmin_id\")\n    # garmin_id = int(garmin_id.split(\"_\")[0]) + 1\n    course_to_edit_id = request.args.get(\"match_id\")\n    # course_to_edit_id = int(course_to_edit_id.split(\"_\")[0]) + 1\n    garmin_course = courses.query.get(garmin_id)\n    # print(garmin_course)\n    match_edit = users.query.get(course_to_edit_id)\n    print(f'The garmin id is: {garmin_id} and the type is {type(garmin_id)}', file=sys.stdout)\n    match_edit.garmin_ID = int(garmin_id)",
         "detail": "app",
         "documentation": {}
     },
@@ -1008,7 +1008,7 @@
         "kind": 5,
         "importPath": "link_table",
         "description": "link_table",
-        "peekOfCode": "Session = sessionmaker(bind = engine)\nsession = Session()\n# result = session.query(courses).all()\ncnx = sqlite3.connect('garmin.db')\ndf_all_courses = pd.read_sql_query(\"SELECT * FROM courses\", cnx)\ndf_all = pd.read_sql_query(\"SELECT * FROM users\", cnx)\ndf_all = df_all.drop(df_all.columns[[7,10,11,12,13,14,15,16]], axis=1)\ng_left = [\"course\", \"city\", \"state\", \"country\"]\ndb_right = [\"g_course\", \"g_city\", \"g_state\", \"g_country\"]\nfuzzy_table = fuzzymatcher.link_table(df_all, df_all_courses, g_left, db_right)",
+        "peekOfCode": "Session = sessionmaker(bind = engine)\nsession = Session()\n# result = session.query(courses).all()\nbasedir = os.path.abspath(os.path.dirname(__file__))\ncnx = sqlite3.connect(os.path.join(basedir, \"garmin.db\"))\ndf_all_courses = pd.read_sql_query(\"SELECT * FROM courses\", cnx)\ndf_all = pd.read_sql_query(\"SELECT * FROM users\", cnx)\ndf_all = df_all.drop(df_all.columns[[7,10,11,12,13,14,15,16]], axis=1)\ng_left = [\"course\", \"city\", \"state\", \"country\"]\ndb_right = [\"g_course\", \"g_city\", \"g_state\", \"g_country\"]",
         "detail": "link_table",
         "documentation": {}
     },
@@ -1017,7 +1017,16 @@
         "kind": 5,
         "importPath": "link_table",
         "description": "link_table",
-        "peekOfCode": "session = Session()\n# result = session.query(courses).all()\ncnx = sqlite3.connect('garmin.db')\ndf_all_courses = pd.read_sql_query(\"SELECT * FROM courses\", cnx)\ndf_all = pd.read_sql_query(\"SELECT * FROM users\", cnx)\ndf_all = df_all.drop(df_all.columns[[7,10,11,12,13,14,15,16]], axis=1)\ng_left = [\"course\", \"city\", \"state\", \"country\"]\ndb_right = [\"g_course\", \"g_city\", \"g_state\", \"g_country\"]\nfuzzy_table = fuzzymatcher.link_table(df_all, df_all_courses, g_left, db_right)\nfuzzy_table = fuzzy_table[fuzzy_table['match_rank'] < 6]",
+        "peekOfCode": "session = Session()\n# result = session.query(courses).all()\nbasedir = os.path.abspath(os.path.dirname(__file__))\ncnx = sqlite3.connect(os.path.join(basedir, \"garmin.db\"))\ndf_all_courses = pd.read_sql_query(\"SELECT * FROM courses\", cnx)\ndf_all = pd.read_sql_query(\"SELECT * FROM users\", cnx)\ndf_all = df_all.drop(df_all.columns[[7,10,11,12,13,14,15,16]], axis=1)\ng_left = [\"course\", \"city\", \"state\", \"country\"]\ndb_right = [\"g_course\", \"g_city\", \"g_state\", \"g_country\"]\nfuzzy_table = fuzzymatcher.link_table(df_all, df_all_courses, g_left, db_right)",
+        "detail": "link_table",
+        "documentation": {}
+    },
+    {
+        "label": "basedir",
+        "kind": 5,
+        "importPath": "link_table",
+        "description": "link_table",
+        "peekOfCode": "basedir = os.path.abspath(os.path.dirname(__file__))\ncnx = sqlite3.connect(os.path.join(basedir, \"garmin.db\"))\ndf_all_courses = pd.read_sql_query(\"SELECT * FROM courses\", cnx)\ndf_all = pd.read_sql_query(\"SELECT * FROM users\", cnx)\ndf_all = df_all.drop(df_all.columns[[7,10,11,12,13,14,15,16]], axis=1)\ng_left = [\"course\", \"city\", \"state\", \"country\"]\ndb_right = [\"g_course\", \"g_city\", \"g_state\", \"g_country\"]\nfuzzy_table = fuzzymatcher.link_table(df_all, df_all_courses, g_left, db_right)\nfuzzy_table = fuzzy_table[fuzzy_table['match_rank'] < 6]\nfuzzy_table.to_csv(\"match_table.csv\")",
         "detail": "link_table",
         "documentation": {}
     },
@@ -1026,7 +1035,7 @@
         "kind": 5,
         "importPath": "link_table",
         "description": "link_table",
-        "peekOfCode": "cnx = sqlite3.connect('garmin.db')\ndf_all_courses = pd.read_sql_query(\"SELECT * FROM courses\", cnx)\ndf_all = pd.read_sql_query(\"SELECT * FROM users\", cnx)\ndf_all = df_all.drop(df_all.columns[[7,10,11,12,13,14,15,16]], axis=1)\ng_left = [\"course\", \"city\", \"state\", \"country\"]\ndb_right = [\"g_course\", \"g_city\", \"g_state\", \"g_country\"]\nfuzzy_table = fuzzymatcher.link_table(df_all, df_all_courses, g_left, db_right)\nfuzzy_table = fuzzy_table[fuzzy_table['match_rank'] < 6]\nfuzzy_table.to_csv(\"match_table.csv\")\ncnx.execute('''DROP TABLE IF EXISTS matches''')",
+        "peekOfCode": "cnx = sqlite3.connect(os.path.join(basedir, \"garmin.db\"))\ndf_all_courses = pd.read_sql_query(\"SELECT * FROM courses\", cnx)\ndf_all = pd.read_sql_query(\"SELECT * FROM users\", cnx)\ndf_all = df_all.drop(df_all.columns[[7,10,11,12,13,14,15,16]], axis=1)\ng_left = [\"course\", \"city\", \"state\", \"country\"]\ndb_right = [\"g_course\", \"g_city\", \"g_state\", \"g_country\"]\nfuzzy_table = fuzzymatcher.link_table(df_all, df_all_courses, g_left, db_right)\nfuzzy_table = fuzzy_table[fuzzy_table['match_rank'] < 6]\nfuzzy_table.to_csv(\"match_table.csv\")\ncnx.execute('''DROP TABLE IF EXISTS matches''')",
         "detail": "link_table",
         "documentation": {}
     },
@@ -1530,7 +1539,7 @@
         "kind": 2,
         "importPath": "map",
         "description": "map",
-        "peekOfCode": "def make_map():\n    cnx = sqlite3.connect('garmin.db')\n    df_all_courses = pd.read_sql_query(\"SELECT * FROM courses\", cnx)\n    df_matches = pd.read_sql_query(\"SELECT * FROM users\", cnx)\n    def load_feature_group(dfm, name, color):\n        courses_to_map = []\n        for i in dfm.itertuples():\n            id = i[11] - 1 # get the id from the gamrin list and subtract 1 to match with dataframe index\n            print(f\"id= {i[11]}\")\n            if i[2] != name:",
+        "peekOfCode": "def make_map():\n    basedir = os.path.abspath(os.path.dirname(__file__))\n    cnx = sqlite3.connect(os.path.join(basedir, \"garmin.db\"))\n    # cnx = sqlite3.connect('garmin.db')\n    df_all_courses = pd.read_sql_query(\"SELECT * FROM courses\", cnx)\n    df_matches = pd.read_sql_query(\"SELECT * FROM users\", cnx)\n    def load_feature_group(dfm, name, color):\n        courses_to_map = []\n        for i in dfm.itertuples():\n            id = i[11] - 1 # get the id from the gamrin list and subtract 1 to match with dataframe index",
         "detail": "map",
         "documentation": {}
     },

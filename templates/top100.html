@@ -4,28 +4,30 @@
   {{ super() }}
   <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Nunito+Sans:300,400,700">
   <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Poppins:300,400,700">
-    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Poppins:300,400,700">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css" integrity="sha512-1PKOgIY59xJ8Co8+NE6FZ+LOAZKjy+KY8iq0G4B3CyeY6wYHN3yt9PW0XpSriVlkMXe40PTKnXrLnZ9+fkDaog==" crossorigin="anonymous" />
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Poppins:300,400,700">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css" integrity="sha512-1PKOgIY59xJ8Co8+NE6FZ+LOAZKjy+KY8iq0G4B3CyeY6wYHN3yt9PW0XpSriVlkMXe40PTKnXrLnZ9+fkDaog==" crossorigin="anonymous" />
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4" crossorigin="anonymous"></script>
   <link rel="stylesheet" href="{{ url_for('static', filename='css/styles.css') }}">
 {% endblock %}
 
-{% block title %}Mike's golf courses{% endblock %}
+{% block title %}The Top 100 golf courses since 2014{% endblock %}
 
 {% block content %}
 <ul class="container">
-  <h1 class="heading">Top100 Golf Courses</h1>
-  <p class="description">These are the course in the top 100 since 2013.</p>
+  <h1 class="heading">Top 100</h1>
+  <p class="description">These are the Top 100 golf courses since 2014.</p>
   <div class="list-group" ></div>
   {% for i in matches %}
     {% if i.user == user and i.good_match %}
-    <li class="list-group-item">{{garmin_courses[i.garmin_ID - 1].g_course}} <a href="{{ url_for('edit_match', id=i.index_label)}}" class="button">Update</a></li>
+    <li class="list-group-item border border-2">{{garmin_courses[i.garmin_ID - 1].g_course}} <a class="btn btn-outline-secondary btn-sm" href="{{ url_for('edit_match', id=i.index_label)}}" role="button">Update</a></li>
     {% endif %}
   {% endfor %}
 </ul>
 
 <div class="container text-center add">
-  <a href="{{url_for('show_map')}}" class="button">Show Map</a>
-  </div>
+  <a href="{{url_for('show_map')}}" class="btn btn-outline-primary btn-lg">Show Map</a>
+</div>
   
 
 <ul class="container">
@@ -34,13 +36,13 @@
   <div class="list-group" ></div>
   {% for i in matches %}
     {% if i.user == user and not i.good_match %}
-    <li class="list-group-item">{{i.course}} <a href="{{ url_for('edit_match', id=i.index_label)}}" class="button">Update</a></li>
+    <li class="list-group-item border border-2">{{i.course}} <a class="btn btn-outline-secondary btn-sm" href="{{ url_for('edit_match', id=i.index_label)}}">Update</a></li>
     {% endif %}
   {% endfor %}
 </ul>
 
 <div class="container text-center add">
-<a href="{{url_for('show_map')}}" class="button">Show Map</a>
+  <a href="{{url_for('show_map')}}" class="btn btn-outline-primary btn-lg">Show Map</a>
 </div>
 
 {% endblock %}

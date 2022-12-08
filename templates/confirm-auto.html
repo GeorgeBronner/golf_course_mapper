@@ -6,6 +6,9 @@
   <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Nunito+Sans:300,400,700">
   <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Poppins:300,400,700">
   <link rel="stylesheet" href="{{ url_for('static', filename='css/styles.css') }}">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4" crossorigin="anonymous"></script>
+
 {% endblock %}
 
 {% block title %}Edit User{% endblock %}
@@ -13,27 +16,26 @@
 {% block content %}
 <div class="content">
   <h1 class="heading">Edit Course - {{match_edit.course}}</h1>
-    <p class="description">The course to edit</p>
+    <p class="description"></p>
 
-      <div class="list-group" ></div>
+      <div class="list-group" >
 
-        <li class="list-group-item">Input City: {{match_edit.city}}</li>
-        <li class="list-group-item">Input State: {{match_edit.state}}</li>
-        <li class="list-group-item">Input Country: {{match_edit.country}}</li>
-
-    </ul>
+        <li class="list-group-item border border-2">Input City: {{match_edit.city}}</li>
+        <li class="list-group-item border border-2">Input State: {{match_edit.state}}</li>
+        <li class="list-group-item border border-2">Input Country: {{match_edit.country}}</li>
+      
+      </div>
   </div>
   
   <div class="content">
-    <h2 class="heading">Confirm Match</h1>
-        <ul class="list-group" ></div>
+    <h2 class="heading">Confirm Match</h2>
+        <div class="list-group" >
 
-          <li class="list-group-item">{{garmin_course.g_course}}</li>
-          <li class="list-group-item">{{garmin_course.g_address}}</li>
-          <li class="list-group-item">{{garmin_course.g_city}}, {{garmin_course.g_state}}, {{garmin_course.g_country}}</li>
-          <li class="list-group-item"></li>
-          <a href="{{ url_for('updateSuccess', match_id=match_id, garmin_id=garmin_course.id)}}" class="button">Confirm Update</a>
-
+          <li class="list-group-item border border-2">{{garmin_course.g_course}}</li>
+          <li class="list-group-item border border-2">{{garmin_course.g_address}}</li>
+          <li class="list-group-item border border-2">{{garmin_course.g_city}}, {{garmin_course.g_state}}, {{garmin_course.g_country}}</li>    
+          <a href="{{ url_for('updateSuccess', match_id=match_id, garmin_id=garmin_course.id)}}" class="btn btn-outline-success btn-sm">Confirm Update</a>
+        </div>
   </div>
 
 {% endblock %}
