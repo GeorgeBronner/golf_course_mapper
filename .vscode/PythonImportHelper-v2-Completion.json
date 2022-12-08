@@ -900,7 +900,16 @@
         "kind": 2,
         "importPath": "app",
         "description": "app",
-        "peekOfCode": "def show_map():\n    # form = AddMoviesForm()\n    # if form.validate_on_submit():\n    #     movie_to_search = form.movie_to_seach.data\n    #     response = requests.get(MOVIE_DB_SEARCH_URL, params={\"api_key\": creds.MOVIE_DB_API_KEY, \"query\": movie_to_search})\n    #     data = response.json()[\"results\"]\n    #     return render_template(\"select.html\", options=data)\n    # all_movies = Movie.query.order_by(Movie.rating).all()\n    # return render_template(\"add.html\", all_movies=all_movies, form=form)\n    return render_template('George_Mike_test.html')",
+        "peekOfCode": "def show_map():\n    # return render_template('George_Mike_test.html')\n    return render_template('show_map.html')\n@app.route(\"/fullmap\", methods=['GET', 'POST'])\ndef show_full_map():\n    return render_template('George_Mike_test.html')\n@app.route(\"/find\")\ndef find_movie():\n    form = EditMatchForm()\n    match_id = request.args.get(\"id\")",
+        "detail": "app",
+        "documentation": {}
+    },
+    {
+        "label": "show_full_map",
+        "kind": 2,
+        "importPath": "app",
+        "description": "app",
+        "peekOfCode": "def show_full_map():\n    return render_template('George_Mike_test.html')\n@app.route(\"/find\")\ndef find_movie():\n    form = EditMatchForm()\n    match_id = request.args.get(\"id\")\n    match_edit = users.query.get(match_id)\n    # movie_api_id = request.args.get(\"id\")\n    # if movie_api_id:\n    #     movie_api_url = f\"{MOVIE_DB_INFO_URL}/{movie_api_id}\"",
         "detail": "app",
         "documentation": {}
     },

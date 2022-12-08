@@ -173,14 +173,13 @@ def updateSuccess():
 
 @app.route("/map", methods=['GET', 'POST'])
 def show_map():
-    # form = AddMoviesForm()
-    # if form.validate_on_submit():
-    #     movie_to_search = form.movie_to_seach.data
-    #     response = requests.get(MOVIE_DB_SEARCH_URL, params={"api_key": creds.MOVIE_DB_API_KEY, "query": movie_to_search})
-    #     data = response.json()["results"]
-    #     return render_template("select.html", options=data)
-    # all_movies = Movie.query.order_by(Movie.rating).all()
-    # return render_template("add.html", all_movies=all_movies, form=form)
+
+    # return render_template('George_Mike_test.html')
+    return render_template('show_map.html')
+
+@app.route("/fullmap", methods=['GET', 'POST'])
+def show_full_map():
+
     return render_template('George_Mike_test.html')
 
 @app.route("/find")

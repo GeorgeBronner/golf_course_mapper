@@ -7,6 +7,7 @@
 	 font-weight: 300;
 	 color: #333;
 	 font-family: "Nunito Sans", sans-serif;
+
 }
  body {
 	 margin: 0;
@@ -14,6 +15,7 @@
 	 height: 100vh;
 	 background-color: #ecf0f9;
 	 background-attachment: fixed;
+
 }
 .large {
      font-size: 3rem;
