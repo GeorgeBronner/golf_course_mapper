@@ -819,7 +819,7 @@
         "kind": 6,
         "importPath": "app",
         "description": "app",
-        "peekOfCode": "class SelectUserForm(FlaskForm):\n    picked_user = StringField(\"Pick a user: (george or mike)\")\n    submit = SubmitField(\"Done\")\n@app.route(\"/user\", methods=['GET', 'POST'])\ndef pick_user():\n    form = SelectUserForm()\n    matches = users.query.order_by(users.year,users.g_course).all()\n    picked_user = 'george'\n    if form.validate_on_submit():\n        picked_user = str(form.picked_user.data)",
+        "peekOfCode": "class SelectUserForm(FlaskForm):\n    picked_user = StringField(\"Pick a user: (george or mike)\")\n    submit = SubmitField(\"Done\")\n# @app.route(\"/user\", methods=['GET', 'POST'])\n# def pick_user():\n#     form = SelectUserForm()\n#     matches = users.query.order_by(users.year,users.course).all()\n#     picked_user = 'george'\n#     if form.validate_on_submit():\n#         picked_user = str(form.picked_user.data)",
         "detail": "app",
         "documentation": {}
     },
@@ -855,16 +855,16 @@
         "kind": 2,
         "importPath": "app",
         "description": "app",
-        "peekOfCode": "def top100():\n    garmin_courses = courses.query.all()\n    user_matches = users.query.order_by(users.year,users.course).all()\n    picked_user = 'top100'\n    return render_template(\"top100.html\", matches=user_matches, user=picked_user, garmin_courses=garmin_courses)\nclass SelectUserForm(FlaskForm):\n    picked_user = StringField(\"Pick a user: (george or mike)\")\n    submit = SubmitField(\"Done\")\n@app.route(\"/user\", methods=['GET', 'POST'])\ndef pick_user():",
+        "peekOfCode": "def top100():\n    garmin_courses = courses.query.all()\n    user_matches = users.query.order_by(users.year,users.course).all()\n    picked_user = 'top100'\n    return render_template(\"top100.html\", matches=user_matches, user=picked_user, garmin_courses=garmin_courses)\n@app.route(\"/garmin_courses\")\ndef garmin_list():\n    garmin_courses = courses.query.all()\n    return render_template(\"garmin_course_list.html\", garmin=garmin_courses)\nclass SelectUserForm(FlaskForm):",
         "detail": "app",
         "documentation": {}
     },
     {
-        "label": "pick_user",
+        "label": "garmin_list",
         "kind": 2,
         "importPath": "app",
         "description": "app",
-        "peekOfCode": "def pick_user():\n    form = SelectUserForm()\n    matches = users.query.order_by(users.year,users.g_course).all()\n    picked_user = 'george'\n    if form.validate_on_submit():\n        picked_user = str(form.picked_user.data)\n        return redirect(url_for('home'))\n    return render_template(\"edit.html\", matches=matches, user=picked_user, form=form)\nclass EditMatchForm(FlaskForm):\n    search_name = StringField(\"Your Course Name\")",
+        "peekOfCode": "def garmin_list():\n    garmin_courses = courses.query.all()\n    return render_template(\"garmin_course_list.html\", garmin=garmin_courses)\nclass SelectUserForm(FlaskForm):\n    picked_user = StringField(\"Pick a user: (george or mike)\")\n    submit = SubmitField(\"Done\")\n# @app.route(\"/user\", methods=['GET', 'POST'])\n# def pick_user():\n#     form = SelectUserForm()\n#     matches = users.query.order_by(users.year,users.course).all()",
         "detail": "app",
         "documentation": {}
     },

@@ -92,20 +92,26 @@ def top100():
     picked_user = 'top100'
     return render_template("top100.html", matches=user_matches, user=picked_user, garmin_courses=garmin_courses)
 
+@app.route("/garmin_courses")
+def garmin_list():
+
+    garmin_courses = courses.query.all()
+
+    return render_template("garmin_course_list.html", garmin=garmin_courses)
+
 class SelectUserForm(FlaskForm):
     picked_user = StringField("Pick a user: (george or mike)")
     submit = SubmitField("Done")
 
-@app.route("/user", methods=['GET', 'POST'])
-def pick_user():
-    
-    form = SelectUserForm()
-    matches = users.query.order_by(users.year,users.g_course).all()
-    picked_user = 'george'
-    if form.validate_on_submit():
-        picked_user = str(form.picked_user.data)
-        return redirect(url_for('home'))
-    return render_template("edit.html", matches=matches, user=picked_user, form=form)
+# @app.route("/user", methods=['GET', 'POST'])
+# def pick_user():
+#     form = SelectUserForm()
+#     matches = users.query.order_by(users.year,users.course).all()
+#     picked_user = 'george'
+#     if form.validate_on_submit():
+#         picked_user = str(form.picked_user.data)
+#         return redirect(url_for('home'))
+#     return render_template("edit.html", matches=matches, user=picked_user, form=form)
 
 class EditMatchForm(FlaskForm):
     search_name = StringField("Your Course Name")
