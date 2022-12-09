@@ -181,7 +181,7 @@ def show_map():
 @app.route("/fullmap", methods=['GET', 'POST'])
 def show_full_map():
 
-    return render_template('George_Mike_test.html')
+    return render_template('folium_map.html')
 
 @app.route("/find")
 def find_movie():

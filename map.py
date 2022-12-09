@@ -49,7 +49,7 @@ def make_map():
     load_feature_group(df_matches, "top100", 'yellow')
     map.add_child(folium.LayerControl())
 
-    map.save("templates/George_Mike_test.html")
+    map.save("templates/folium_map.html")
 
 if __name__ == '__main__':
     make_map()
