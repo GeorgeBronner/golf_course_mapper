@@ -568,6 +568,14 @@
         "documentation": {}
     },
     {
+        "label": "IntegerField",
+        "importPath": "wtforms",
+        "description": "wtforms",
+        "isExtraImport": true,
+        "detail": "wtforms",
+        "documentation": {}
+    },
+    {
         "label": "SubmitField",
         "importPath": "wtforms",
         "description": "wtforms",
@@ -828,7 +836,7 @@
         "kind": 6,
         "importPath": "app",
         "description": "app",
-        "peekOfCode": "class EditMatchForm(FlaskForm):\n    search_name = StringField(\"Your Course Name\")\n    search_city = StringField(\"City\")\n    search_State = StringField(\"State\")\n    search_Country = StringField(\"Country\")\n    submit = SubmitField(\"Done\")\n@app.route(\"/edit\", methods=['GET', 'POST'])\ndef edit_match():\n    raw_matches = matches.query.all()\n    form = EditMatchForm()",
+        "peekOfCode": "class EditMatchForm(FlaskForm):\n    manual_garmin_id = IntegerField(\"Manual Garmin ID\")\n    submit = SubmitField(\"Set\")\n@app.route(\"/edit\", methods=['GET', 'POST'])\ndef edit_match():\n    raw_matches = matches.query.all()\n    form = EditMatchForm()\n    match_id = request.args.get(\"id\")\n    match_edit = users.query.get(match_id)\n    id_left = str(int(match_id) - 1) + \"_left\"",
         "detail": "app",
         "documentation": {}
     },
@@ -873,7 +881,7 @@
         "kind": 2,
         "importPath": "app",
         "description": "app",
-        "peekOfCode": "def edit_match():\n    raw_matches = matches.query.all()\n    form = EditMatchForm()\n    match_id = request.args.get(\"id\")\n    match_edit = users.query.get(match_id)\n    id_left = str(int(match_id) - 1) + \"_left\"\n    if form.validate_on_submit():\n        # movie.rating = float(form.rating.data)\n        # movie.review = form.review.data\n        # db.session.commit()",
+        "peekOfCode": "def edit_match():\n    raw_matches = matches.query.all()\n    form = EditMatchForm()\n    match_id = request.args.get(\"id\")\n    match_edit = users.query.get(match_id)\n    id_left = str(int(match_id) - 1) + \"_left\"\n    if form.validate_on_submit():\n        maunal_garmin_id = form.manual_garmin_id.data - 1\n        return redirect(url_for('confirmAuto',id=maunal_garmin_id, id_left=id_left))\n    return render_template(\"edit.html\", match_edit=match_edit, raw_matches=raw_matches, form=form, id_left=id_left)",
         "detail": "app",
         "documentation": {}
     },

@@ -4,7 +4,7 @@ from flask import Flask, render_template, redirect, url_for, request, jsonify
 from flask_bootstrap import Bootstrap
 from flask_sqlalchemy import SQLAlchemy
 from flask_wtf import FlaskForm
-from wtforms import StringField, SubmitField
+from wtforms import StringField, IntegerField, SubmitField
 from wtforms.validators import DataRequired
 import pandas as pd
 
@@ -114,11 +114,8 @@ class SelectUserForm(FlaskForm):
 #     return render_template("edit.html", matches=matches, user=picked_user, form=form)
 
 class EditMatchForm(FlaskForm):
-    search_name = StringField("Your Course Name")
-    search_city = StringField("City")
-    search_State = StringField("State")
-    search_Country = StringField("Country")
-    submit = SubmitField("Done")
+    manual_garmin_id = IntegerField("Manual Garmin ID")
+    submit = SubmitField("Set")
 
 @app.route("/edit", methods=['GET', 'POST'])
 def edit_match():
@@ -129,10 +126,8 @@ def edit_match():
     id_left = str(int(match_id) - 1) + "_left"
     
     if form.validate_on_submit():
-        # movie.rating = float(form.rating.data)
-        # movie.review = form.review.data
-        # db.session.commit()
-        return redirect(url_for('home'))
+        maunal_garmin_id = form.manual_garmin_id.data - 1
+        return redirect(url_for('confirmAuto',id=maunal_garmin_id, id_left=id_left))
     return render_template("edit.html", match_edit=match_edit, raw_matches=raw_matches, form=form, id_left=id_left)
 
 @app.route("/confirm-auto", methods=['GET', 'POST'])
