@@ -4,7 +4,7 @@ from flask import Flask, render_template, redirect, url_for, request, jsonify
 from flask_bootstrap import Bootstrap
 from flask_sqlalchemy import SQLAlchemy
 from flask_wtf import FlaskForm
-from wtforms import StringField, IntegerField, SubmitField
+from wtforms import StringField, IntegerField, SubmitField, SelectField
 from wtforms.validators import DataRequired
 import pandas as pd
 
@@ -205,6 +205,26 @@ def find_movie():
     #     db.session.add(new_movie)
     #     db.session.commit()
     return redirect(url_for("rate_movie", match_edit=match_edit))
+
+class AddCourseForm(FlaskForm):
+    user = SelectField("User", choices=['george','mike'], validators=[DataRequired()])
+    course = StringField("Course", validators=[DataRequired()])
+    city = StringField("City", validators=[DataRequired()])
+    state = StringField("State", validators=[DataRequired()])
+    country = StringField("Country", validators=[DataRequired()])
+    year = IntegerField("Year")
+    submit = SubmitField("Add Course")
+
+@app.route("/add_course", methods=["GET", "POST"])
+def add_course():
+    form = AddCourseForm()
+    if form.validate_on_submit():
+        new_course = users(user=form.user.data, course=form.course.data, city=form.city.data,
+                         state=form.state.data, country=form.country.data, year=form.year.data)
+        db.session.add(new_course)
+        db.session.commit()
+        return redirect(url_for("home"))
+    return render_template("add_course.html", form=form)
 
 @app.route("/delete")
 def delete_movie():
