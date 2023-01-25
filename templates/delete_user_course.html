@@ -1,0 +1,21 @@
+{% extends "base.html" %}
+{% import "bootstrap/wtf.html" as wtf %}
+
+{% block title %}Confirm User Course Deletion{% endblock %}
+
+{% block content %}
+<div class="content">
+  <h2 class="heading">Confirm Match</h2>
+      <div class="list-group" >
+
+        <li class="list-group-item border border-2">{{course.course}}</li>
+        <li class="list-group-item border border-2">{{course.address}}</li>
+        <li class="list-group-item border border-2">{{course.city}}, {{course.state}}, {{course.country}}</li>
+        {{wtf.quick_form(form)}}
+      </div>
+</div>
+
+  <div class="container text-center add">
+    <a href="{{url_for('show_map')}}" class="btn btn-outline-primary btn-lg">Cancel and Show Map</a>
+  </div>
+{% endblock %}

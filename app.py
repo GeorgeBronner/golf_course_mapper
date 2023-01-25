@@ -128,7 +128,7 @@ def edit_match():
     if form.validate_on_submit():
         maunal_garmin_id = form.manual_garmin_id.data - 1
         return redirect(url_for('confirmAuto',id=maunal_garmin_id, id_left=id_left))
-    return render_template("edit.html", match_edit=match_edit, raw_matches=raw_matches, form=form, id_left=id_left)
+    return render_template("edit.html", match_edit=match_edit, raw_matches=raw_matches, form=form, id_left=id_left, match_id=match_id)
 
 @app.route("/confirm-auto", methods=['GET', 'POST'])
 def confirmAuto():
@@ -226,13 +226,22 @@ def add_course():
         return redirect(url_for("home"))
     return render_template("add_course.html", form=form)
 
-@app.route("/delete")
-def delete_movie():
-    # movie_id = request.args.get("id")
-    # movie = Movie.query.get(movie_id)
-    # db.session.delete(movie)
-    # db.session.commit()
-    return redirect(url_for("home"))
+class DeleteUserCourse(FlaskForm):
+    submit = SubmitField("Delete")
+
+@app.route("/delete", methods=["GET", "POST"])
+def delete_user_course():
+    form = DeleteUserCourse()
+    delete_id = request.args.get("id")
+    delete_course = users.query.get(delete_id)
+    if form.validate_on_submit():
+        
+        db.session.delete(delete_course)
+        db.session.commit()
+        import map
+        map.make_map()
+        return redirect(url_for("home"))
+    return render_template("delete_user_course.html", form=form, course=delete_course)
 
 if __name__ == '__main__':
     app.run(debug=True)
