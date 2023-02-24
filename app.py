@@ -4,7 +4,7 @@ from flask import Flask, render_template, redirect, url_for, request, jsonify
 from flask_bootstrap import Bootstrap
 from flask_sqlalchemy import SQLAlchemy
 from flask_wtf import FlaskForm
-from wtforms import StringField, IntegerField, SubmitField, SelectField
+from wtforms import StringField, IntegerField, FloatField, SubmitField, SelectField
 from wtforms.validators import DataRequired
 import pandas as pd
 
@@ -242,6 +242,29 @@ def delete_user_course():
         map.make_map()
         return redirect(url_for("home"))
     return render_template("delete_user_course.html", form=form, course=delete_course)
+
+class AddGarminCourseForm(FlaskForm):
+    course = StringField("Course Name", validators=[DataRequired()])
+    address = StringField("Address", validators=[DataRequired()])
+    city = StringField("City", validators=[DataRequired()])
+    state = StringField("State", validators=[DataRequired()])
+    country = StringField("Country", validators=[DataRequired()])
+    latitude = FloatField("Latitude", validators=[DataRequired()])
+    longitude = FloatField("Longitude", validators=[DataRequired()])
+    submit = SubmitField("Add Course")
+
+@app.route("/add_garmin_course", methods=["GET", "POST"])
+def add_garmin_course():
+    form = AddGarminCourseForm()
+    if form.validate_on_submit():
+        new_course = courses(g_course=form.course.data, g_address=form.address.data, g_city=form.city.data,
+                         g_state=form.state.data, g_country=form.country.data, g_latitude=form.latitude.data, 
+                         g_longitude=form.longitude.data)
+
+        db.session.add(new_course)
+        db.session.commit()
+        return redirect(url_for("home"))
+    return render_template("add_garmin_course.html", form=form)
 
 if __name__ == '__main__':
     app.run(debug=True)

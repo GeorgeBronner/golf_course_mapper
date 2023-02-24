@@ -1,18 +1,18 @@
 {% extends "base.html" %}
 {% import "bootstrap/wtf.html" as wtf %}
 
-{% block title %}Add Course Played{% endblock %}
+{% block title %}Add Course to Master List{% endblock %}
 
 {% block content %}
-<form method="POST" action="{{ url_for('add_course') }}">
+<form method="POST" action="{{ url_for('add_garmin_course') }}">
     {{ form.hidden_tag() }}
-    <div class="form-group">
-        {{ form.user.label }}
-        {{ form.user }}
-    </div>
     <div class="form-group">
         {{ form.course.label }}
         {{ form.course }}
+    </div>
+    <div class="form-group">
+        {{ form.address.label }}
+        {{ form.address }}
     </div>
     <div class="form-group">
         {{ form.city.label }}
@@ -27,8 +27,12 @@
         {{ form.country }}
     </div>
     <div class="form-group">
-        {{ form.year.label }}
-        {{ form.year }}
+        {{ form.latitude.label }}
+        {{ form.latitude }}
+    </div>
+    <div class="form-group">
+        {{ form.longitude.label }}
+        {{ form.longitude }}
     </div>
     <div class="form-group">
         {{ form.submit }}
