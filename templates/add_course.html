@@ -4,6 +4,7 @@
 {% block title %}Add Course Played{% endblock %}
 
 {% block content %}
+<div class="container add">
 <form method="POST" action="{{ url_for('add_course') }}">
     {{ form.hidden_tag() }}
     <div class="form-group">
@@ -34,4 +35,5 @@
         {{ form.submit }}
     </div>
 </form>
+</div>
 {% endblock %}

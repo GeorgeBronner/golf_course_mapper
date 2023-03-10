@@ -6,7 +6,6 @@
 <table class="container">
   <h1 class="heading">My Golf Courses</h1>
   <p class="description">These are the course courses I have played.</p>
-  <div class="list-group" ></div>
   {% for i in matches %}
     {% if i.user == user and i.good_match %}
     <tr class="container">
@@ -25,7 +24,6 @@
 <table class="container">
   <h1 class="heading">Unmatched Courses</h1>
   <p class="description">These are the course courses that still need to be matched to the Garmin Database.</p>
-  <div class="list-group" ></div>
   {% for i in matches %}
     {% if i.user == user and not i.good_match %}
     <tr class="container">

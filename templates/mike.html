@@ -3,32 +3,38 @@
 {% block title %}Mike's golf courses{% endblock %}
 
 {% block content %}
-<ul class="container">
+<table class="container">
   <h1 class="heading">Mike's Golf Courses</h1>
   <p class="description">These are the course courses Mike has played.</p>
   <div class="list-group" ></div>
   {% for i in matches %}
     {% if i.user == user and i.good_match %}
-    <li class="list-group-item border border-2">{{garmin_courses[i.garmin_ID - 1].g_course}} <a class="btn btn-outline-secondary btn-sm" href="{{ url_for('edit_match', id=i.index_label)}}" role="button">Update</a></li>
+    <tr class="container">
+      <td class="table-left">{{garmin_courses[i.garmin_ID - 1].g_course}} </td>
+      <td><a class="btn btn-outline-secondary btn-sm" href="{{ url_for('edit_match', id=i.index_label)}}" role="button">Update</a></td>
+    </tr>
     {% endif %}
   {% endfor %}
-</ul>
+</table>
 
 <div class="container text-center add">
   <a href="{{url_for('show_map')}}" class="btn btn-outline-primary btn-lg">Show Map</a>
 </div>
   
 
-<ul class="container">
+<table class="container">
   <h1 class="heading">Unmatched Courses</h1>
   <p class="description">These are the course courses that still need to be matched to the Garmin Database.</p>
   <div class="list-group" ></div>
   {% for i in matches %}
     {% if i.user == user and not i.good_match %}
-    <li class="list-group-item border border-2">{{i.course}} <a class="btn btn-outline-secondary btn-sm" href="{{ url_for('edit_match', id=i.index_label)}}">Update</a></li>
+    <tr class="container">
+      <td class="table-left">{{i.course}} </td>
+      <td><a class="btn btn-outline-secondary btn-sm" href="{{ url_for('edit_match', id=i.index_label)}}">Update</a></td>
+    </tr>
     {% endif %}
   {% endfor %}
-</ul>
+</table>
 
 <div class="container text-center add">
   <a href="{{url_for('show_map')}}" class="btn btn-outline-primary btn-lg">Show Map</a>

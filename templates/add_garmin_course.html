@@ -4,6 +4,7 @@
 {% block title %}Add Course to Master List{% endblock %}
 
 {% block content %}
+<div class="container add">
 <form method="POST" action="{{ url_for('add_garmin_course') }}">
     {{ form.hidden_tag() }}
     <div class="form-group">
@@ -38,4 +39,5 @@
         {{ form.submit }}
     </div>
 </form>
+</div>
 {% endblock %}

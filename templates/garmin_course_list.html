@@ -3,6 +3,7 @@
 {% block title %}All Garmin Courses{% endblock %}
 
 {% block content %}
+<div class="container text-center add">
   <table id="data" class="table table-striped">
     <thead>
       <tr>
@@ -27,7 +28,7 @@
       {% endfor %}
     </tbody>
   </table>
-
+</div>  
   <div class="container text-center add">
     <a href="{{url_for('add_garmin_course')}}" class="btn btn-outline-primary btn-lg">Add Course to Full Course List</a>
   </div>
