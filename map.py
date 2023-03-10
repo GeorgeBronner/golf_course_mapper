@@ -16,7 +16,7 @@ def make_map():
     def load_feature_group(dfm, name, color):
         courses_to_map = []
         for i in dfm.itertuples():
-            id = i[11] - 1 # get the id from the gamrin list and subtract 1 to match with dataframe index
+            id = i[11] - 1 # get the id from the garmin list and subtract 1 to match with dataframe index
             print(f"id= {i[11]}")
             if i[2] != name:
                 print(f"name= {name}")
