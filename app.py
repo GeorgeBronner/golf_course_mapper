@@ -184,7 +184,7 @@ def show_full_map():
     return render_template('folium_map.html')
 
 @app.route("/all", methods=['GET', 'POST'])
-def show_full_map():
+def show_all_map():
 
     return render_template('folium_map_all.html')
 
