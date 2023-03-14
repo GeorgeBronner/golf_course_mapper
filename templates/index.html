@@ -3,9 +3,11 @@
 {% block title %}My golf courses{% endblock %}
 
 {% block content %}
+
+<h1 class="heading">My Golf Courses</h1>
+<p class="description">These are the course courses I have played.</p>
+
 <table class="container">
-  <h1 class="heading">My Golf Courses</h1>
-  <p class="description">These are the course courses I have played.</p>
   {% for i in matches %}
     {% if i.user == user and i.good_match %}
     <tr class="container">
