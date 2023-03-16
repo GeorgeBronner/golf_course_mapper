@@ -83,6 +83,14 @@ tr:not(:last-child) {
 }
 
 @media screen and (max-width:900px) {
+	html {
+		font-size: 14px;
+		line-height: 1.5;
+		font-weight: 300;
+		color: #333;
+		font-family: "Nunito Sans", sans-serif;
+   
+   }
 	.heading {
 		padding-left: 0;
    }
