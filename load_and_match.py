@@ -122,32 +122,3 @@ fuzzy_table = fuzzymatcher.link_table(df_george_raw, df_all_courses, g_left, db_
 fuzzy_table = fuzzy_table[fuzzy_table['match_rank'] < 6]
 fuzzy_table.to_csv("fuzzy_table.csv")
 
-# fuzzy_match.to_sql(name='george', con=cnx)
-# cnx.close()
-
-# fuzzy_match.to_csv('george_fuzzy_match.csv')
-
-# dfm = pd.read_csv('george_fuzzy_match.csv')
-# print(dfm)
-# courses_to_map = []
-# for i in dfm.itertuples():
-#     if i[2] < .2:
-#          print(f"course: {i[5]}, match score: {i[2]}")  # list bad matches
-#     if i[2] > .2:
-#         c = {
-#             'course':i[11].lstrip(),
-#             'lat':i[16],
-#             'long':i[17],
-#             'id':i[10]
-#         }
-#         courses_to_map.append(c)
-
-# cm = dfm[["name","latitude","longitude", "best_match_score"]]
-# map = folium.Map(location=[cm.latitude.mean(), cm.longitude.mean()], zoom_start=3, control_scale=True)
-# fg = folium.FeatureGroup(name="George")
-# for i in courses_to_map:
-#     new_description = i['course'] + ' ' + str(i['id'])
-#     fg.add_child(folium.CircleMarker(location=[i['lat'],i['long']], popup=new_description))
-# map.add_child(fg)
-# map.save("George_test.html")
-

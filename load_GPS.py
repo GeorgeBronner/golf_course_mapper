@@ -26,28 +26,9 @@ class courses(db.Model):
     latitude = db.Column(db.Float)
     longitude = db.Column(db.Float)
 
-    #Optional: this will allow each book object to be identified by its title when printed.
     def __repr__(self):
         return f'<course {self.name}>'
 
-# m = folium.Map(location=[45.5236, -122.6750])
-
-# print(m)
-# address = "2544 Willow Point Rd"
-# city_state_zip = "Alexander City, Alabama, United States"
-# full_address = address + ' ' + city_state_zip
-
-# parameters = {0
-
-#     "access_key": positionstack_API_KEY,
-#     "query": full_address
-# }
-
-# response = requests.get(url="http://api.positionstack.com/v1/forward", params=parameters)
-
-# print(response.json())
-
-# courses = db.session.query(courses).all()[0:27000]
 courses = db.session.query(courses).all()
 def positionstack():
     for i in courses:

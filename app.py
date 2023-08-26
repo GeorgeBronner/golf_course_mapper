@@ -6,7 +6,6 @@ from flask_sqlalchemy import SQLAlchemy
 from flask_wtf import FlaskForm
 from wtforms import StringField, IntegerField, FloatField, SubmitField, SelectField
 from wtforms.validators import DataRequired
-import pandas as pd
 
 app = Flask(__name__)
 app.config['SECRET_KEY'] = '8BYkEfBA6O6donzWlSihBXox742ssdfgKR6b'
@@ -27,7 +26,6 @@ class courses(db.Model):
     g_latitude = db.Column(db.Float)
     g_longitude = db.Column(db.Float)
 
-    #Optional: this will allow each book object to be identified by its title when printed.
     def __repr__(self):
         return f'<course {self.g_course}>'
 
@@ -72,7 +70,6 @@ def home():
 
     picked_user = 'george'
     return render_template("index.html", matches=user_matches, user=picked_user, garmin_courses=garmin_courses)
-    # return (f"{garmin_courses[2].g_course}")
 
 @app.route("/mike")
 def mike():
@@ -141,11 +138,6 @@ def confirmAuto():
     print(garmin_id)
     match_edit = users.query.get(course_to_edit_id)
     
-    # if form.validate_on_submit():
-    #     # movie.rating = float(form.rating.data)
-    #     # movie.review = form.review.data
-    #     # db.session.commit()
-    #     return redirect(url_for('home'))
     return render_template("confirm-auto.html", match_edit=match_edit, form=form, garmin_course=garmin_course, match_id=course_to_edit_id)    
 
 @app.route("/update_success", methods=['GET', 'POST'])
@@ -164,18 +156,12 @@ def updateSuccess():
     import map
     map.make_map()
 
-    # if form.validate_on_submit():
-    #     # movie.rating = float(form.rating.data)
-    #     # movie.review = form.review.data
-    #     # db.session.commit()
-    #     return redirect(url_for('home'))
     return render_template("update-success.html", garmin_course=garmin_course, match_edit=match_edit)    
 
 
 @app.route("/map", methods=['GET', 'POST'])
 def show_map():
 
-    # return render_template('George_Mike_test.html')
     return render_template('show_map.html')
 
 @app.route("/fullmap", methods=['GET', 'POST'])
@@ -194,21 +180,6 @@ def find_movie():
     match_id = request.args.get("id")
     match_edit = users.query.get(match_id)
     
-    
-    # movie_api_id = request.args.get("id")
-    # if movie_api_id:
-    #     movie_api_url = f"{MOVIE_DB_INFO_URL}/{movie_api_id}"
-    #     response = requests.get(movie_api_url, params={"api_key": creds.MOVIE_DB_API_KEY, "language": "en-US"})
-    #     data = response.json()
-    #     new_movie = Movie(
-    #         title=data["title"],
-    #         year=data["release_date"].split("-")[0],
-    #         img_url=f"{MOVIE_DB_IMAGE_URL}{data['poster_path']}",
-    #         description=data["overview"],
-
-    #     )
-    #     db.session.add(new_movie)
-    #     db.session.commit()
     return redirect(url_for("rate_movie", match_edit=match_edit))
 
 class AddCourseForm(FlaskForm):

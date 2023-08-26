@@ -2,7 +2,6 @@ import os
 import pandas as pd
 import folium
 import sqlite3
-import fuzzymatcher
 
 def make_map():
     basedir = os.path.abspath(os.path.dirname(__file__))
@@ -40,7 +39,6 @@ def make_map():
         map.add_child(fg)
         return
 
-    # cm = df_matches[["g_course","latitude","longitude", "best_match_score"]]
     map = folium.Map(location=[40, -90], zoom_start=4, control_scale=True)
     # map = folium.Map(location=[cm.latitude.mean(), cm.longitude.mean()], zoom_start=3, control_scale=True)
 

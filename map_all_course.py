@@ -19,13 +19,7 @@ def make_map():
             print(i)
             id = i[1] - 1 # get the id from the garmin list and subtract 1 to match with dataframe index
             print(f"id= {i[1]}")
-            # if i[2] != name:
-            #     print(f"name= {name}")
-            #     continue
-            # if not i[9]:
-            #     print(f"i[9]= is {i[9]}")
-            #     print(f"course: {i[3]}, match score: {i[8]}")  # list bad matches
-            # else :
+
             c = {
                 'course':df_all_courses.loc[id]['g_course'],
                 'lat':df_all_courses.loc[id]['g_latitude'],
