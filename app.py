@@ -1,6 +1,6 @@
 import os
 import sys
-from flask import Flask, render_template, redirect, url_for, request, jsonify
+from flask import Flask, render_template, redirect, url_for, request
 from flask_bootstrap import Bootstrap
 from flask_sqlalchemy import SQLAlchemy
 from flask_wtf import FlaskForm
@@ -123,8 +123,8 @@ def edit_match():
     id_left = str(int(match_id) - 1) + "_left"
     
     if form.validate_on_submit():
-        maunal_garmin_id = form.manual_garmin_id.data - 1
-        return redirect(url_for('confirmAuto',id=maunal_garmin_id, id_left=id_left))
+        manual_garmin_id = form.manual_garmin_id.data - 1
+        return redirect(url_for('confirmAuto',id=manual_garmin_id, id_left=id_left))
     return render_template("edit.html", match_edit=match_edit, raw_matches=raw_matches, form=form, id_left=id_left, match_id=match_id)
 
 @app.route("/confirm-auto", methods=['GET', 'POST'])
